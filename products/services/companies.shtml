@@ -1,0 +1,100 @@
+<html><head><title>NotWired For Business</title>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+          <a href="featurelist.html">Calendar</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Scheduling</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Tasks</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Contacts</a></font></p>
+        <p><a href="featurelist.html"><font face="Arial, Helvetica, sans-serif" size="-1">Email</font></a></p>
+      </blockquote>
+    </td>
+    <td valign="top" width="422">&nbsp;
+      <table border="0" cellpadding="0" cellspacing="0" width="420">
+        <tr> 
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong><font size="-1">NotWired 
+            For Business</font></strong></font></td>
+          <td width="142"> 
+            <p align="left"><a href="../../company/contactsmid.shtml" target="_self"><small><font
+        face="Arial"><small>Contact Us</small></font></small></a> 
+          </td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">Whether your company 
+        has 5 employees or 500, NotWired can solve your critical communications 
+        and collaboration challenges. NotWired scales to meet the needs of your 
+        business without the expense of hardware, software and staff to operate 
+        comparable installed software systems. Many companies are finding NotWired 
+        to be a perfect alternative solution to centralized systems with VPN access. 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">With NotWired applications, 
+        your business gains immediate productivity without the hassle of managing 
+        computer systems. Using NotWired will free your internal resources for 
+        your most important priority - business.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Powerful Collaboration</b><br>
+        <font size="-1">NotWired allows your members to collaborate over the Internet, 
+        through PDAs and Internet capable cell phones. Collaboration allows your 
+        organization to <a href="featurelist.html#schedule">schedule events</a>, 
+        <a href="featurelist.html#share">share calendars</a>, <a href="featurelist.html#meetings">manage 
+        meetings</a>, <a href="featurelist.html#tasks">manage tasks</a>, <a href="featurelist.html#contacts">share 
+        contacts</a> and access this information anytime, from anywhere.</font></font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Powerful Sales Automation</b><br>
+        <font size="-1">NotWired provides the essential applications to <a href="featurelist.html#contacts">manage 
+        contacts</a>, <a href="featurelist.html#sales">schedule calls/meetings/todos</a>, 
+        <a href="featurelist.html#sales">take notes</a> on a contact, <a href="featurelist.html#sales">track 
+        communication history</a>, <a href="featurelist.html#sales">delegate follow 
+        ups</a> to other users in your organization and more...</font></font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Big Business Tools For Your 
+        Business</b></font><br>
+        <font face="Arial, Helvetica, sans-serif" size="-1">Small businesses don't 
+        need to spend a lot of time and money to have big business tools. With 
+        NotWired you can, without the expense of staff overhead, have integrated 
+        tools without all the expense. Other features include:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Business-class 
+          <a href="featurelist.html">email</a> with POP3 and IMAP support</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html#status">Status 
+          reports</a></font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html#takemessage">Take 
+          a message</a> for a collegue</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html#messaging">Wireless 
+          instant messages</a></font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html#tasks">Delegated 
+          tasks</a> to members or external email addresses</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Join multiple 
+          teams and still keep a single calendar</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Private contacts 
+          and calendar events</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Birthday and anniversary 
+          tracking</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Email and wireless 
+          <a href="featurelist.html#notifications">notifications</a></font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif" ><b>Empower Your Business, 
+        <a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">Join NotWired 
+        Now</a>!</b><br>
+        <font size="-1">NotWired offers a complete suite of email, SFA and collaboration 
+        applications for a low monthly fee. We want to help you achieve maximum 
+        productivity and maximum savings.</font> </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">Additionally, NotWired 
+        may be customized with applications to meet your specific needs. Contact 
+        <script language="JavaScript">
+var name = "sales";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script> for more information.</font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<html><head><title>Careers @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img src="../../images/careers.jpg" width="200" height="300" alt="Careers"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Positions</strong></font> 
+      <p>NotWired is seeking highly motivated team members with three years of 
+        in-depth industry experience, business experience in design commercial 
+        systems, and <em>professional </em>technology experience in OO, UML, Java 
+        or C++, and OO project management. CORBA and EJB experience is a plus. 
+        Excellent communications skills and the ability to work well with teams 
+        is a must.</p>
+    <div align="center"><center><table border="0" cellpadding="0" cellspacing="0" width="350">
+      <tr>
+              <td width="150" align="center"><a href="positions.shtml" target="_self">Positions</a></td>
+              <td width="150" align="center"><a href="../culture.shtml"
+        target="_self">Culture</a></td>
+              <td width="150" align="center"><a href="../benefits.shtml"
+        target="_self">Benefits</a></td>
+              <td width="150" align="center"><a href="../projects.shtml"
+        target="_self">Projects</a></td>
+              <td width="150" align="center"><a href="../locations.shtml"
+        target="_self">Locations</a></td>
+      </tr>
+    </table>
+    </center></div>
+      <p><strong><small>Engineering</small></strong><br>
+        NotWired engineering has positions available for senior and junior engineers 
+        with experience in OO, Java and C++. Embedded systems and wireless communications 
+        experience is a plus. You will work on <strong>NotWired.com</strong> with 
+        other NotWired engineers.</p>
+    <blockquote>
+        <p align="left"><u>Senior Requirements</u>: 4 years commercial OO, relational 
+          databases and UML. Embedded systems, PalmOS and wireless technology 
+          experience is a plus. <a href="resume/engApply.shtml" target="_self"><small>Apply...</small></a></p>
+        <p align="left"><u>Junior Requirements</u>: 2 years commercial OO, relational 
+          databases and UML. Embedded systems, PalmOS and wireless technology 
+          experience is a plus. <a href="resume/engApply.shtml" target="_self"><small>Apply...</small></a></p>
+    </blockquote>
+<!--
+    <p><font face="Arial"><strong><small>Web Designer</small></strong><br>
+    <small>NotWired has positions available for Web Designer with experience in HTML,
+    JavaScript, and PERL for the <strong>NotWired</strong> project.</small></font></p>
+    <blockquote>
+        <p align="left"><small><font face="Arial"><u>Requirements </u>: HTML, JavaScript, 
+          PERL, CGI, Shockwave, Graphic Design Skills <a href="resume/webdApply.shtml" target="_self"><small>Apply...</small></a></font></small></p>
+    </blockquote>
+-->   
+      <p><strong><small>Consulting</small><br>
+        </strong>NotWired has the need for Java and C++ developers with database 
+        experience. Consultants must have industry experience and have past experience 
+        in implementation and deployment of Java or C++ systems in the commercial 
+        environment. </p>
+    <blockquote>
+        <p><u>Requirements</u>: 5 years commercial OO, relational databases and 
+          UML. CICS, UNIX, CORBA, EJB and COBOL experience is a plus.<small> <a
+      href="resume/engApply.shtml" target="_self">Apply...</a></small></p>
+    </blockquote>
+<!--
+    <p><font face="Arial"><strong><small>Public Relations</small></strong><br>
+    <small>NotWired is seeking to retain a PR professional for assistance in its public
+    relations efforts.</small></font></p>
+    <blockquote>
+        <p><font face="Arial"><small><u>Requirements</u>: Experience marketing to 
+          the high-tech industry, particularly software or Internet marketplaces. 
+          <a href="resume/prApply.shtml"
+      target="_self"><small>Apply...</small></a> </small></font></p>
+    </blockquote>
+ 
+<p><font face="Arial"><strong><small>Telemarketing</small></strong><br>
+    <small>Telemarketing positions are available for qualified candidates that have prior
+    experience selling in the IT consulting marketplace.</small></font></p>
+    <blockquote>
+        <p><font face="Arial"><small><u>Requirements</u>: 2 years experience in 
+          sales of software or services. Excellent track record and stellar references 
+          from past employers. <a
+      href="resume/teleApply.shtml" target="_self"><small>Apply...</small></a></small></font></p>
+    </blockquote>
+-->
+<!--
+    <p><font face="Arial"><strong><small>Internships</small></strong><br>
+    <small>Spring 2000 engineering co-ops and internships are available now!</small></font></p>
+    <blockquote>
+        <p><small><font face="Arial"><u>Requirements</u>: Computer science or programming 
+          experience. Computers must be your passion. We are looking for you if 
+          you programmed in high school or before! <a href="resume/internApply.shtml" target="_self"><small>Apply...</small></a></font></small></p>
+    </blockquote>
+-->
+    </td>
+  </tr>
+</table>
+</body>
+</html>

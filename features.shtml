@@ -1,0 +1,211 @@
+<html><head><title>Notwired</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="index.shtml" target="_top"><img
+    src="images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!</font></small></small>
+      <p align="center"><b><a href="/notwired/main?op=SignupModule.SignupPageOp"
+    target="_self"><font face="Arial">SIGNUP NOW!</font></a><small><font face="Arial"> 
+        </font></small></b><br>
+        Free Trial for 60 days!<br>
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><strong>NotWired is the most comprehensive scheduling and groupware 
+              system in the market. We invite you to compare our solution to any 
+              other solution.</strong></p>
+            <p>&nbsp;</p>
+            <p>Supporting Information</p>
+            <blockquote> 
+              <p><a href="products/services/costs.shtml" target="_self">Pricing</a></p>
+              <p><a href="products/services/NotWiredSMEDataSheet.pdf">Data Sheet</a></p>
+              <p><a href="products/services/featurelist.shtml">Feature List</a></p>
+              <p><a href="products/services/comparisions.shtml">Comparisons</a></p>
+              <a href="javascript:openwindow('/products/tour/index.html',625,525);" target="_self">Take 
+              a tour</a> 
+              <p>&nbsp;</p>
+            </blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp;
+    </td>
+    <td width="422" valign="top"><a name="top"></a><font face="Arial" color="#6666cc"><strong><br>
+      NotWired Features</strong></font> 
+      <p><strong>The most comprehensive mobile office service!</strong></p>
+      <p><a name="email"></a><strong>Business Class Email</strong> 
+      <ul>
+        <li>Support for multiple folders.</li>
+        <li>Support for multiple attachments.</li>
+        <li>Integrated with contacts.</li>
+        <li>Integrated with contact notes/history.</li>
+        <li>Support signatures with text and vCards.</li>
+        <li>Support multiple accounts including Yahoo! and Hotmail.</li>
+        <li>WAP accessible with compose, organize, reply, reply all and forward.</li>
+        <li>WAP integrated with contacts.<br>
+        </li>
+      </ul>
+      <p><a href="#top">Top</a> 
+      <p><a name="calendar"></a><a name="collaborate"></a><strong>Comprehensive 
+        Group Scheduling</strong> 
+      <ul>
+        <li>Request meetings, to-dos, appointments from members or people outside 
+          the organization.</li>
+        <li>See daily, weekly, monthly and yearly calendar views.</li>
+        <li>Accept event requests from others into your calendar.</li>
+        <li>Schedule recurring events like meetings, birthdays, calls, etc.</li>
+        <li>Schedule all-day events like conferences, vacations or holidays.</li>
+        <li>Schedule travel events with travel itineraries.</li>
+        <li>All events can be private or public so only those you want to see 
+          the event can see your information.</li>
+        <li>Shared calendars</li>
+        <li>Schedule conflict detection</li>
+      </ul>
+      <p><a href="#top">Top</a> </p>
+      <p>
+      <p><a name="meetings"></a><a name="minutes"></a><strong>Meeting Scheduling, 
+        Minutes and Task Tracking</strong> 
+      <ul>
+        <li>Schedule meetings with locations.</li>
+        <li>Take meeting minutes and assign action items that can be tracked to 
+          completion.</li>
+        <li>Search through minutes for matching keywords.</li>
+      </ul>
+      <p><a href="#top">Top</a> </p>
+      <p><a name="tracktasks"></a><strong>Manage Tasks and Assigned Tasks</strong>
+      <ul>
+        <li>Request tasks with deadlines from colleagues, friends or family</li>
+        <li>Track completion status of your tasks or assigned tasks</li>
+        <li>Schedule notifications for task deadlines</li>
+        <li>Search through tasks for matching keywords.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><a name="contacts"></a><strong>Powerful Contact Management</strong> 
+      <ul>
+        <li>Collaborate with customers, vendors, suppliers and prospects.</li>
+        <li>Import and export contact data from ACT!, Outlook and Palm</li>
+        <li>Include contacts in meeting invitations and other scheduling acitvities.</li>
+        <li>Support the ability to set calls and todos on a contact and be reminded 
+          of the event with a email or instant message.</li>
+        <li>Keep notes and activity histories on contacts.</li>
+        <li>Support for private and public notes.</li>
+        <li>Support for contact groups - supplies, customers, marketing department, 
+          etc.</li>
+        <li>Share contact information with colleagues.</li>
+        <li>Shared organization phonebook allows members to keep information up 
+          to date at all times.</li>
+        <li>Always have access to members work, home, cell and alternative phone 
+          numbers through your Internet-enabled cell phone or PDA.</li>
+      </ul>
+      <p><a href="#top">Top</a> </p>
+      <p><a name="search"></a><strong>Search</strong> 
+      <ul>
+        <li>Search contacts.</li>
+        <li>Find meeting notes.</li>
+        <li>Locate tasks assigned to you or others.</li>
+        <li>Find shared information by keywords.</li>
+      </ul>
+      <p><a href="#top">Top</a> 
+      <p><a name="workflow"></a><strong>Workflow</strong> 
+      <ul>
+        <li>Your inbox can allow you to accept tasks, meetings and appointments.</li>
+        <li>Your inbox can manage incoming forms and workflow.</li>
+        <li>Delegate tasks to others from your inbox or task list. </li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><a name="status"></a><strong>Status Reports</strong> 
+      <ul>
+        <li>Setup status report structures so status reports will route to direct 
+          reports.</li>
+        <li>Status reports include accomplishments, incomplete tasks, goals and&nbsp;issues 
+          by project.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><a name="bookmarks"></a><strong>Shared and Personal Bookmarks</strong> 
+      <ul>
+        <li>Maintain links on competition, vendors, suppliers, prospects, customers 
+          or other interesting information.</li>
+        <li>Categorize links by folders.</li>
+        <li>Maintain your own personal bookmarks and share common bookmarks.</li>
+    </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong><a name="alerts"></a>Alerts</strong> 
+      <ul>
+        <li>Receive notices on your phone or PDA about schedule changes.<font face="Arial"> 
+          </font></li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p>
+      <p><strong><a name="messaging"></a>Instant Messaging</strong> 
+      <ul>
+        <li>Send and receive messages from group members.</li>
+        <li>Send messages to members and contacts directly from the phonebook.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p>
+      <p><a name="wireless"></a><strong>Wireless Access</strong> 
+      <ul>
+        <li>Get your phone numbers anywhere and dial them immediately with one-touch.</li>
+        <li>Retrieve your calendar anytime.</li>
+        <li>Get to your bookmarks anywhere.</li>
+        <li>Manage your inbox mobility to accept and decline tasks and events, 
+          forward workflow to others and more...</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong>No Software Installation</strong> 
+      <ul>
+        <li>We handle all the storage, backup, availability and reliability.</li>
+        <li>We handle all the technical staffing</li>
+      </ul>
+      <p><a href="#top">Top</a> 
+      <p><strong>Easy To Use</strong> 
+      <ul>
+        <li>Intuitive interfaces and on-line help.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong><a name="security"></a>Safe and Secure</strong> 
+      <ul>
+        <li>Complete user id and password protection on all applications and data</li>
+        <li>Ability to control read, write, update and delete permissions on any 
+          data in the system.</li>
+        <li>Ability to control access to applications by user.</li>
+        <li>Ability to control access to individual features of application by 
+          user.</li>
+        <li>Allow external members to participate in your organization while maintaining 
+          security for your organization.</li>
+        <li>Complete ACL and LDAP security with SSL or standard access.</li>
+        <li>Professionally managed environment.</li>
+        <li>Redundant back up services.</li>
+        <li>Uninterruptible power systems.</li>
+        <li>Fire suppression systems.</li>
+    </ul>
+      <p><a href="#top">Top</a></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

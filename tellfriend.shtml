@@ -1,0 +1,45 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="css/notwired.css">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top" cellpadding="10"><p align="left"><a href="index.shtml"
+    target="_top"><img src="images/NotWired.gif" width="174" height="52"
+    alt="NotWired.gif (2387 bytes)" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small>
+    <img src="images/companypeople.jpg" width="200" height="200" alt="Company"> </td>
+    <td width="422" valign="top"><table border="0" cellspacing="0" width="100%">
+      <tr>
+        <td width="100%"><strong><font size="3" face="arial" color="#6666cc"><br>
+            </font><font face="arial" color="#6666cc" size="2">Tell a colleague 
+            about NotWired</font></strong></td>
+      </tr>
+      <tr>
+        <td width="100%"><font face="Arial" size="2">If you enjoyed using NotWired, why not tell a
+        friend about it? It's easy. Just type in a short message, telling them about NotWired.
+        Then, enter one or more email addresses in the provided area, and click
+        &quot;submit&quot;. How simple is that. </font><form
+        action="/notwired/main?op=SignupModule.InviteFriendsOp" method="post"><font face="Arial" size="2">
+          <p>Your Name:<br>
+          <input type="text" name="nm" size="30"><br>
+          <br>
+          Your Email Address:<br>
+          <input type="text" name="em" size="30"><br>
+          <br>
+          Message:<br>
+          <textarea cols="40" rows="5" name="msg"></textarea> <br>
+          <br>
+                Colleagues' email addresses (comma delimited):<br>
+          <textarea cols="40" rows="5" name="ea"></textarea> <br>
+          <br>
+          <input type="submit" value="Submit"> </p></font>
+        </form>
+        </td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

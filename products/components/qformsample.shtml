@@ -1,0 +1,126 @@
+<html>
+
+<head>
+<title>NotWired Components</title>
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small> 
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><font face="Arial"><strong><small>NotWired Components save time 
+              and money for your project.</small></strong></font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworks.shtml" target=_self>Basic</a></b><br>
+              NameValue Tag <br>
+              Country Tag<br>
+              State Tag<br>
+              Zip Tag<br>
+              Address Tag<br>
+              Date Selector Tag<br>
+              Masked Entry Tag<br>
+              Map Tag<br>
+              Menu Invoke Tag<br>
+              Email Tag<br>
+              QForms Validation Tags<br>
+              </font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworksadv.shtml">Advanced</a></b><br>
+              Breadcrumbs Tag<br>
+              Wizard Tag</font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+              Calendar Tag<br>
+              Activities Tag<br>
+              Announcment Tag</font></p>
+            <p>&nbsp;</p>
+            </td></tr>
+      </table>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong><small>NotWired 
+            Components&#153;</small></strong></font></td>
+          <td width="142">
+            <p align="left"><font face="Arial"><small><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              </small></small></font>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="index.shtml"
+        target="_self"><font face="Arial" color="#6666cc"><strong><small>Overview</small></strong></font></a></td>
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt="closedsq.gif (57 bytes)"><font
+        face="Arial" color="#6666cc"><strong><small>Features</small></strong></font></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong><small><font face="Arial" color="#6666cc">Pricing</font></small></strong></a></td>
+        </tr>
+      </table>
+      <p><small><font face="Arial">NotWired's Validation Tags and Libraries allow 
+        static and dynamic rules to be built into </font></small></p>
+      <p><small><font face="Arial"><strong><a href="howitworks.shtml" target=_self>Basic 
+        Features</a> | <a href="howitworksadv.shtml">Advanced Features</a></strong></font></small></p>
+      <table border="0" cellpadding="0" width="100%" valign="top">
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><small><font face="Arial"><strong>BreadcrumbsTag. </strong></font></small><small><font face="Arial">Breadcrumb 
+            navigation utilizes a series of links to navigate through a process 
+            or web site. The component may be utilized via JSP or through a bean 
+            model defined on the server. Bean model definition allows developers 
+            to control the state and sequence of links dynamically.<br>
+            <br>
+            </font></small><font face="Arial">Sample -&gt; Benefits -&gt; Features 
+            -&gt; Advanced</font></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><small><font face="Arial"><strong>WizardTag. </strong></font></small><small><font face="Arial">View 
+            day, week, month, 6 months or year views. Selections on the calendar 
+            will invoke callbacks utilizing Struts.</font></small> 
+            <p><font face="Arial">Click here for a sample.</font></p>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><small><font face="Arial"><strong>CalendarTag. </strong></font></small><small><font face="Arial">View 
+            day, week, month, 6 months or year views. Selections on the calendar 
+            will invoke callbacks utilizing Struts.</font></small> 
+            <p><font face="Arial">Click here for a sample.</font></p>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><small><font face="Arial"><strong>ActivitesTag. </strong>Get 
+            random or current announcments from an AnnouncementProvider class 
+            and place on the screen.</font></small></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><small><font face="Arial"><strong>AnnouncementTag. 
+            </strong>Get random or current announcments from an AnnouncementProvider 
+            class and place on the screen.</font></small></td>
+        </tr>
+      </table>
+      <blockquote>
+        <p>&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

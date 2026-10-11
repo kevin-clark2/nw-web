@@ -1,0 +1,64 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="220" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><p>&nbsp;<img
+    src="../images/1.gif" width="30" height="30" alt="1" align="absmiddle"><a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self"><small><font face="Arial">Signup</font></small></a></p>
+      <p>&nbsp;<img src="../images/2.gif" width="30" height="30" alt="2" align="absmiddle"><a
+    href="../tellfriend.shtml" target="_self"><small><font face="Arial">Tell a
+        friend</font></small></a></p>
+    <p align="center"><font SIZE="-2" FACE="Arial, Helvetica">Copyright © 2000, NotWired<br>
+    All rights reserved.<br>
+        <a href="terms.shtml">Terms of Service</a><br>
+        <a href="terms.shtml#disclaimer">Legal Disclaimer</a><br>
+        <a href="privacy.shtml">Privacy Statement</a><br>
+        <a href="security.shtml">Security at NotWired</a></font>
+    </td>
+    <td><div align="center"><center><table border="0" cellpadding="10" cellspacing="0"
+    width="500">
+      <tr>
+        <td valign="middle"><a name="top"></a><font size="+1" face="arial"><b>Security</b></font></td>
+      </tr>
+    </table>
+    </center></div><div align="center"><center><table CELLSPACING="0" CELLPADDING="10"
+    BORDER="0" WIDTH="500">
+      <tr>
+        <td><small><font face="Arial">NotWired is committed to keeping your data safe and secure.
+        We use state-of-the art, proven technologies and polices </font></small><font class="text"
+        face="Arial, Helvetica, sans-serif" size="2">to protect the confidentiality of your
+        customer data and personal information, and we will continue to update our systems to stay
+        at the forefront of security processes and technologies. </font><p><font face="Arial"><strong><small>SSL</small></strong><br>
+        <small>NotWired uses the same industry-standard Secure Socket Layer (SSL) protocol that
+        the majority of all e-commerce and financial service providers use to for purchases and
+        financial transactions. </small></font><font class="text"
+        face="Arial, Helvetica, sans-serif" size="2">NotWired will enable strong 128-bit SSL
+        encryption with U.S. versions of Microsoft and Netscape browsers, and industry 40-bit SSL
+        with non-U.S. version browsers. Each time you log in to NotWired, you can choose to use
+        SSL to encrypt your information. </font></p>
+        <p><font face="Arial"><strong><small>Organization ID, User ID, Passwords and PINs</small></strong><br>
+        <small>We require logins to access the NotWired system. Your login information is stored
+        encrypted in our security database behind secure firewalls which makes it unusable in the
+        event of fraudulent activity on our site.</small></font></p>
+        <p><font class="text" face="Arial, Helvetica, sans-serif" size="2"><b>Firewalls and
+        physical security<br>
+        </b></font><font face="Arial"><small>NotWired production servers are hosted at
+        state-of-the-art data centers by multiple industry leaders. Data centers contain
+        firewalls, monitoring and a 24-hour staff to make sure your data is safe, secure, and
+        available to you at all times.</small></font></p>
+        <p><font face="Arial"><strong><small>Access Rights</small></strong><br>
+        <small>Each NotWired member is assigned access rights by their Administrator. Access
+        rights will allow you to access information you are allowed to access but not information
+        that is not yours. Conversely, no one can access your data without access rights. Only
+        your organization ID, user ID and password combination in our three-key authentication
+        system will allow you access to your data.</small></font></td>
+      </tr>
+    </table>
+    </center></div></td>
+  </tr>
+</table>
+</body>
+</html>

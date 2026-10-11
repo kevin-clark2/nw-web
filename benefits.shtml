@@ -1,0 +1,93 @@
+<html><head><title>NotWired benefits</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="index.shtml" target="_top"><img
+    src="images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!</font></small></small> 
+      <p align="center"><b><a href="/notwired/main?op=SignupModule.SignupPageOp"
+    target="_self"><font face="Arial">SIGNUP NOW!</font></a><small><font face="Arial"> 
+        </font></small></b><br>
+        Free Trial for 60 days!<br>
+      </p>
+      <p>&nbsp; </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><strong>NotWired is the most comprehensive scheduling and groupware 
+              system in the market. We invite you to compare our solution to any 
+              other solution.</strong></p>
+            <p>&nbsp;</p>
+            <p>Supporting Information</p>
+            <blockquote> 
+              <p><a href="products/services/costs.shtml" target="_self">Pricing</a></p>
+              <p><a href="products/services/NotWiredSMEDataSheet.pdf">Data Sheet</a></p>
+              <p><a href="products/services/featurelist.shtml">Feature List</a></p>
+              <p><a href="products/services/comparisions.shtml">Comparisons</a></p>
+              <a href="javascript:openwindow('/products/tour/index.html',625,525);" target="_self">Take 
+              a tour</a> 
+              <p>&nbsp;</p>
+            </blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+    <p>&nbsp;</td>
+    <td width="422" valign="top"><a name="top"></a><font face="Arial" color="#6666cc"><strong><br>
+      NotWired Benefits</strong></font>
+      <p><strong>Give your business competitive advantage without all the heavy 
+        costs to obtain and write custom software.</strong></p>
+      <p><strong>Manage More Efficiently</strong> 
+      <ul>
+        <li>Group scheduling allows you to better organize employees.</li>
+        <li>Keep effective meeting minutes and follow up task assignments.</li>
+        <li>Track activities and tasks assigned to colleagues.</li>
+        <li>Save time since you do not have to send multiple emails and/or make 
+          multiple phone calls to schedule an event.</li>
+        <li>Access it from any Internet enabled cell phone or PDA to save time.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><font face="Arial"><strong>Increase Productivity</strong></font> 
+      <ul>
+        <li>Manage contacts for yourself and within your group.</li>
+        <li>Keep track of your schedule and tasks anywhere, anytime.</li>
+        <li>Receive real-time notifications to help start meetings and events 
+          on time.</li>
+        <li>Meeting minutes and schedule follow up tasks after meetings.</li>
+        <li>Get your information anytime on any device.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong>Improve Communication</strong> 
+      <ul>
+        <li>Include employees, customers, vendors, prospects, friends and family 
+          while scheduling events.</li>
+        <li>Search meeting minutes to find communications history of your organization.</li>
+        <li>Create status reports with reminders.</li>
+        <li>Complete E-mail access integrated with all NotWired applications. 
+        </li>
+        <li>Access the NotWired from anywhere - at a client, at the office, from 
+          your cell phone or your PDA.</li>
+      </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong>Save Time and Money</strong>
+      <ul>
+        <li>It does not require software, hardware or technical maintenance staff.</li>
+        <li>Low learning curve.</li>
+        <li>Quick setup.</li>
+        <li>Scale to thousands of users without the expense.</li>
+    </ul>
+      <p><a href="#top">Top</a></p>
+      <p><strong>Other Benefits</strong>
+      <ul>
+        <li>Nightly back-up assures system availability</li>
+        <li>SSL and secure data centers insure security</li>
+        <li>Get everyone on the same page with NotWired!</li>
+    </ul>
+      <p><a href="#top">Top</a>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

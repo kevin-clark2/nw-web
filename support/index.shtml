@@ -1,0 +1,74 @@
+<title>Support @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small><br>
+        <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></p>
+      <blockquote>
+        <p><font face="Arial, Helvetica, sans-serif"><a href="faq.shtml"> <font size="-1">Frequent 
+          Questions</font></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="feedback.shtml">Feedback</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="knownBugs.shtml">Known 
+          Issues</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="issueTrack.shtml">Issue 
+          Tracking</a></font></p>
+      </blockquote>
+    </td>
+    <td width="422" valign="top">
+      <p><font face="Arial" color="#6666cc"><b><br>
+        Support</b></font> </p>
+      <p><b>Bugs, Features and Issues</b><br>
+        NotWired's preferred method of support is through our<a href="issueTrack.shtml"
+    target="_self"> issue tracking system</a>. NotWired's support staff monitors 
+        the issues, prioritizes them and works on a resolution as quickly as possible.</p>
+      <p><b>Online Support<br>
+        </b><a href="faq.shtml" target="_self">Frequently asked questions</a> 
+        are available on our website. Additional support is available through 
+        our <a
+    href="feedback.shtml" target="_self">feedback form</a>.</p>
+      <p><b>Internet Access<br>
+        </b>Internet Connectivity. A modem of 56K speed is recommended. For greater 
+        performance, NotWired recommends a dedicated ISDN , DSL, cable modem or 
+        T1 line. <br>
+        <br>
+        <b> Wireless Access</b><br>
+        NotWired provides both a PQA (Palm Query Application) and a WML (Wireless 
+        Markup Language) interface. To see if your wireless device is supported, 
+        check this <a href="wirelessChart.shtml">chart</a>. You can download the 
+        PQA file <a href="palm.shtml">here</a>. <br>
+        <br>
+        <b>Hardware Requirements</b><br>
+        A Intel based Pentium-based or equivalent processors, with the lastest 
+        browser (see below). In addition, computers should have at least 64 MB 
+        of RAM. </p>
+      <p><b>Software Requirements</b><br>
+        All of the following applications and updates are provided for free, and 
+        may be downloaded by selecting Help from your Browser main screen and 
+        choosing the Product Updates selection. Alternately you can download the 
+        browser updates via the following URL's. 
+      <ul>
+        <li>Latest Netscape Navigator/Communicator Browser. You can download from 
+          the Netscape site at <a
+        href="http://home.netscape.com/computing/download/index.html?cp=hom05tdow" target="_blank"><b>http://home.netscape.com/computing/download/index.html?cp=hom05tdow</b></a> 
+        </li>
+        <li>Latest Microsoft Internet Explorer. You can download from the Microsoft 
+          site: <a href="http://www.microsoft.com/windows/ie/" target="_blank"><b>http://www.microsoft.com/windows/ie/</b></a> 
+          A new browser will open. </li>
+        <li>Viewer - Adobe Acrobat Reader. Used when viewing schedules and other 
+          documents on the Bidcom system. Adobe Acrobat allows users to view a 
+          variety of file types, even if the user does not have the appropriate 
+          software application. You can download this application at the Adobe 
+          web site at <a
+        href="http://www.adobe.com/prodindex/acrobat/readstep.html"><b>http://www.adobe.com/prodindex/acrobat/readstep.html</b></a></li>
+        <li><b><a href="iCal_vCardSupport.shtml" target="_self">iCal/vCard Integration 
+          and Support</a></b></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

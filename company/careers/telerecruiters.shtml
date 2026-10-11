@@ -1,0 +1,38 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img src="../../images/careers.jpg" width="200" height="300" alt="Careers">
+      <p
+    align="center"><a href="ObjectsoftRecruiterAgreement.doc">Download Agreement</a></p>
+      <p align="center">Please return agreement to:<br>
+        Kevin Clark<br>
+    </td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Non-technical Recruiters</strong></font> 
+      <p>NotWired is seeking highly motivated team members with two plus years 
+        of in-depth industry experience and business experience. Excellent communications 
+        skills and the ability to work well with teams is a must.</p>
+      <p>We do work with recruiters under the following terms:
+      <ul>
+        <li>Net (60) sixty day payment.</li>
+        <li>Reserve right to reject. NotWired can reject a candidate if the candidate 
+          is already in our resume database or we find the candidate on the electronic 
+          sites that we participate with as members.</li>
+        <li>NotWired has a (60) sixty day trial period for all candidates and 
+          may terminate the employee under the trial employment agreement.</li>
+        <li>If candidate leaves before (60) sixty days, no payment is due.</li>
+        <li>No recruiting of NotWired employees one (1) year from last placement.</li>
+      </ul>
+      <p>Thanks for your interest. If you wish to submit a candidate, please see 
+        the <a href="positions.shtml">positions</a> page and apply. By submitting 
+        a candidate you agree to the these terms. 
+    </td>
+  </tr>
+</table>
+</body>
+</html>

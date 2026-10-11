@@ -1,0 +1,139 @@
+<title>Notwired Products</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top">
+       
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><font face="Arial"><strong>NotWired is the most comprehensive
+              scheduling and groupware system in the market. We invite you to
+              compare our solution to any other solution.</strong></font></p>
+            <p>&nbsp;</p>
+            <p><font face="Arial">Supporting Information</font></p>
+            <blockquote>
+              <p><font face="Arial"><a href="costs.shtml" target="_self">Pricing</a></font></p>
+              <p><font face="Arial"><a href="NotWiredASPDataSheet.pdf">Data Sheet</a> 
+                <font size="-1">(PDF)</font> </font></p>
+              <p><font face="Arial"><a href="featurelist.html">Feature List</a></font></p>
+              <p><font face="Arial"><a href="comparisions.shtml">Comparisons</a></font></p>
+              <p><font face="Arial"><a href="javascript:openwindow('../tour/index.html',625,525);" target="_self">Take 
+                a tour</a></font></p>
+              </blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+      </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Manage
+            Your Business Anywhere!</strong></font></td>
+          <td width="142">
+            <p align="left"><a
+        href="../../company/contactsmid.shtml" target="_self"><font face="Arial" color="#6666cc"><small>Contact us</small></font></a><font face="Arial" color="#6666cc"><small><small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </small></small></font>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+        <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt=""><strong><font face="Arial"  color="#6666cc">Overview</font></strong></td>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="howitworks.shtml" target="_self"><strong><font face="Arial" color="#6666cc">How
+            it works</font></strong></a></td>
+        <td><br>
+        <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="gettingstarted.shtml" target="_self"><strong><font
+        face="Arial" color="#6666cc">Getting Started</font></strong></a></td>
+        </tr>
+      </table>
+      <p><font face="Arial">To maximize efficiency of your company, you
+        need up-to-date information. NotWired's web and wireless service improves
+        group efficiency by helping you coordinate schedules, improve meetings
+        and facilitate collaboration.</font></p>
+      <p><font face="Arial"><strong>Key Benefits</strong></font></p>
+      <table border="0" cellpadding="0" width="100%">
+        <tr>
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="8" height="10"
+        alt="bullet.gif (93 bytes)"> </td>
+          <td><font face="Arial"><strong>Increase management efficiency.
+            </strong>Face it, we need more time in the day. NotWired allows you
+            to manage your team's schedule and tasks more efficiently.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Improve communications. </strong>Tired
+            of tracking requests from your e-mail? NotWired helps track any task
+            assignment to completion and supports tracking tasks that may have
+            been delegated to others.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Increase productivity. </strong>Look
+            at your schedule anywhere. Receive real-time notifications about meetings
+            and deadlines. Eliminate phone and e-mail tag to schedule a meeting.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Always up-to-date information.
+            </strong>NotWired's centralized information allows your team to maintain
+            an up-to-date central repository of scheduling, phonebooks and tasks.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Wireless access. </strong>Wireless
+            access allows your mobile workforce to get up-to-date company information,
+            schedule meetings and manage tasks remotely.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Save time and money. </strong>With
+            NotWired's web and wireless service, you can be up and running in
+            minutes without having to buy hardware and software or pay for technical
+            support. See <a href="/roi.shtml" target="_self">how much</a>!</font></td>
+        </tr>
+      </table>
+      <p align="center"><font face="Arial"><b><a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">SIGNUP</a></b></font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html><head><title>Notwired Products</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><small><font face="Arial"><br>
+        &nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><strong>The NotWired service is the most advanced large-scale groupware, 
+              contact management and messaging solution in the industry.</strong></p>
+            <p><strong>Build on J2EE, Notwired provides the components and frameworks 
+              to support enterprise development of portals.</strong></p>
+          </td>
+        </tr>
+      </table>
+      <p></p>
+      </td>
+    <td width="422">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>NotWired Products</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="../company/contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+
+      <p><strong>Portal Application Frameworks</strong><br>
+        NotWired supports the enterprise with a comprehensive set of pre-built 
+        portal applications and components. NotWired supports Websphere, Weblogic 
+        and Apache Tomcat application servers.</p>
+      <p>It jump-starts your development with enterprise-class application security, 
+        business models, and pre-built applications and database definitions. 
+        For more information click <a href="enterprise/index.shtml">here</a>. 
+      </p>
+      <p><strong>Groupware and Sales Automation Frameworks<br>
+        </strong>NotWired provides flexible and extensible solutions for enterprises, 
+        portals, ASPs, web sites and carriers to deliver enterprise-class groupware 
+        solutions. For more information click <a href="groupware/index.shtml">here</a>.</p>
+      <p><strong><img src="../images/new_blink.gif" width="23" height="9">NotWired 
+        Components&#153;<br>
+        </strong>Jump-start your JSP and Struts UI development with a completely 
+        integrated set of custom tags, Javascript-driven dyanmic validation and 
+        control framework, and advanced screen components. For more information 
+        click <a href="components/index.shtml">here</a>.</p>
+      <hr>
+      <p><strong>Mobile Business Service<br>
+        </strong>NotWired's mobile business service is the most advanced Internet 
+        groupware solution in the marketplace. It is enterprise-class scheduling, 
+        calendars, event management and groupware to help your growing business 
+        organize and manage more effectively. It runs on PCs, Macs, Internet phones 
+        and PDAs. For more information click <a href="services/notwired.shtml">here</a>.<br>
+      </p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

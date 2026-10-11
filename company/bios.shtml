@@ -1,0 +1,50 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr  valign="top"> 
+    <td width="228"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><img
+    alt="Press wire" height="200" src="../images/companypeople.jpg" width="200"></p>
+      <p><font face="Arial"><strong>&nbsp; Contact<br>
+        </strong>&nbsp; Public Relations<br>
+        &nbsp; 949-371-5449<br>
+        <script language="JavaScript">
+var name = "pr";
+var domain = "notwired.com";
+document.write('&nbsp;&nbsp;<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+        </font> 
+    </td>
+    <td width="422"><br>
+      <table border="0" cellpadding="0" cellspacing="0" width="420">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Management 
+            Bios</strong></font></td>
+          <td width="142"> 
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+        </tr>
+      </table>
+      <p><b>
+        Kevin Clark, President and CEO, Board Member</b> - Kevin has held sales 
+        positions at IBM, NeXT and ParcPlace. In all sales positions he achieved 
+        top awards for sales including the top ten new account sales reps in the 
+        country while at IBM. For the last few years, Kevin started and grown 
+        Objectsoft to a specialized consulting firm for fortune 1000 companies 
+        in telecommunications, transportation, insurance and healthcare. Broad 
+        industry experience and running a business was the genesis for the vision 
+        behind NotWired&#146;s offering. From the age of 12, Kevin has programmed 
+        computers. He earned his B.S. in Computer Engineering at University of 
+        Illinois - Urbana.</p>
+      <p><a href="#top" target="_self">Top</a></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,335 @@
+<title>Mobile Business Survey @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<script LANGUAGE="JavaScript">
+
+<!-- 
+
+function trim(argvalue) {
+  var tmpstr = ltrim(argvalue);
+  return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+      break;
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+  }
+  return argvalue;
+}
+
+function ltrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(0, 1) != " ")
+      break;
+    argvalue = argvalue.substring(1, argvalue.length);
+  }
+  return argvalue;
+}
+
+function validate()
+
+{
+
+    var errorMessage = "Following fields are required:\n";
+    var errorFlag = "";
+    
+    if(document.feedback.first_name.value == ""){
+        errorMessage += " * First name\n";
+        errorFlag = "true";
+    }
+
+    if(document.feedback.last_name.value == ""){
+        errorMessage += " * Last name\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value == ""){
+        errorMessage += " * E-mail\n";
+        errorFlag = "true";
+    }
+    if(document.feedback.phone.value == ""){
+        errorMessage += " * Telephone Number\n";
+        errorFlag = "true";
+    }
+    if(document.feedback.address.value == ""){
+        errorMessage += " * Address\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value.indexOf("@") == -1 && trim(document.feedback.email.value) != ""){
+        errorMessage += " * Invalid email address\n";
+        errorFlag = "true";
+    }
+    
+    if (errorFlag == "true")
+    {
+        alert(errorMessage);
+        return;
+    }else{
+        document.feedback.submit();
+    }
+}
+
+//-->
+
+</script>
+
+<title>Tell us what you think about our web site</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small>
+<br>
+<center>
+<img src="../images/palmvii_prod_transp.gif" width="75" height="90" alt="Palm VII">
+<br><font face="Arial"><h4>
+ENTER TO<br>
+WIN A WIRELESS<br>
+MODEM!
+</h4></font></center></td>
+
+<td width="422" valign="top"><br>
+<table>
+<tr>
+<td colspan="2">
+<font face="Arial" color="#6666cc"><h2>MOBILE OFFICE SWEEPSTAKES</h2></font>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<ul><font face="Arial" color="#6666cc"><h3>ENTER NOW TO WIN</h3></font></ul>
+</td>
+</tr>
+</table>
+
+<form name="feedback" action="/cgi-bin/survey/customer_survey.cgi" method="POST">
+
+<!-- begin survey -->
+
+<b>Required Information:</b><br>
+<br>
+<table>
+<tr><td>First Name:</td><td><input type="text" name="first_name" size="35"></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="last_name" size="35"></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" size="35"></td></tr>
+<tr><td>Telephone Number:</td><td><input type="text" name="phone" size="35"></td></tr>
+<tr><td>Address:</td><td><textarea name="address" rows="2" cols="30"></textarea></td></tr>
+</table>
+<br>
+
+    <font face="Arial" color="#6666cc"><small><strong>Customer Survey</strong></small></font> <p><font
+    face="Arial"><small>Thank you for participating in this survey. Your feedback is important to NotWired.
+<br><br>
+          By completing and submitting this survey no later than February 28, 
+          2001, you will automatically be entered in NotWired's Mobile Office 
+          Sweepstakes. One (1) Grand Prize and five (5) Second Prizes will be 
+          awarded from a random drawing of survey entries. The Grand Prize is 
+          a wireless modem for use with either a Palm III, Palm V, or Pocket PC 
+          (depending on Grand Prize Winner's preference). Second Prize is a NotWired 
+          polo shirt. (See <a href="contest_rules.html">Sweepstakes Rules</a>). 
+          <br>
+          <br>
+Please complete the following survey and press submit.  This information will only be used by NotWired and will not be released to any other party.
+</small></font></p>
+    
+<b>Survey Questions:</b><br>
+<br>
+<ol>
+<li>How did you hear about NotWired?<br>
+<table>
+<tr valign="top">
+<td>
+<input type="radio" name="howHeardAbout" value="website">website<br>
+<input type="radio" name="howHeardAbout" value="referred by a colleague">referred by a colleague<br>
+</td>
+<td>
+<input type="radio" name="howHeardAbout" value="magazine">magazine<br>
+<input type="radio" name="howHeardAbout" value="saw NotWired at a trade show">saw NotWired at a trade show<br>
+</td>
+</tr>
+<tr>
+<td><input type="radio" name="howHeardAbout" value="Other">Other (please specify)</td>
+<td><input type="text" name="howHeardAboutOther" size="20"></td>
+</tr>
+</table>
+
+<br>
+<li>How often do you and/or your team use NotWired? 
+<table>
+<tr valign="top">
+<td>
+<input type="radio" name="howOftenUse" value="Once a week">Once a week<br>
+<input type="radio" name="howOftenUse" value="Twice a week">Twice a week</td>
+<td>
+<input type="radio" name="howOftenUse" value="Many times a week">Many times a week<br>
+<input type="radio" name="howOftenUse" value="One or two times a month">One or two times a month</td>
+</tr>
+<tr>
+<td colspan="2">
+<input type="radio" name="howOftenUse" value="I/We havent used Notwired since we initially signed up">I/We haven't used NotWired since we initially signed up</td>
+</tr>
+</table>
+
+<br>
+<li>If you use NotWired please continue to question 4. If you haven't used NotWired since you initially signed up, why not?<br>
+<input type="text" name="whyNotUsedNotwired" size="35">
+<br>
+<p>
+After answering question 3, please hit submit at the bottom of this survey. NotWired users please continue to question 4.
+
+<br><br>
+<li>How large is your business (number of employees)?<br>
+<table>
+<tr><td>
+<input type="radio" name="numberOfEmployees" value="3-5">3-5<br>
+<input type="radio" name="numberOfEmployees" value="5-10">5-10<br>
+<input type="radio" name="numberOfEmployees" value="10-20">10-20<br>
+<input type="radio" name="numberOfEmployees" value="20-30">20-30
+</td><td>
+<input type="radio" name="numberOfEmployees" value="30-40">30-40<br>
+<input type="radio" name="numberOfEmployees" value="40-50">40-50<br>
+<input type="radio" name="numberOfEmployees" value="50-75">50-75<br>
+<input type="radio" name="numberOfEmployees" value="75+">75+
+</td></tr>
+</table>
+
+<br>
+<li>How many employees in your company use NotWired?<br>
+<input type="text" name="numberOfEmployeesUsingNotWired" size="35">
+
+<br><br>
+<li>How many employees in your company travel frequently or make frequent sales calls for business (include employees who make day-trips)?<br>
+<input type="text" name="numberOfTravelingEmployees" size="35">
+
+<br><br>
+<li>How many employees in your company use NotWired from their mobile phones or PDAs?<br>
+<input type="text" name="numberOfEmployeesUseFromPhoneOrPda" size="35">
+
+<br><br>
+<li>Do you and/or your team have mobile internet access?<br>
+<input type="radio" name="haveMobileNetAccess" value="yes">Yes<br>
+<input type="radio" name="haveMobileNetAccess" value="no">No
+
+<br><br>
+<li>Do you think mobile internet access would be useful for your business?<br>
+<input type="radio" name="thinkMobileNetAccessUseful" value="yes">Yes<br>
+<input type="radio" name="thinkMobileNetAccessUseful" value="no">No
+
+<br><br>
+<li>How often do you and/or your team schedule group meetings with NotWired?
+<table>
+<tr valign="top"><td>
+<input type="radio" name="howOftenScheduleGroupMeetings" value="Once a week">Once a week<br>
+<input type="radio" name="howOftenScheduleGroupMeetings" value="Twice a week">Twice a week
+</td><td>
+<input type="radio" name="howOftenScheduleGroupMeetings" value="Many times a week">Many times a week<br>
+<input type="radio" name="howOftenScheduleGroupMeetings" value="One or two times a month">One or two times a month
+</td></tr>
+<tr><td>
+<input type="radio" name="howOftenScheduleGroupMeetings" value="Other">Other (please specify)
+</td><td>
+<input type="text" name="howOftenScheduleGroupMeetingsOther" size="20">
+</td></tr>
+</table>
+
+<br>
+<li>How often do you access team member's contact information through the NotWired phonebook?
+<table>
+<tr valign="top"><td>
+<input type="radio" name="howOftenAccessContacts" value="Once a week">Once a week<br>
+<input type="radio" name="howOftenAccessContacts" value="Twice a week">Twice a week
+</td><td>
+<input type="radio" name="howOftenAccessContacts" value="Many times a week">Many times a week<br>
+<input type="radio" name="howOftenAccessContacts" value="One or two times a month">One or two times a month
+</td></tr>
+<tr><td>
+<input type="radio" name="howOftenAccessContacts" value="Other">Other (please specify)
+</td><td>
+<input type="text" name="howOftenAccessContactsOther" size="20">
+</td></tr>
+</table>
+
+<br>
+<li>Do you and/or your team members enter website URLs into the Bookmarks section to share information amongst your group?<br>
+<input type="radio" name="doEnterBookmarks" value="yes">Yes<br>
+<input type="radio" name="doEnterBookmarks" value="no">No
+
+<br><br>
+<li>If Yes, how many URLs do you have listed in this section?<br>
+<input type="radio" name="howManyUrls" value="50+">50+<br>
+<input type="radio" name="howManyUrls" value="25-50">25-50<br>
+<input type="radio" name="howManyUrls" value="15-25">15-25<br>
+<input type="radio" name="howManyUrls" value="5-10">5-10<br>
+<input type="radio" name="howManyUrls" value="less than 5">less than 5<br>
+
+<br><br>
+<li>Do you and/or your team send status reports to your direct report from NotWired?<br>
+<input type="radio" name="doSendStatusReports" value="yes">Yes<br>
+<input type="radio" name="doSendStatusReports" value="no">No
+
+<br><br>
+<li>Do you and/or your team assign tasks to other team members with NotWired?<br>
+<input type="radio" name="doAssignTasks" value="yes">Yes<br>
+<input type="radio" name="doAssignTasks" value="no">No
+
+<br><br>
+<li>If Yes, do you track tasks to completion?<br>
+<input type="radio" name="doTrackTasksToCompletion" value="yes">Yes<br>
+<input type="radio" name="doTrackTasksToCompletion" value="no">No
+
+<br><br>
+<li>What other software does your business currently use?<br>
+<table>
+<tr><td>
+<input type="checkbox" name="softwareUsing" value="ACT">ACT<br>
+<input type="checkbox" name="softwareUsing" value="Outlook">Outlook
+</td><td>
+<input type="checkbox" name="softwareUsing" value="Goldmine">Goldmine<br>
+<input type="checkbox" name="softwareUsing" value="Quickbooks">Quickbooks
+</td></tr>
+<tr><td colspan="2">
+<input type="checkbox" name="softwareUsing" value="Other">Other (please specify) <input type="text" name="softwareUsingOther" size=20>
+</td></tr>
+</table>
+
+<br>
+<li>What aspect of NotWired do you find most useful to your business?<br>
+<textarea name="aspectMostUseful" rows="2" cols="45"></textarea>
+
+<br><br>
+<li>What aspect of NotWired do you feel needs improvement?<br>
+<textarea name="aspectNeedsImprovement" rows="2" cols="45"></textarea>
+
+<br><br>
+<li>Are there other services you would like to see included in NotWired?<br>
+<textarea name="otherServicesWouldLike" rows="2" cols="45"></textarea>
+
+<br><br>
+<li>Additional Comments:<br>
+<textarea name="additionalComments" rows="2" cols="45"></textarea>
+
+</ol>
+
+<p>
+By submitting this survey you agree to be bound by the rules and regulations of NotWired's Mobile Business Sweepstakes.
+
+<p>
+Thank you for participating in this survey.  Empower your mobile lifestyle with NotWired!
+
+<!-- end survey -->
+<center>
+      <p><font face="Arial"><input type="button" value="Submit" onclick="validate()"
+      name="Submit"></font>
+</center>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

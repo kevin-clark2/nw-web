@@ -1,0 +1,903 @@
+<html><head><title>NotWired Comparisions</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top">
+       
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><font face="Arial"><strong><small>NotWired is the most comprehensive 
+              scheduling and groupware system in the market. We invite you to 
+              compare our solution to any other solution.</small></strong></font></p>
+            <p>&nbsp;</p>
+            <p><small><font face="Arial">Supporting Information</font></small></p>
+            <blockquote> <small> 
+              <p><small><font face="Arial"><a href="costs.shtml" target="_self">Pricing</a></font></small></p>
+              <p><small><font face="Arial"><a href="NotWiredASPDataSheet.pdf">Data 
+                Sheet</a></font></small></p>
+              <p><small><font face="Arial"><a href="featurelist.shtml">Feature 
+                List</a></font></small></p>
+              <p><small><font face="Arial"><a href="comparisions.shtml">Comparisions</a></font></small></p>
+              <p><small><font face="Arial"><a href="javascript:openwindow('../tour/index.html',625,525);"  target="_self">Take a tour</a></font></small></p>
+              </small></blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+      </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font> 
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong><small>Manage 
+            Your Business Anywhere!</small></strong></font></td>
+          <td width="142"> 
+            <p align="left"><a
+        href="../../company/contactsmid.shtml" target="_self"><font face="Arial" color="#6666cc"><small><small>Contact 
+              us</small></small></font></a><font face="Arial" color="#6666cc"><small><small> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </small></small></font> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><strong><small><font face="Arial"  color="#6666cc"><a href="notwired.shtml" target="_self">Overview</a></font></small></strong></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="howitworks.shtml" target="_self"><strong><small><font face="Arial" color="#6666cc">How 
+            it works</font></small></strong></a></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="gettingstarted.shtml" target="_self"><strong><small><font
+        face="Arial" color="#6666cc">Getting Started</font></small></strong></a></td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif">The purpose of this guide is 
+        to assist in the evaulation of enterprise-class groupware, PIMs and team 
+        tools.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Personal Information Management 
+        (PIM)</font></p>
+      <table width="100%" border="1" >
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">NotWired</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">Others</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Calendar 
+            and Tasks</b></font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Day, week and month views</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Year 
+            view</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Add, 
+            delete and move events</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Anniversaries 
+            and birthdays</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Handle 
+            simple repeats</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Handle 
+            complex repeats (Tu/Thr or Mo/Wed/Fri)</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            multiple event types</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            icons related to event types</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Create 
+            events from wireless devices</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Consolidates 
+            busy days with 'more...'</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Split 
+            views on overlapping events</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Preferences 
+            to control look of calendar</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Search 
+            in event title or contents</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Tasks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Notifications 
+            via email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Notifications 
+            to mobile devices</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp; 
+            </font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Integrated 
+            with contacts (relate contacts to events)</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Printable 
+            views</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Email 
+            copy of calendar</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Support invites via email or SMS</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Holiday 
+            support </font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Contacts</b></font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Personal 
+            contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Grouping 
+            of contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Five phones and four addresses per a contact (for business users)</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Number 
+            of user fields per contact</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">20</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Notes 
+            on contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Activities and history on contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Advanced 
+            searching </font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Printable views</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp; 
+            </font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Contact 
+            types for better classifications</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Instant 
+            email or messages to contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            attachments to contacts</font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Form 
+            letters to contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Form 
+            emails to contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Mail 
+            merge to email or letters</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Other</b></font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Drop 
+            down shortcuts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Wireless 
+            Palm (PQA) access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Wireless 
+            phone (WAP) access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Preferences 
+            to control notifications</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Preferences 
+            to control formats</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            &nbsp;Personal bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Categorize 
+            bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Email 
+            bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Reorganize 
+            bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Notes/Memos</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Data 
+            Exchange</b> </font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Synchronization 
+            of Bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">Import/Export</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Synchronization 
+            of Calendar</font></td>
+          <td width="27%">&nbsp;</td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Synchronization 
+            of Contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">Import/Export</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Synchronization 
+            of Tasks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Synchronization 
+            of Notes/Memos</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+      </table><p><font face="Arial, Helvetica, sans-serif">Groupware</font></p>
+      <table width="100%" border="1" cellpadding="0">
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">NotWired</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">Others</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Administration</b></font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Invite 
+            others to join organization</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;New 
+            member process streamlined with default organization information </font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Control 
+            others access to applications and access rights in applications</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Enable/Suspend 
+            members to lock unwanted members</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Calendar 
+            and Tasks</b></font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Track 
+            acceptence of invitations</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            notification of accept status</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            external invites (via email)</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            instant notification on changes</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            meeting planning</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            meeting minutes</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            action items for minutes</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            for task assignment workflow</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Ability 
+            to track tasks assigned</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Group 
+            calendars</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Organization 
+            holiday support</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Move/copy 
+            events to group calendars</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Move/copy 
+            events to personal calendars</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Ability 
+            to share personal calendar</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Task 
+            requests</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Task 
+            reassign and tracking of reassigns</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Status 
+            reports on tasks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Task 
+            sorting ordering by priority, status and due date</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Check 
+            tasks assigned to others</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Check 
+            tasks you assigned to others</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Contacts</b></font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            shared contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            notes and activity tracking on contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            private and public notes</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            creating of call, todo or meeting for another member on a contact</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">3.2 
+            (April 2001)</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Shared 
+            groupings of contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Admin 
+            support for access permissions on contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1"><b>Other</b></font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Shared 
+            bookmarks</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Quick 
+            signups for new members using information contained in organization 
+            profile</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Status 
+            reports</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Support 
+            search in shared information</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Discussion 
+            groups</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;File 
+            sharing</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;File 
+            version control</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+      </table><p><font face="Arial, Helvetica, sans-serif">Other Features</font></p>
+      <table width="100%" border="1" cellpadding="0">
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">NotWired</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">Others</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Summary 
+            page</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">Inbox</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Invites 
+            integrated with inbox</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Global 
+            search</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Multiple 
+            accepts on inbox</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;iCal 
+            and vCard support rto integrate to Notes, Outlook and ACT!</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"> 
+            <p><font face="Arial, Helvetica, sans-serif" size="-1">Navigation 
+              optimized<br>
+              - Single form<br>
+              - Navigation bar<br>
+              - Sorting on tables<br>
+              - Shortcuts<br>
+              </font></p>
+          </td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">VERY</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Add 
+            and Add Another shortcuts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Complete 
+            WAP access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Complete 
+            PQA access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Inbox 
+            notification monitor</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Projects</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Project 
+            checklists</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Project 
+            calendars</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Project 
+            task lists</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Organization 
+            announcements</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Formatting 
+            options</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Help 
+            system</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">x</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+      </table><p><font face="Arial, Helvetica, sans-serif">Communications</font></p>
+      <table width="100%" border="1" cellpadding="0">
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">NotWired</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">Others</font></td>
+        </tr>
+        <tr> 
+          <td width="60%" height="20"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Email</font></td>
+          <td width="27%" height="20"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%" height="20"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;POP3 
+            Support</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;IMAP4 
+            Support</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Junk 
+            Filter support</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Custom 
+            signature support</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Settable 
+            tag line support for resellers</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Actionable 
+            notifications with email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Actionable 
+            notifications with SMS</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Split 
+            screen view of emails</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Read 
+            Yahoo! email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Read 
+            Hotmail email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Read 
+            AOL email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;WAP 
+            email access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;PQA 
+            email access</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Match 
+            inbound emails with contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Log 
+            outbound email on history of contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Save 
+            outbound communication on contacts</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+        <tr> 
+          <td width="60%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;Template 
+            support on email</font></td>
+          <td width="27%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+          <td width="13%"><font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;</font></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

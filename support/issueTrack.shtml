@@ -1,0 +1,57 @@
+<title>Support @ Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+  <table border="0" cellpadding="0" cellspacing="0" width="650">
+    <tr>
+      <td width="228" valign="top">      <p><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+        <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></p>
+      <blockquote>
+        <p><font face="Arial, Helvetica, sans-serif"><a href="faq.shtml"> <font size="-1">Frequent 
+          Questions</font></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="feedback.shtml">Feedback</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="knownBugs.shtml">Known 
+          Issues</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="issueTrack.shtml">Issue 
+          Tracking</a></font></p>
+      </blockquote>
+      </td>
+      <td width="422" valign="top"> <br>
+      <font face="Arial" color="#6666cc"><strong>NotWired Issue Submission and 
+      Tracking</strong></font> 
+      <p>If you have problems with our software, we would like to know. For supported 
+        customers, there is an option to access our bug tracking system and report 
+        your bugs in this manner.</p>
+        
+      <p>For full access, please enter your user ID and password. <br>
+        If you do not have one, please contact 
+        <script language="JavaScript">
+var name = "support";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+        . </p>
+      <p><strong>Don't have user ID or password?</strong> Clear user ID and password 
+        fields below, then click on the logon button. This will allow you to log 
+        issues in our system.</p>
+      <form action="http://devtest.notwired.com:81/Logon" method="post">
+
+<table width="100%">
+        <tr>
+            <td width="15%"><strong>User ID: </strong></td>
+          <td><input name="UserID" size="20"> </td>
+        </tr>
+        <tr>
+            <td width="15%"><strong>Password:</strong> </td>
+          <td><input type="password" name="Password" size="20"> </td>
+        </tr>
+      </table>
+      <p><input type="submit" name="Logon" value="Logon"></p>
+	  </form>
+	<br><br><br> </td>
+    </tr>
+  </table>
+</body>
+</html>

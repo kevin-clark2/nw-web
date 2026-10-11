@@ -1,0 +1,405 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+
+<script language="JavaScript">
+function isInteger(val){
+    var i = parseInt(val, 10);
+    if (isNaN(i) || i != val)
+       return false;
+    else if (val.indexOf(".") != -1)
+        return false;
+    else
+        return true;
+}
+
+function calculateROI(){
+    // Min groupware server prices
+    gwMin = 1295;
+    ExchangeMin = 1695;
+    NotesMin = 6200;
+
+    // Per user license fees
+    exchangeLic = 85;
+    notesLic = 120;
+    gwLic = 0;
+
+    // Groupware server pricing
+    smallGroupServerCost = 2500;
+    mediumGroupServerCost = 3500;
+    largeGroupServerCost = 4500;
+    smallStorage = 4000;
+    largeStorage = 8000;
+    groupServerInstallCost = 1000;
+
+    // Firewall server costs
+    fs = 500;
+    fs10to50 = 900;
+    fs50plus = 1200;
+    firewallInstallCost = 300;
+
+    // DSL costs
+    dslCost = 150;
+
+    // NotWired base cost per month
+    nwCost = 9.95;
+    nwSECost = 15.95;
+
+    form = document.formROI;
+    if(!isInteger(form.noOfUsers.value)){
+      alert("Please enter a valid number of users.");
+      return;
+    }
+
+    users = parseInt(form.noOfUsers.value,10);
+    typeofSS= form.groupware.options[form.groupware.selectedIndex].value;
+
+    ss = 0;
+    if( typeofSS == 'Exchange'){
+       ss = users* exchangeLic;
+       if( ss< ExchangeMin) ss = ExchangeMin;
+    } else if( typeofSS == 'Lotus Notes'){
+       ss = users * notesLic;
+       if( ss < NotesMin) ss = NotesMin;
+    }
+    discount = 1;
+    if (users > 500 && users < 1000) discount = 0.8;
+    if (users >= 1000 && users < 2000) discount = 0.7;
+    if (users >= 2000 && users < 3000) discount = 0.6;
+    if (users >= 3000 && users < 5000) discount = 0.5;
+    if (users >= 5000) discount = 0.4;
+
+    form.ss.value= "$" + (ss * discount);
+
+    // Calculate the cost of servers. If users < 500 = small server
+    // 500 to 1000 use medium server size
+    // 1000 use large server for every 1000 people
+
+    servers = 1;   // by default
+
+    if(users <= 500) gs = smallGroupServerCost;
+    if(users > 500 && users < 1000) gs = mediumGroupServerCost + smallStorage;
+
+    if(users >= 1000) {
+      servers = parseInt(users/ 1000,10);
+      if(isNaN(servers)) servers = 0;
+      if( users % 1000 != 0) servers++;
+      gs = largeGroupServerCost * servers + largeStorage * servers;
+    }
+    form.gs.value= "$" + gs;
+
+    // Firewall
+    if(users >= 10 && users < 50) fs = fs10to50;
+    if(users >= 50) fs = fs50plus;
+    form.fs.value= "$" + fs;
+    form.fs2.value= "$" + fs;
+    form.fs3.value= "$" + fs;
+
+    //connection for three years
+    ic = 0;
+    if(form.connection.options[form.connection.selectedIndex].value == 'Dial up'){
+       ic = dslCost * 36;
+    }
+    form.ic.value = "$" + ic;
+    form.ic2.value = "$" + ic;
+    form.ic3.value = "$" + ic;
+
+    //installation of group server and firewall
+    ins = groupServerInstallCost * servers;
+    ins = ins + firewallInstallCost;
+    ins2 = firewallInstallCost;
+    ins3 = firewallInstallCost;
+    form.ins.value= "$" + ins;
+    form.ins2.value= "$" + firewallInstallCost;
+    form.ins3.value= "$" + firewallInstallCost;
+
+    //wireless access
+    wirelessMin = 5000 * servers;
+    wa = users * 10;
+    if( wa < wirelessMin) wa = wirelessMin;
+    form.wa.value= "$" + wa;
+
+    //software upgrades
+    su = (15* ss /100)* 2 ;
+    form.su.value = "$"+ su;
+
+    //avg monthly cost
+    mss=users;
+    if( typeofSS == 'Exchange'){
+       mss *= 10.69;
+    } else if( typeofSS == 'Lotus Notes'){
+       mss *= 16.62;
+    }
+    form.mss.value= "$" + Math.round(mss);
+
+    //total cost == sum of above
+    totalss = ss + gs + fs + ic + ins + wa + su + (mss * 36);
+    form.totalss.value= "$" + totalss;
+
+    form.monUserss.value= "$" + Math.round(totalss/users/36);
+
+    //NOTWIRED
+    totalnw = nwCost * users * 36;
+    totalnw = totalnw + fs + ic + ins;
+    form.totalnw.value= "$" + totalnw;
+
+    totalnw2 = nwSECost * users * 36;
+    totalnw2 = totalnw2 + fs + ic + ins2;
+    form.totalnw2.value= "$" + totalnw2;
+
+    form.mnw.value = "$" + (nwCost * users);
+    form.mnw2.value = "$" + (nwSECost * users);
+
+    form.monUsernw.value= "$" + Math.round(totalnw/users/36);
+    form.monUsernw2.value= "$" + Math.round(totalnw2/users/36);
+
+    form.savingnw.value= "$" + Math.round((totalss - totalnw));
+    form.savingnw1.value= "$" + Math.round((totalss - totalnw));
+    form.savingnw2.value= "$" + Math.round((totalss - totalnw2));
+
+    form.monSavingnw.value = "$" + Math.round((totalss - totalnw)/36);
+    form.monSavingnw1.value = "$" + Math.round((totalss - totalnw)/36);
+    form.monSavingnw2.value = "$" + Math.round((totalss - totalnw2)/36);
+
+}
+
+</script>
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><img src="images/NotWired.gif" width="174" height="52"
+    alt="NotWired"><br>
+      <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!</font></small></small> 
+      <p align="center"><a href="/notwired/main?op=SignupModule.SignupPageOp"
+    target="_self"><small><font face="Arial"><b>SIGNUP NOW!</b></font></small></a></p>
+      <p><br>
+      </p>
+      <p>&nbsp;</p>
+      <p class="bodyCopy"><small>According to Gartner, the cost to purchase, implement
+        and operate the top groupware products per user over the period of three
+        years is as follows: </small>
+      <ul>
+        <li><small><span class="bodyCopy">Exchange: $470.</span></small></li>
+        <li><small><span class="bodyCopy">Notes: $719.</span></small></li>
+      </ul>
+      <p><small><span class="bodyCopy">Costs for implementation and operations
+        of top packages:</span></small>
+      <ul>
+        <li><small><span class="bodyCopy">Exchange: $10.69/user/mo.</span></small></li>
+        <li><small><span class="bodyCopy">Notes:&nbsp; $16.62/user/mo.</span></small></li>
+      </ul>
+      <p><small><span class="bodyCopy">Wireless extensions to Exchange and Notes
+        cost approximately $10/user with some minimum licensing fee ($5,000 to
+        $10,000) per groupware server.</span></small>
+      <p>&nbsp;
+      <ul>
+        <li><small><span class="bodyCopy">NotWired LE: $9.95/user/mo.</span></small>
+        </li>
+        <li> <small><span class="bodyCopy">NotWired SE: $15.95/user/mo.</span></small>
+        </li>
+      </ul>
+      </td>
+    <td width="422" valign="top"><font face="Arial" color="#6666d7"><strong><br>
+    <small>NotWired Savings</small></strong></font><p><strong><small><font face="Arial">This
+    estimation sheet will give you an idea about how much money you can save on your
+    investment over three (3) years.</font></small></strong></p>
+    <form method="POST" name="formROI" action="--WEBBOT-SELF--">
+      <!--webbot bot="SaveResults" startspan U-File="_private/form_results.txt"
+      S-Format="TEXT/CSV" S-Label-Fields="TRUE" --><!--webbot bot="SaveResults" endspan --><p><small><font
+      face="Arial">Number of users:&nbsp; <input type="text" name="noOfUsers" size="5"
+      maxlength="5"> <br>
+      Software solution: <select name="groupware" size="1">
+        <option value="Exchange">Exchange</option>
+        <option value="Lotus Notes">Lotus Notes</option>
+      </select> <br>
+      Office connection: <select name="connection" size="1">
+        <option value="Dial up">Dial up</option>
+        <option value="ISDN">ISDN</option>
+        <option value="DSL">DSL</option>
+        <option value="Faster than DSL">Faster than DSL</option>
+      </select> <br>
+      <input type="button" name="Button" value="Calculate" onClick="calculateROI()"> </font></small></p>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="50%"><strong>Total monthly savings</strong></td>
+          <td width="50%"><small><input type="text" name="monSavingnw1" size="10"> </small></td>
+        </tr>
+        <tr>
+          <td width="50%"><strong>Total savings over 3 years</strong></td>
+          <td width="50%"><small><input type="text" name="savingnw1" size="10"> </small></td>
+        </tr>
+        <tr>
+          <td width="50%"></td>
+          <td width="50%"><br>
+          </td>
+        </tr>
+      </table>
+        <table border="1" cellpadding="2" width="95%" cellspacing="0">
+          <tr>
+            <td width="33%" valign="top"><strong>Expenditure</strong></td>
+            <td width="18%" valign="top"><strong>Software</strong></td>
+            <td width="25%" valign="top"><strong>NotWired LE</strong></td>
+            <td width="24%" valign="top"><strong>NotWired SE</strong></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Groupware Software</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="ss" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>$0.00</small></td>
+            <td width="24%" valign="top"><small>$0.00</small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Groupware server(s)</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="gs" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>$0.00</small></td>
+            <td width="24%" valign="top"><small>$0.00</small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Firewall server</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="fs" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="fs2" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="fs3" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Direct Internet Connection</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="ic" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="ic2" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="ic3" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Server and Firewall Installation</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="ins" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="ins2" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="ins3" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Wireless Access Software &amp;
+              Install</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="wa" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>$0.00</small></td>
+            <td width="24%" valign="top"><small>$0.00</small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Software Upgrades</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="su" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>$0.00</small></td>
+            <td width="24%" valign="top"><small>$0.00</small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small>Monthly Costs</small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="mss" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="mnw" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="mnw2" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"> <small><strong>Total Costs over 3 years
+              <small>(including communications and equipment)</small></strong></small></td>
+            <td width="18%" valign="top"><br>
+              <small>
+              <input type="text" name="totalss" size="10">
+              </small></td>
+            <td width="25%" valign="top"><br>
+              <small>
+              <input type="text" name="totalnw" size="10">
+              </small></td>
+            <td width="24%" valign="top"><br>
+              <small>
+              <input type="text" name="totalnw2" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small><strong>Avg. Monthly Cost per user</strong></small></td>
+            <td width="18%" valign="top"><small>
+              <input type="text" name="monUserss" size="10">
+              </small></td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="monUsernw" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="monUsernw2" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><strong><small>Savings over 3 years</small></strong></td>
+            <td width="18%" valign="top">&nbsp;</td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="savingnw" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="savingnw2" size="10">
+              </small></td>
+          </tr>
+          <tr>
+            <td width="33%" valign="top"><small><strong>Monthly Savings</strong></small></td>
+            <td width="18%" valign="top">&nbsp;</td>
+            <td width="25%" valign="top"><small>
+              <input type="text" name="monSavingnw" size="10">
+              </small></td>
+            <td width="24%" valign="top"><small>
+              <input type="text" name="monSavingnw2" size="10">
+              </small></td>
+          </tr>
+        </table>
+      <p><small><small><font face="Arial">For this comparison we assumed the following costs
+      structures&nbsp; -&nbsp; </font></small></small>
+        <ul>
+          <li><small><font face="Arial"><small>Software pricing is based on 250
+            users. Less users will result in higher prices and make the NotWired
+            offering more attractive.</small><br>
+            <small>Exchange 250 user license = $21,250 or $85/user. Min $1695.</small><br>
+            <small>Notes 250 user license = $30,140 or $120/user. Min $6,200.</small></font></small></li>
+          <li><small><small><font face="Arial">Additional discounts applied to
+            licenses above 500 for groupware software.</font></small></small></li>
+          <li><small><small><font face="Arial">$150/mo for direct Internet business
+            connections.</font></small></small></li>
+          <li><small><small><font face="Arial">$2,500 for a small-sized group
+            server, $3,500 for a medium-sized group server and $4,500 for a large-sized
+            group server.</font></small></small> </li>
+          <li><small><small><font face="Arial">$</font><small><font face="Arial">8,000
+            for 50 gigabytes to handle 500-1000 users. $4,000 for a server to
+            handle less than 500 users.</font></small></small></small></li>
+          <li><small><small><font face="Arial">$</font><small><font face="Arial">1,000
+            installation for servers. $300 installation for gateways.</font></small></small></small></li>
+          <li><small><small><font face="Arial">$10/user for wireless server software.
+            $5,000 minimum license per groupware server.</font></small></small></li>
+          <li><small><small><font face="Arial">Software upgrades - 15% of original
+            license every 18 months.</font></small></small></li>
+          <li><small><small><font face="Arial">No discounts used for NotWired.
+            Better pricing may apply.</font></small></small></li>
+        </ul>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

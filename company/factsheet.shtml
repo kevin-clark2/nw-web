@@ -1,0 +1,100 @@
+<html>
+
+<head>
+<title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="/css/notwired.css">
+</head>
+
+<body bgcolor="#FFFFFF">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><small><small><font face="Arial">&#153;</font></small></small><br>
+    <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong>
+    </strong></font><br><table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong>Fact 
+            Sheet</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="420">
+        <tr> 
+          <td width="86" valign="top"><font face="Arial" color="#6666cc"><br>
+            <strong>mission</strong></font></td>
+          <td width="334" valign="top"><br>
+            <strong>NotWired</strong>'s mission is to help small and midsize companies 
+            work efficiently so they can spend more time growing the business 
+            and less time running the business. We empower business with access 
+            anytime and anywhere. </td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top">&nbsp;&nbsp;&nbsp; </td>
+          <td width="334" valign="top"></td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"><font face="Arial" color="#6666cc"><strong>overview</strong></font></td>
+          <td width="334" valign="top"><strong>NotWired</strong> is an application 
+            service provider that automates information systems for small and 
+            midsize companies. It is specifically designed for companies with 
+            highly mobile and distributed team members who need access to company 
+            information anytime. <strong>NotWired</strong> brings teams together 
+            with scheduling, task management and streamlining administrative tasks.</td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"></td>
+          <td width="334" valign="top"></td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top">&nbsp;</td>
+          <td width="334" valign="top">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"><font face="Arial" color="#6666cc"><strong>history 
+            and founding</strong></font></td>
+          <td width="334" valign="top">Based in Chicago, Illinois, <strong>NotWired</strong> 
+            was founded in July 2000. It was originally developed under <a
+        href="http://www.objsoft.com" target="_blank">Objectsoft</a>'s funding 
+            and is currently private.</td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"></td>
+          <td width="334" valign="top"></td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top">&nbsp;</td>
+          <td width="334" valign="top">&nbsp;</td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"><font face="Arial" color="#6666cc"><strong>market 
+            opportunity</strong></font></td>
+          <td width="334" valign="top">Small and medium businesses account for 
+            8 million companies in the U.S. and 17 million worldwide. They constitute 
+            98% of total companies, employ 75% of the workforce, and spend over 
+            50% of all software expenditures. With 43% of the overall U.S. workforce 
+            mobile, wireless access to company information becomes critical. Mobile 
+            professionals will drive a large portion of the estimated $200 billion 
+            in wireless subscriptions, transactions and m-commerce by 2003. 
+            <p><strong>NotWired</strong> is a solution for small and emerging 
+              businesses that does not require any installed software to manage 
+              front-office processing. Our market is estimated to be $300 billion 
+              in subscriptions, transactions and purchases. 
+          </td>
+        </tr>
+        <tr> 
+          <td width="86" valign="top"></td>
+          <td width="334" valign="top"></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE form-validation PUBLIC
+          "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.0//EN"
+          "http://jakarta.apache.org/commons/dtds/validator_1_0.dtd">
+
+<form-validation>
+
+   <formset>
+
+      <form    name="signupForm">
+         <field    property="firstName"
+         	   depends="required,html">
+         	     <msg name="required" key="administration.module.label.firstName.required"/>
+         </field>
+         <field    property="lastName"
+         	   depends="required,html">
+		     <msg name="required" key="administration.module.label.lastName.required"/>
+         </field>
+         <field    property="email"
+         	   depends="required,email">
+		     <msg name="required" key="administration.module.label.email.required"/>
+		     <msg name="email" key="administration.module.label.email.email"/>
+         </field>
+         <field    property="pw"
+         	   depends="required,html,minlength">
+		     <msg name="required" key="administration.module.label.pw.required"/>
+		     <msg name="html" key="administration.module.label.pw.html"/>
+		     <msg name="minlength" key="administration.module.validation.pw.minlength"/>
+                     <var>
+                       <var-name>minlength</var-name>
+                       <var-value>5</var-value>
+                     </var>
+         </field>
+         <field    property="cpw"
+         	   depends="required,html,same">
+		     <msg name="required" key="administration.module.label.cpw.required"/>
+		     <msg name="html" key="administration.module.label.pw.html"/>
+		     <msg name="same" key="administration.module.label.cpw.same"/>
+                     <var>
+                       <var-name>same</var-name>
+                       <var-value>pw</var-value>
+                     </var>
+
+         </field>
+         <field    property="wa1"
+         	   depends="dependency">
+                     <var>
+                       <var-name>fields</var-name>
+                       <var-value>wct,wst,wzc,wcn</var-value>
+                     </var>
+
+         </field>
+         <field    property="terms"
+         	   depends="required">
+		     <msg name="required" key="administration.module.label.terms.required"/>
+         </field>
+         <field    property="mpin"
+         	   depends="description,minlength">
+	  	     <msg name="description" key="administration.module.label.mpin.description"/>
+		     <msg name="minlength" key="administration.module.validation.mpin.minlength"/>
+                     <var>
+                       <var-name>minlength</var-name>
+                       <var-value>4</var-value>
+                     </var>
+
+         </field>
+         <field    property="wct"
+         	   depends="description">
+	  	     <msg name="description" key="administration.module.label.wct.required"/>
+
+         </field>
+         <field    property="wst"
+         	   depends="description">
+	  	     <msg name="description" key="administration.module.label.wst.required"/>
+
+         </field>
+         <field    property="wzc"
+         	   depends="description">
+	  	     <msg name="description" key="administration.module.label.wzc.required"/>
+
+         </field>
+         <field    property="wcn"
+         	   depends="description">
+	  	     <msg name="description" key="administration.module.label.wcn.required"/>
+
+         </field>
+      </form>
+   </formset>
+</form-validation>

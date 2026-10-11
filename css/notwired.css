@@ -1,0 +1,616 @@
+.MENUITEMS {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: FFFFFF; text-decoration: none}
+.MENU2 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: FFFFFF; text-decoration: none}
+.MENU3 {  font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: FFFFFF; border-color: FFFFFF 6666cc 6666cc; border-style: solid; border-top-width: thin}
+.SUBMENUITEMS { font-family: Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: FFFFFF; text-decoration: none }
+.txtBoxSmall {
+    font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;}
+.boxLinks A {
+    color: #ffffff;}
+BODY
+{
+    margin-left:    0;
+    margin-top:     0;
+}
+
+P
+{
+    font-family:        Arial;
+    font-size:          12px;
+}
+
+A {
+    color:                  #6666cc; 
+    font-family: Arial;
+    text-decoration:        underline;
+}
+.links {
+    color:#6666cc;
+    font-family: Arial;
+}
+
+DIV
+{
+    font-family:        Arial;
+    font-size:          12px;
+}
+
+TD
+{
+    font-family:        Arial;
+    font-size:          12px;
+}
+
+.BACKGROUND
+{
+    background-color:   white;
+}
+.PREFS
+{
+    background-color:   #EEEEEE;
+    padding:            10;
+    text-align:         left;
+    padding:            0 0 10 0;                                                                 
+}
+
+.PREFS .HEADING
+{
+    color:              #800000;
+    font-size:          16px;
+    font-style:         bold;
+    text-align:         center;
+    background-color:   #CCCCCC;
+    width:              500;
+}
+
+.PREFS .SUBHEADING
+{
+    color:              #000000;
+    font-size:          12px;
+    font-style:         bold;
+    background-color:   #DDDDDD;
+    text-align:         center;
+    margin-left:        20;
+    margin-right:       20;
+    width:              430;
+}
+
+.ERROR
+{
+    font-family:        Arial;
+    font-size:          13px;
+    color:              red;
+    font-weight:        bold;
+}
+
+
+.ERROR_DESC
+{
+    font-family:        Arial;
+    font-size:          12px;
+    font-weight:        normal;
+}
+
+DIV.ERROR_MESSAGE {
+    padding:            1em;
+    border-style:       solid;
+    border-width:       2px;
+    border-color:       black;
+    background-color:   white;
+    color:              black;
+    margin:             1em;
+}
+
+.LABEL
+{
+    font-family:        Arial;
+    font-size:          11px;
+    font-weight:        normal;
+}
+
+.LABELANDBACKGROUND
+{
+    background-color:   white;
+    font-family:        Arial;
+    font-size:          11px;
+    font-weight:        normal;
+}
+
+.LABEL EM
+{
+    font-family:        Arial;
+    font-size:          11px;
+    color:              red;
+}
+
+.SECTIONBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   rgb(230, 230, 230);
+    font-weight:        bold;
+}
+
+.SECTIONBARLABELS
+{
+    font-family:        Arial;
+    font-size:          11px;
+    background-color:   rgb(230, 230, 230);
+    font-weight:        bold;
+}
+
+.SETUPSECTIONBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   #6666cc;
+    color:              #ffffff;
+    font-weight:        bold;
+}
+
+.SETUPTITLE
+{
+    font-family : Arial;
+    font-size : 15px;
+    color : #6666cc;
+    font-weight : bold;
+}
+
+.MODULETITLEBAR
+{
+    font-family:        Arial;
+    font-size:          13px;
+    font-weight:        bold;
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+    text-align:         center;
+    padding:            1;
+}
+
+.SECTIONBARBUTTONS
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   rgb(230, 230, 230);
+    font-weight:        normal;
+    text-align:         right;
+}
+
+.SECTIONBAR EM
+{
+    font-style:         normal;
+    font-weight:        normal;
+}
+
+.STATUSBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   rgb(230, 230, 230);
+    font-weight:        normal;
+    text-align:         left;
+    padding:            3;
+}
+
+.OPTIONBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   rgb(210, 210, 210);
+    text-align:         center;
+}
+
+.ACTIONBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    background-color:   rgb(230, 230, 230);
+    font-weight:        normal;
+    text-align:         left;
+    padding:            1;
+}
+
+.SUBSECTIONBAR
+{
+    font-family:        Arial;
+    font-size:          12px;
+    font-weight:        bold;
+    text-align:         left;
+}
+
+.NOTE
+{
+    font-family:        Arial;
+    font-size:          11px;
+    background-color:   #EEEEEE;
+    text-align:         left;
+    margin-left:        50px;
+    margin-right:       50px;
+}
+
+.NOTE EM
+{
+    font-weight:        bold;
+    font-style:         normal;
+}
+
+FORM 
+{
+    margin-bottom:      0;
+}
+
+.FORMBACKGROUND
+{
+    background-color:   #eeeeee;
+}
+
+.FORMBACKGROUNDLABEL
+{
+    background-color:   #eeeeee;
+    font-family:        Arial;
+    font-size:          11px;
+}
+
+.NAVBAR
+{
+    font-family:        Arial;
+    font-size:          10;
+    font-weight:        normal;
+}
+
+.SETUPNOTES
+{
+    background-color:   #eeeeee;
+    font-family:        Arial;
+    font-size:          11px;
+
+}
+
+.DTH
+{
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+}
+
+.DTRA
+{
+    background-color:   #e4eaf3;
+}
+
+.DTRB
+{
+    background-color:   #dee3ef;
+}
+
+.DTH1
+{
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+    font-family:        Arial;
+    font-size:          11px;
+}
+
+.DTRA1
+{
+    background-color:   #e4eaf3;
+    font-family:        Arial;
+    font-size:          11px;
+}
+
+.DTRB1
+{
+    background-color:   #dee3ef;
+    font-family:        Arial;
+    font-size:          11px;
+}
+
+.NAVBARSELECTED
+{
+    font-family:        Arial;
+    font-size:          13px;
+    font-weight:        bold;
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+}
+
+.NAVBARNOTSELECTED
+{
+    color:              #eeeeee;
+    background-color:   #ccccff;
+}
+
+.NAVBARCONTENT 
+{
+    background-color:   #9c9ae9;
+    color:              #101010;
+    font-size:          12px;
+    font-weight:        normal; 
+}
+
+.MAINBACKGROUND
+{
+    background-color:   #ffffff;
+}
+
+.CATEGORYTAB
+{
+    color:              #101010;
+}
+
+.ITEMTAB
+{
+    font-family:        Arial;
+    font-size:          12px;
+    font-weight:        normal;
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+  
+}
+
+SELECT
+{
+    font-size:          11px;
+}
+
+INPUT
+{  
+    font-size:          11px;
+}
+ 
+TEXTAREA
+{
+    font-size:          11px;
+}
+
+.CL 
+{  
+    font-family:        Arial;
+    font-size:          11px;
+}
+
+.CH
+{ 
+    color:              #eeeeee;
+    background-color:   #9c9ae9;
+    font-family:        Arial;
+    font-size:          11px;
+
+ }
+ 
+.TODAYBGCOLOR
+{
+   background-color:    #d1d1ff;
+}
+
+.HOLIDAYBGCOLOR
+{
+    background-color:   #FFCCCC;
+}
+
+.ORGHOLIDAYBGCOLOR
+{
+    background-color:   #80B8F6;
+}
+
+.NOTCURRENTMONTHBGCOLOR
+{
+    background-color:   #E1E1E1;
+}
+
+.BUSY
+{
+   background-color:    #000000;
+}
+
+.FREE
+{
+   background-color:    #ffffff;
+}
+
+.OUTOFOFFICE
+{
+   background-color:    #d1d1ff;
+}
+
+.TENTATIVE
+{
+   background-color:    #ffcc00;
+}
+
+.SmallMonthSelectedDay
+{
+    border-style: solid;
+    border-top-width:       1px;
+    border-bottom-width: 1px;
+    border-left-width:      1px;
+    border-right-width:     1px;
+    padding-top:            0;
+    padding-right:          0;
+    padding-left:           0;
+    padding-bottom:         0;
+    padding:                0;
+    color:      black;
+}
+
+.SmallMonthToday
+{   
+    font-style:     normal;
+    background-color:   #FFFFFF;
+    color:      black;
+    font-weight:        bold;
+    font-size:          13px;
+}
+
+.SmallMonthSelectedToday
+{
+    border-style: solid;
+    border-top-width:       1px;
+    border-bottom-width:    1px;
+    border-left-width:      1px;
+    border-right-width:     1px;
+    padding-top:            0;
+    padding-right:          0;
+    padding-left:           0;
+    padding-bottom:         0;
+    padding:                0;
+    color:                  black;
+    font-weight:            bold;
+    font-size:              13px;
+    background-color:       #FFFFFF;
+}
+
+.SmallMonthHoliday
+{
+    font-style:         normal;
+    font-size:          11px;
+    background-color:   #FFCCCC;
+    color:              black;
+}
+
+.SmallMonthSelectedHoliday
+{
+    border-style: solid;
+    border-top-width:       1px;
+    border-bottom-width:    1px;
+    border-left-width:      1px;
+    border-right-width:     1px;
+    padding-top:            0;
+    padding-right:          0;
+    padding-left:           0;
+    padding-bottom:         0;
+    padding:                0;
+    color:                  black;
+    font-size:              11px;
+    background-color:       #FFCCCC;
+}
+
+.SmallMonthOrgHoliday
+{
+    font-style:         normal;
+    font-size:          11px;
+    background-color:   #80B8F6;
+    color:              black;
+}
+
+.SmallMonthSelectedOrgHoliday
+{
+    border-style: solid;
+    border-top-width:       1px;
+    border-bottom-width:    1px;
+    border-left-width:      1px;
+    border-right-width:     1px;
+    padding-top:            0;
+    padding-right:          0;
+    padding-left:           0;
+    padding-bottom:         0;
+    padding:                0;
+    color:                  black;
+    font-size:              11px;
+    background-color:       #80B8F6;
+}
+
+.TABSELECTED {
+    border:                 black solid;
+    border-color:           black solid;
+    border-width:           1 1 0 1;
+    font-family:            Arial;
+    font-size:              12px;
+    background-color:       #eeeeee;
+}
+
+.TABNOTSELECTED {
+    border:                 black solid;
+    border-color:           black solid;
+    border-width:           0 0 1 0;
+    background-color:       rgb(210, 210, 210);
+    font-family:            Arial;
+    font-size:              12px;
+}
+
+DIV.SUMMARY {
+    margin: 1em;
+    border: 1px black solid;
+    padding: .5em;
+}
+
+DIV.SUMMARYLIST {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+DIV.USER_MESSAGE {
+    text-align:  left;
+    margin: 1em;
+    border: 1px black solid;
+    padding: .5em;
+    width: 500;
+}
+
+.GOODSTATUS {
+    color: green;
+}
+
+.BADSTATUS {
+    color: red;
+}
+
+.GOODSTATUSMESSAGE {}
+
+.BADSTATUSMESSAGE {
+    font-style: italic;
+}
+
+.FETCHSUMMARYACCOUNTNAME {
+    font-style:  bold;
+    font-weight: bold;
+}
+
+DIV.INFORMTEXT {
+    text-align:  center;
+    font-weight: bold;
+    margin:      .5em;
+    padding:     .5em;
+}
+
+DIV.INFORMTEXTLIST {
+    text-align:  left;
+    font-weight: bold;
+    margin:      .5em;
+    padding:     .5em;
+}
+
+div.OPTIONS {
+    margin-left:1em;
+}
+
+
+SPAN.INVALIDFILTERRULETARGET {
+    color:       red;
+    font-weight: bold;
+}
+
+DIV.INSTRUCTION {
+    text-align: left;
+    margin: 1em;
+}
+
+.SUMMARYQUANTITY {
+    font-style: italic;
+    font-weight: bold;
+}
+
+DIV.REMOVEDRECIPIENTSLIST {
+    text-align:  left;
+    margin-top: .5em;
+    margin-left: 1em;
+    font-style:  italic;
+}
+
+.MENUITEMS {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size: 12px; 
+	font-weight: bold; 
+	color: FFFFFF; 
+	text-decoration: none
+}
+

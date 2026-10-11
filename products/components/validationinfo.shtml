@@ -1,0 +1,364 @@
+<html>
+
+<head>
+<!--#include virtual="/ssi/menuNet.html"-->
+<title>NotWired Components</title>
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small> 
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><font face="Arial"><strong><small>NotWired Components save time 
+              and money for your project.</small></strong></font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworks.shtml" target=_self>Basic</a></b><br>
+              Dynamic Validation Framework<br>
+              NameValue Tag <br>
+              Country Tag<br>
+              State Tag<br>
+              Zip Tag<br>
+              Address Tag<br>
+              Date Selector Tag<br>
+              Masked Entry Tag<br>
+              Map Tag<br>
+              Menu Invoke Tag<br>
+              Email Tag <br>
+              </font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworksadv.shtml" target=_self>Advanced</a></b><br>
+              Breadcrumbs Tag<br>
+              Wizard Tag</font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+              Calendar Tag<br>
+              Activities Tag<br>
+              Announcement Tag</font></p>
+            <p>&nbsp;</p>
+            </td></tr>
+      </table>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="327"><font face="Arial" color="#6666cc"><strong>NotWired 
+            Dynamic Validation Framework</strong></font></td>
+          <td width="95"> 
+            <p align="right"><font face="Arial"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              </small></font> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="index.shtml"
+        target="_self"><font face="Arial" color="#6666cc"><strong>Overview</strong></font></a></td>
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt="closedsq.gif (57 bytes)"><font
+        face="Arial" color="#6666cc"><strong>Features</strong></font></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong><font face="Arial" color="#6666cc">Pricing</font></strong></a></td>
+        </tr>
+      </table>
+      <p><font face="Arial">NotWired's Dynamic Validation Framework allows static 
+        and dynamic rules to be built into JSP and web pages. The rules are integrated 
+        with <a href="http://jakarta.apache.org/struts/">Struts</a> validation.xml 
+        files to allow external declarative UI rules. Additionally, rules may 
+        be dynamically added in your controller model through a RulesBrean. Dynamic 
+        rules allow you to enable/disable static rules or add/remove rules based 
+        on the state of data to be displayed on the view (i.e. JSP or dynamic 
+        template). This framework is more than just validation, it controls enable 
+        and disablement and rules on the page based on declarative and dynamic 
+        settings.<br>
+        <br>
+        Click <a href="validationdemo.shtml" target=_self>here</a> to see a sample 
+        validation feedback.</font></p>
+      <p><font face="Arial"><strong><a href="howitworks.shtml" target=_self>Basic 
+        Features</a> | <a href="howitworksadv.shtml" target=_self>Advanced Features</a></strong></font></p>
+      <table border="0" cellpadding="0" width="100%" valign="top">
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong><a href="http://jakarta.apache.org/commons/validator/">Jakarta 
+            Commons</a> Integration. </strong>The Apache Software Foundation has 
+            a excellent XML definition for verifying user input. NotWired extends 
+            and integrates QForms, an excellent Javascript validation library, 
+            with JSP and Java libraries to provide a very powerful declarative 
+            validation using the standard validation.xml definition. Furthermore, 
+            additional rules may be declared within the validation.xml file to 
+            control dynamic validations and components on a page.<br>
+            <br>
+            Click <a href="validation.xml">here</a> for a sample XML definition.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top">&nbsp;</td>
+          <td valign="top"><font face="Arial, Helvetica, sans-serif"><b><u><br>
+            Conditional Rules</u></b></font></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>DisableOnConditionRule. 
+            </strong>Disables a set of fields based on a condition. This rule 
+            is used on the initial load of a page when no events have occurred 
+            to trigger the <i><a href="#edConditionRule">EnableDisableOnConditionRule</a>. 
+            </i>Both rules are used in conjunction. See also DisableRule.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong><a name="edConditionRule"></a>EnableDisableOnConditionRule. 
+            </strong></font><font face="Arial">Enables or disables a set of fields 
+            based on a condition. Disabled fields automatically disable associated 
+            validation and rules. Fields are identified by name that corresponds 
+            to the form.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong><a name="edConditionRule"></a>EnableDisableArrayOnConditionRule. 
+            </strong></font><font face="Arial">Same as above except this rule 
+            acts on fields that are represented as an array. For example, three 
+            radio buttons all with the same field name are identified in Javascript 
+            as field[0], field[1] and field[2]. The rule controls array fields. 
+            </font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"> 
+            <p><font face="Arial"><strong>MultipleConditionExpressionRule. </strong>Evaluates 
+              multiple conditions and executes true or false logic based on a 
+              condition. For example, two conditions are available. They are <font face="Courier New, Courier, mono">age 
+              &gt; 25</font> and <font face="Courier New, Courier, mono">gender 
+              is male. <font face="Arial, Helvetica, sans-serif">A new rule would 
+              be defined as such:</font></font></font></p>
+            <p><font face="Courier New, Courier, mono">if(age &gt; 25 &amp;&amp; 
+              gender is male) {<br>
+              &nbsp;&nbsp;&nbsp;enable a set of screen components;<br>
+              } else {<br>
+              &nbsp;&nbsp;&nbsp;// basic scripting</font><font face="Courier New, Courier, mono"><br>
+              &nbsp;&nbsp;&nbsp;disable a set of screen components;<br>
+              &nbsp;&nbsp;&nbsp;forward to another JSP;<br>
+              } </font></p>
+            <font face="Arial"><font face="Courier New, Courier, mono"><font face="Arial, Helvetica, sans-serif">Developers 
+            may setup two conditions and add the rule decoratively in the validation.xml 
+            or dynamically in the controller.</font></font></font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>EnableRuleOnConditionRule. 
+            </strong>Enables a rule based on a condition being met. Set this rule 
+            on a field that should trigger other rules based on a changing field 
+            state. </font> 
+            <hr>
+            <small><font face="Arial"> </font></small></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top">&nbsp;</td>
+          <td valign="top"><font face="Arial, Helvetica, sans-serif"><b><u><br>
+            Data Entry Validation Rules</u></b></font></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>ABANumberValidationRule. 
+            </strong></font><font face="Arial">Validates the number entered is 
+            a valid ABA. This rule is used in conjunction with a <a href="howitworks.shtml#maskedEntry">MaskedEntryTag</a> 
+            to verify nine (9) digits are entered and the pattern is valid</font><font face="Arial">.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>DateValidationRule. </strong>Validate 
+            the date entered is a valid date. Generally, applying a <a href="howitworks.shtml#maskedEntry">MaskedEntryTag</a> 
+            to a field will make this validation rule redundant.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>EmailAddressValidationRule. 
+            </strong>Validates if a field entry is a valid email address.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>EmailAddressListValidationRule 
+            </strong>Validates email address is a comma delimited list.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>DependencyValidationRule. 
+            </strong>Makes a field required and dependent on the entry of data 
+            into another field. For example, a user enters the first line of an 
+            address. Using the DependencyValidationRule allows a developer to 
+            require city, state and zip fields when some value is entered in the 
+            address field.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>MinLengthValidationRule. 
+            </strong>Sets a minimum data entry length on a field. </font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>TypeValidationRule. </strong>Enforces 
+            type checking on a data entry field. For example, numeric, alpha, 
+            alphanumeric, decimal, etc</font><small><font face="Arial">.</font></small> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>ExpressionValidationRule. 
+            </strong>Evaluates a general Javascript expression against a field 
+            value. If the expression fails, the validation fails.</font> 
+            <hr>
+            <small><font face="Arial"> </font></small></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>RegExpValidationRule. </strong>Evaluates 
+            a regular expression against a field. If the regular expression fails, 
+            the validation fails.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>GreaterThanOrEqualToValidationRule. 
+            </strong>Checks to see if a field is greater than or equal in value 
+            to some limit.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>LessThanOrEqualToValidationRule. 
+            </strong>Checks to see if a field is less than or equal to some limit.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>FixedSizeValidationRule. 
+            </strong>Checks to see if a field is a set fixed size.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>RangeValidationRule. </strong>Checks 
+            to make sure field is in a range.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>SameValueValidationRule. 
+            </strong>Checks to make sure one field value is a the same value as 
+            another field value.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>URLValidationRule. </strong>Checks 
+            to make sure a field is a valid URL.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>SelectionToFieldBindingValidationRule. 
+            </strong>Enforces a validation of a target field based on the selected 
+            value in a selection list. </font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top">&nbsp;</td>
+          <td valign="top"><font face="Arial, Helvetica, sans-serif"><b><br>
+            <u>Field Control Rules</u></b></font></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>DisableRule. </strong>Disables 
+            a field on the page when page is loaded. This rule is generally applied 
+            dynamically based on the state of data when entering a page.</font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>FieldDescriptionRule. </strong>Sets 
+            the description information on the field. Utilizing this action will 
+            override settings from the validation.xml &lt;msg/&gt; tag. </font> 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top">&nbsp;</td>
+          <td valign="top"><br>
+            <u><font face="Arial, Helvetica, sans-serif"><b>Supporting Structures</b></font></u></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><font face="Arial"><strong>FieldCondition. </strong>A 
+            condition will generate javascirpt that will be evaluated by other 
+            rules during screen rendering and validation.</font></td>
+        </tr>
+      </table>
+      <blockquote>
+        <p>&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,199 @@
+<title>Support @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+
+<script LANGUAGE="JavaScript">
+
+<!-- 
+
+function trim(argvalue) {
+  var tmpstr = ltrim(argvalue);
+  return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+      break;
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+  }
+  return argvalue;
+}
+
+function ltrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(0, 1) != " ")
+      break;
+    argvalue = argvalue.substring(1, argvalue.length);
+  }
+  return argvalue;
+}
+
+function validate()
+
+{
+
+    var errorMessage = "Following fields are required:\n";
+    var errorFlag = "";
+
+    if(document.feedback.subject.selectedIndex == 0 && document.feedback.other.value == ""){
+        errorMessage += " * Comment subject\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.first_name .value == ""){
+        errorMessage += " * First name\n";
+        errorFlag = "true";
+    }
+
+    if(document.feedback.last_name.value == ""){
+        errorMessage += " * Last name\n";
+        errorFlag = "true";
+    }
+
+    if(document.feedback.company.value == ""){
+        errorMessage += " * Company\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value == ""){
+        errorMessage += " * E-mail Address\n";
+        errorFlag = "true";
+    }
+    if(document.feedback.comment.value == ""){
+        errorMessage += " * Comment\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value.indexOf("@") == -1 && trim(document.feedback.email.value) != ""){
+        errorMessage += " * Invalid email address\n";
+        errorFlag = "true";
+    }
+    
+    if (errorFlag == "true")
+    {
+        alert(errorMessage);
+        return;
+    }else{
+        document.feedback.submit();
+    }
+}
+
+//-->
+
+</script>
+
+<title>Tell us what you think about our web site</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+        <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></p>
+      <blockquote>
+        <p><font face="Arial, Helvetica, sans-serif"><a href="faq.shtml"> <font size="-1">Frequent 
+          Questions</font></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="feedback.shtml">Feedback</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="knownBugs.shtml">Known 
+          Issues</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="issueTrack.shtml">Issue 
+          Tracking</a></font></p>
+      </blockquote>
+    </td>
+    <td width="422" valign="top">
+      <p><br>
+        <font face="Arial" color="#6666cc"><strong>Feedback Form</strong></font> 
+      </p>
+      <p>Tell us what you think about our web site, our products, our organization, 
+        or anything else that comes to mind. We welcome all of your comments and 
+        suggestions.</p>
+    <form name="feedback" action="/cgi-bin/feedback/feedback.cgi" method="POST">
+      <input type="hidden" name="MAP"
+      value="20:FIELD17|23:FIELD16|22:FIELD15|21:FIELD14|64:FIELD13|9:FIELD12|8:FIELD11|7:FIELD10|6:FIELD9|4:FIELD8|3:FIELD7|12:FIELD6|11:FIELD5|1:company|1:phone|1:fax|1:email||66:FIELD3|2:last_name|2:first_name|"><input
+      type="hidden" name="NOTES" value="NOTE1:Project"><input type="hidden" name="FIELDNUM"
+      value="7"><input type="hidden" name="OUTPUT" value="../../../registrations/feedback.txt"><input
+      type="hidden" name="TYPE" value="services"><input type="hidden" name="op" value="MOCK">
+        <p><strong>What do you want to comment on?</strong> 
+        <dl>
+          <p>&nbsp;&nbsp;
+            <select name="subject" size="1">
+              <option>-- Choose --</option>
+              <option value="Web Site">Web Site</option>
+              <option value="Company">Company</option>
+              <option value="Employee">Employee</option>
+              <option value="Other">Other</option>
+            </select>
+            &nbsp;&nbsp;Other:&nbsp; 
+            <input type="text" size="20" maxlength="256"
+        name="other">
+          </p>
+      </dl>
+        <p><strong>Enter your comments in the space provided below:</strong></p>
+      <p>
+          <textarea name="comment" rows="5" cols="45"></textarea>
+        </p>
+        <p><strong>Tell us how to get in touch with you:</strong> 
+        <dl>
+        <table border="0" width="100%">
+          <tr>
+              <td width="50%">First Name:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="first_name">
+              </td>
+          </tr>
+          <tr>
+              <td width="50%">Last Name:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="last_name">
+              </td>
+          </tr>
+          <tr>
+              <td width="50%">Company:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="company">
+              </td>
+          </tr>
+          <tr>
+              <td width="50%">E-mail:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="email">
+              </td>
+          </tr>
+          <tr>
+              <td width="50%">Tel:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="phone">
+              </td>
+          </tr>
+          <tr>
+              <td width="50%">Fax:</td>
+              <td width="50%"> 
+                <input type="text" size="35" maxlength="256"
+            name="fax">
+              </td>
+          </tr>
+        </table>
+      </dl>
+      <dl>
+        <dd>
+            <input type="checkbox" name="contact" value="ContactRequested">
+            Please contact me as soon as possible regarding this matter. </dd>
+      </dl>
+      <p>
+          <input type="button" value="Submit Comments" onclick="validate()"
+      name="Submit Comments">
+          <input type="reset" value="Clear Form" name="Clear Form">
+        </p>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>NotWired Groupware Framework Overview</title>
+<meta NAME="description" CONTENT="NotWired Groupware Framework is a complete J2EE compliant framework to build groupware and sales automation solutions.">
+<meta NAME="keywords" CONTENT="J2EE framework, groupware, sales automation framework, sales automation, groupware framework">
+
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small><br>
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><strong>NotWired is the most advanced Internet groupware framework 
+              in the market. One solution can address internal and external calendaring, 
+              scheduling, contact management and SFA requirements.</strong></p>
+            <p>&nbsp;</p>
+            <p>Supporting Information</p>
+            <blockquote> 
+              <p><font face="Arial"><a href="NotWiredGroupwareDataSheet.pdf">Data 
+                Sheet</a> </font><font size="-1">(PDF)</font></p>
+              </blockquote>
+            <p align="center">&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+      <p>&nbsp; </p>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Internet 
+            Groupware Frameworks </strong></font></td>
+          <td width="142">
+            <p align="left"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              </small> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7"><font face="Arial" color="#6666cc"><strong>Overview</strong></font></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7"><a href="howitworks.shtml" target="_self"><font
+        face="Arial" color="#6666cc"><strong>How it works</strong></font></a></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong>Getting Started</strong></a></td>
+        </tr>
+      </table>
+      <p>NotWired has created a full-featured groupware framework that includes 
+        advanced messaging, scheduling, contact management and SFA. The frameworks 
+        include all JSP pages, EJBs, model code and services to support the applications.</p>
+      <p><strong>Key Benefits</strong></p>
+      <table border="0" cellpadding="0" width="100%">
+        <tr> 
+          <td width="10" valign="top"> <img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td><strong>Faster development. </strong>Deliver group solutions to 
+            your user base quickly. NotWired has the infrastructure for security, 
+            calendars, member management, task management, workflow support and 
+            a flexible contact database on which to build a powerful and flexible 
+            system.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"> </td>
+          <td><strong>Easy Internet deployment. </strong>NotWired is designed 
+            to be a multi-user, Internet deployed solution. It is integrated with 
+            application security which enables you to administer user access from 
+            centralized user administration systems.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Easy customization. </strong>All applications in NotWired's 
+            groupware platform may be customized. Simple look and feel changes 
+            may be modified with an HTML editor. Complex workflow designs are 
+            created by combining modules and granular operations. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Support external users. </strong>All applications are designed 
+            to support workflow via e-mail. Anyone with email may become a user 
+            of the system or participate in designed workflows. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Integrated modules. </strong>NotWired's groupware platform 
+            integrates scheduling, calendars, notifications, inbox processing, 
+            contact management and email. All are completely integrated. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Integrated messaging. </strong>NotWired supports all multiple 
+            network standards and devices for you.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Device and browser independent. </strong>We have built the 
+            infrastructure to support HTML, WAP, Palm and PocketPC devices. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Adapt to any database. </strong>Using NotWired's datastore 
+            design pattern your may adapt the storage to one or many independent 
+            databases. All applications will all function correctly and independently 
+            of the database.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Source code. </strong>Source code is the most powerful framework 
+            a developer can user. NotWired is 100% Java source.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Multi-user system design. </strong>NotWired is designed 
+            to be a multi-user system. We have taken great care to make sure the 
+            system maintains data integrity for all shared data.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Easy to administer. </strong>All applications have application 
+            security integrated using standard J2EE security realms. Definitions 
+            exist to integrate a directory service or other access control database 
+            to NotWired applications.</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

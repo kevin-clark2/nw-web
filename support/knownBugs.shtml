@@ -1,0 +1,164 @@
+<html>
+
+<head>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+<title>NotWired Known Issues</title>
+</head>
+
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">      <p><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+        <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></p>
+      <blockquote>
+        <p><font face="Arial, Helvetica, sans-serif"><a href="faq.shtml"> <font size="-1">Frequent 
+          Questions</font></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="feedback.shtml">Feedback</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="knownBugs.shtml">Known 
+          Issues</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="issueTrack.shtml">Issue 
+          Tracking</a></font></p>
+      </blockquote>
+    </td>
+        <td width="422" valign="top">
+      <p><a name="top"></a><font face="Arial" color="#6666cc"><strong><br>
+        Known Issues</strong></font> </p>
+      <p><b><font size="3" face="Arial, Helvetica, sans-serif">Problem with older 
+        Internet Explorer versions</font></b></p>
+            
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">Some older versions 
+        of Internet Explorer may cause problems with NotWired when applications 
+        pop up a new window. Also, there are some Java Script problems. Please 
+        download the latest version of Internet Explorer from <a href="http://www.microsoft.com">http://www.microsoft.com</a> 
+        to fix this problem</font><br>
+                <br>
+                <a href="#top" target="_self"></a><a href="#top" target="_self"></a><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a></font>
+            </p>
+            <p><font face="Arial, Helvetica, sans-serif"><b>Problem with printing
+                background on Internet Explorer </b></font></p>
+            
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">When you print your 
+        calendar from NotWired, some Internet Explorer browsers may not print 
+        the background colors that appear on the screen. To fix this problem,<br>
+        </font></p>
+      <ul>
+        <li> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;&nbsp;Select 
+          Tools-&gt; Internet Options from the menu. </font></li>
+        <li> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;&nbsp;Go 
+          to the Advanced tab </font></li>
+        <li> <font face="Arial, Helvetica, sans-serif" size="-1">&nbsp;&nbsp;&nbsp;Make 
+          sure that the option 'Print background colors and images' is checked</font></li>
+            </ul>
+
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a></font><br>
+        <br>
+        <b><font face="Arial, Helvetica, sans-serif"><b>Problem with Netscape 
+        resizing </b></font><br>
+        <br>
+        </b><font face="Arial, Helvetica, sans-serif" size="-1">When Netscape 
+        resizes a window whose content is not cached, it resends a page requst 
+        to the server. Internet Explorer does not do this. The ramifications of 
+        this problem are:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">The page that 
+          gets loaded will be the default page of the last module accessed from 
+          the navigation bar. This will interrupt any workflows that you were 
+          in.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Any form data 
+          that was being filled in at the time of the resize is lost.</font></li>
+            </ul>
+
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a></font><br>
+        <br>
+        <b><font face="Arial, Helvetica, sans-serif"><b>Problem with javascript on Netscape Navigator
+        browsers</b></font><br>
+        <font face="Arial, Helvetica, sans-serif" size="-1"><br>
+        </font></b><font face="Arial, Helvetica, sans-serif" size="-1">Older versions 
+        of Netscape have some javascript bugs and will not work with NotWired. 
+        Please download the latest version of Netscape Communicator 4.7 from <a href="http://www.netscape.com">http://www.netscape.com</a> 
+        to use NotWired.</font></p>
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a><br>
+        </font></p>
+
+            
+      <p><b><font face="Arial, Helvetica, sans-serif">Problem with using an older 
+        version of Internet Explorer on the Mac</font><br>
+        <br>
+        </b><font size="-1" face="Arial, Helvetica, sans-serif">Older versions 
+        of Internet Explorer on the Mac have some bugs and will not work with 
+        NotWired. Please download the latest version of Internet Explorer 5.0 
+        from <a href="http://www.microsoft.com/mac">http://www.microsoft.com/mac 
+        </a> to use NotWired. </font></p>
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a></font></p>
+            <p><font face="Arial"> </font><font face="Arial, Helvetica, sans-serif"><b>Problem
+                with changing page numbers on the Mac version of Internet Explorer</b></font></p>
+            
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">When changing page 
+        numbers on the Mac version of Internet Explorer, there may be problems 
+        when hitting the return key after changing the page number in the text 
+        field. Please use the left and right arrow icons instead, to move between 
+        pages.</font></p>
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a>
+        </font></p>
+
+            <p><font face="Arial"> </font><font face="Arial, Helvetica, sans-serif"><b>Problem
+                with using the ENTER key in forms on the Mac version of Internet Explorer</b></font></p>
+            
+      <p> <font size="-1" face="Arial, Helvetica, sans-serif">There is a problem 
+        with Internet Explorer on the Mac when the <b>ENTER</b> key is pressed 
+        while in a textfield in a form, the form gets submitted erroneously. Please 
+        use the submit buttons on the page to submit the form. </font> 
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a>
+        </font></p>
+        
+       
+       <p><font face="Arial"> </font><font face="Arial, Helvetica, sans-serif"><b>Problem
+                with the 'Chooser Popup Window' hanging in Internet Explorer</b></font></p>
+            
+      <p> <font size="-1" face="Arial, Helvetica, sans-serif">There is a problem 
+        with the 'Chooser Popup Window' hanging in Internet Explorer. This problem arises when trying to 
+        select a large number of contacts from the chooser (approximately 300 contacts) and then trying to
+        navigate within the chooser, i.e. switching to another letter in the index bar. 
+        This is a bug in Internet Explorer regarding memory usage in JavaScript.
+        The workaround for this bug is to use Netscape instead of Internet Explorer, or by selecting
+        smaller number of contacts at a time. </font> 
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a>
+        </font></p>
+       
+       <p><font face="Arial"> </font><font face="Arial, Helvetica, sans-serif"><b>Problem
+                with the top tab pane being cut off</b></font></p>
+            
+      <p> <font size="-1" face="Arial, Helvetica, sans-serif">
+          NotWired requires a minimum window width of 800 pixels.  Please resize your window accordingly.
+          </font> 
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a> 
+        </font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Problem with https downloads 
+        in Internet Explorer</b></font></p>
+      <p> <font size="-1" face="Arial, Helvetica, sans-serif"> There is a problem 
+        with Internet Explorer on MS Windows when downloading file using https. 
+        This is a known bug in Internet Explorer versions 5.5 and higher.</font> 
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a> 
+        </font></p>
+
+      <p><font face="Arial, Helvetica, sans-serif"><b>Problem with downloads crashing
+        in Internet Explorer</b></font></p>
+      <p> <font size="-1" face="Arial, Helvetica, sans-serif"> There is a problem 
+        with Internet Explorer version <b>IE 5.50.4807.2300 Update Versions: SP2; Q313675</b> and possibly other
+        5.5 versions as well, on MS Windows, when attempting to download the same file again and again.  An example
+        would be to download an email attachment by clicking on the download link, saving the file, and then repeating
+        the same process a few more times, until the browser crashes.  This problem does not occur in versions 5.0
+        and 6.0.
+        </font> 
+      <p><font face="Arial"><a href="#top" target="_self"><small><small>Top</small></small></a> 
+        </font></p>
+
+                <br><br>
+        </td>
+  </tr>
+
+</table>
+</html>

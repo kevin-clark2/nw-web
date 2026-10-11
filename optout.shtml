@@ -1,0 +1,94 @@
+<HTML>
+<HEAD>
+<TITLE>Optout</TITLE>
+<script language="JavaScript">
+function validateEmail()
+{
+	address = document.optoutForm.uid.value;
+	if(address!=null && address!='')
+	{
+	    if ((address.length > 0) && !isValidEmailAddress(address))
+        {
+            alert("Invalid email address: '" + address + "'");
+            return false;
+        }
+	}
+    else
+	{
+	alert('Please enter an email id ');
+	return false;
+	}
+	document.optoutForm.submit();
+}
+// used to validate email addresses
+// this is extracted from main.js, since currently, the function in main.js
+// works specifically with text fields, and with invitee status flags.
+
+var maxEmailAddressLength = 75;
+var emailPattern = /([^\s\\\(\)\[\]<>;,:"@]+@[^\s\\\(\)\[\]<>;,:"]+)[:;,\s]*/;
+var groupPattern = /.+-.+/;
+
+function isValidEmailAddress(address)
+{
+    var match = address.match(emailPattern);
+
+    if (match != null)
+    {
+        return (match.length <= maxEmailAddressLength);
+    } else
+    {
+        match = address.match(groupPattern);
+
+        if (match != null)
+        {
+            return (match.length <= maxEmailAddressLength);
+        }
+
+        return false;
+    }
+}
+</script>
+</head>
+<form method="POST" action="/notwired/main" name="optoutForm"
+align="center">
+<INPUT type=hidden value="MarketingModule.OptoutOperation" name=op>
+<TABLE cellSpacing=0 cellPadding=3 width=600 border=0>
+  <TBODY>
+  <TR>
+       <td width="200" valign="top" cellpadding="10"><a href="main"
+      target="_top"><img src="../images/NotWired.gif" width="174" height="52"
+      alt="NotWired.gif (2387 bytes)" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small></td>
+    <TD width=400>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+          <TD><SMALL><FONT face=Arial><BR>
+              </FONT></SMALL> 
+              <P><SMALL><FONT face=Arial><STRONG><FONT color=#6666cc>Want to Opt-Out 
+                from out emalings?</FONT></STRONG><BR>
+                Please enter your email address. <BR>
+                </FONT></SMALL></P>
+            <TABLE cellSpacing=3 cellPadding=0 width="100%" border=0>
+              <TBODY>
+              <TR>
+                <TD class=LABEL><SMALL><FONT face=Arial>Your 
+                  E-mail:</FONT></SMALL></TD>
+                <TD><SMALL><FONT face=Arial>
+				<INPUT size=30 name=uid> 
+                  </FONT></SMALL></TD></TR>
+              <TR>
+                <TD class=LABEL></TD>
+                <TD><FONT face=Arial>
+                    <INPUT type=button value=Optout name=optout onclick="javascript:validateEmail()">
+                   </FONT></TD>
+                </TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+      <TABLE cellSpacing=0 cellPadding=0 width="100%" border=0>
+        <TBODY>
+        <TR>
+            <TD> 
+              <P><SMALL><FONT face=Arial><STRONG><FONT color=#6666cc>Other 
+            Problems or Questions?</FONT></STRONG><BR>If you are still having 
+            problems accessing your account and you are a subscriber, please 
+            contact  <a href="/support/index.shtml" target="_top">NotWired support</A>. 
+      </FONT></SMALL></P></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM><!--NULL--></BODY></HTML>

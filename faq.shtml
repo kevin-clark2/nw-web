@@ -1,0 +1,5 @@
+<html><head>
+<script language="javascript">
+  parent.location.replace('../support/faq.shtml');
+</script>
+</html>

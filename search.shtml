@@ -1,0 +1,130 @@
+<html>
+<head>
+
+<style type="text/css">
+body {
+  background-color: white;
+}
+.txtBoxSmall {
+  font-family: Arial, Helvetica, sans-serif;
+  FONT-SIZE: 11px;
+}
+A.href {
+  color:                  #6666cc;
+  text-decoration:        underline;
+}
+div.box {
+  margin:2em;
+}
+div.logo {
+  text-align:center;
+}
+div.search {
+  text-align:center;
+}
+span.slogan {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:xx-small;
+}
+</style>
+<script type="text/javascript">
+function openTour(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+
+<title>Notwired Search</title>
+<!--#include virtual="ssi/homeMenuNet.html"-->
+
+<div class="box">
+
+<div class="logo">
+<img src="images/NotWired.gif" width="174" height="52" alt="NotWired.gif (1754 bytes)"><br>
+<span class="slogan">Empowering the mobile lifestyle!&#153;</span>
+</div>
+
+<div class="search">
+<form name="searchform" method="GET" action="http://www.atomz.com/search"><small><font
+    face="Arial">
+Search: </font></small><input size="50" name="sp-q" maxlength="800" class="txtBoxSmall">
+<input type="hidden" name="sp-a" value="000412b8-sp00000001">
+<input type="image" src="images/search_16.gif" width="16" height="16" alt="Search" name="Search" border="0">
+</form>
+    <p>Enter search words or navigate to a specific location via the Site Map 
+      below</p>
+</div>
+
+  <p><b>Site Map</b></p>
+  <ul>
+    <li><a href="index.shtml">Home</a> 
+      <ul>
+        <a href="javascript:openTour('products/tour/index.html',625,525);">Tour</a> 
+        &middot; <a href="/notwired/main?op=SignupModule.SignupPageOp">Signup</a> &middot; 
+        <a href="company/contactsmid.shtml">Contacts</a> &middot; <a href="index.shtml">Login</a> 
+      </ul>
+    <li><a href="company/index.shtml">About Us</a> 
+      <ul>
+        <a href="company/history.shtml">Overview</a> &middot; <a href="company/events.shtml">Events</a> 
+        &middot; <a href="company/careers.shtml">Careers</a> &middot; <a href="company/contactsmid.shtml">Contacts</a> 
+        &middot; <a href="company/investors.shtml">Investors</a> &middot; <a href="company/bios.shtml">Management</a> 
+        &middot; <a href="company/partnersmid.shtml">Partners</a> &middot; <a href="company/factsheet.shtml">Fact 
+        Sheet</a> &middot; <a href="company/affiliations.shtml">Affiliations</a> 
+      </ul>
+    <li><a href="products/index.shtml">Products</a> 
+      <ul>
+        <a href="products/index.shtml">Overview</a> &middot; <a href="products/enterprise/index.shtml">Portal 
+        Application Frameworks</a> &middot; <a href="products/groupware/index.shtml"> 
+        Groupware and Sales Automation Frameworks</a> &middot; <a href="products/components/index.shtml"> 
+        JSP and Web Components</a> &middot; <a href="products/services/notwired.shtml">Mobile 
+        Business Service</a> &middot; <a href="products/palm/index.shtml">NotWired 
+        Palm Coordinator</a>
+      </ul>
+
+    <li><a href="services/overview.shtml">Consulting</a> 
+      <ul>
+        <a href="services/overview.shtml">Overview</a> &middot; <a href="services/enterprise.shtml">Service 
+        Offering Details</a> 
+      </ul>
+    <li><a href="company/careers.shtml">Careers</a> 
+      <ul>
+        <a href="company/careers.shtml">Overview</a> &middot; <a href="company/careers/positions.shtml">Positions</a> 
+        &middot; <a href="company/locations.shtml">Locations</a> &middot; <a href="company/culture.shtml">Culture</a> 
+        &middot; <a href="company/benefits.shtml">Benefits</a> &middot; <a href="company/projects.shtml">Projects</a> 
+      </ul>
+    <li><a href="company/press/index.shtml">Press</a> 
+      <ul>
+        <a href="company/press/index.shtml">Overview</a> &middot; <a href="company/press/presskit.zip">Download 
+        Press Kit</a> &middot; <a href="company/press/brochures.zip">Download 
+        Brochures</a> &middot; <a href="company/history.shtml">Company Overview</a> 
+        &middot; <a href="company/bios.shtml">Management</a> &middot; <a href="company/events.shtml">Upcoming 
+        Events</a> &middot; <a href="company/press/pressreleases.shtml">Press 
+        Releases and News</a> 
+      </ul>
+    <li><a href="support/index.shtml">Support</a> 
+      <ul>
+        <a href="support/index.shtml">Overview</a> &middot; <a href="support/faq.shtml">Frequent 
+        Questions</a> &middot; <a href="help/help.html">NotWired Help Manual</a> 
+        &middot; <a href="support/feedback.shtml">Feedback</a> &middot; <a href="support/issueTrack.shtml">Issue 
+        Tracking</a> 
+      </ul>
+    <li><a href="search.shtml">Search</a> 
+  </ul>
+</div>
+</body>
+</html>
+

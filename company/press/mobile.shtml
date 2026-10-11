@@ -1,0 +1,73 @@
+<title>Mobile Stats</title>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img alt="Press wire" height="200" src="../../images/companypeople.jpg" width="200"><small><font
+    face="Arial">&nbsp;</font></small></td>
+    <td width="422" valign="top">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td width="278" height="16"><font face="Arial" color="#6666cc"><strong>Mobile 
+            Stats</strong></font></td>
+          <td width="142" height="16">
+            <p align="left"><a href="../contactsmid.shtml" target="_self"><small><font
+        face="Arial"><small>Contact Us</small></font></small></a>
+          </td>
+      </tr>
+    </table>
+    <p>
+      More people will utilize the Internet through wireless devices than wired 
+      access in two years. The primary applications will be email, messaging, 
+      scheduling, phonebooks, exchange of information and personalized content. 
+      NotWired empowers the mobile generation. Here is what others project about 
+      the impact of mobile computing... 
+      <ul>
+        <li>Worldwide wireless subscribers will grow from slightly over 400 million 
+          subscribers in 1999 to 1 billion in 2002. <em>IDC, Feb. 2000.</em></li>
+      </ul>
+      <ul>
+        <li>There will be 21.3 million mobile data users in the U.S. by the end 
+          of 2001. <em>Yankee Group, Dec. 1999.</em></li>
+      </ul>
+      <ul>
+        <li>2002 revenues for wireless Internet applications alone could reach 
+          $37.5 billion. <em>Killen &amp; Associates.</em></li>
+      </ul>
+      <ul>
+        <li>By 2000, 75% of business users will require remote or mobile capabilities.<em> 
+          MetaGroup, 1999.</em></li>
+      </ul>
+      <ul>
+        <li>According to <em>ARC Group</em>, the top applications will be messaging, 
+          checking personal information, collaboration, content, chat and email. 
+          NotWired directly services this marketplace today.</li>
+      </ul>
+      <ul>
+        <li>The opportunity for wireless data communication in the United States 
+          is huge, with 25.3 million of the 112.1 million workforce having mobile 
+          job requirements, but growth will be slow and steady. The <em>Gartner 
+          Group</em>, The Dataquest Market Analysis Perpective, &quot;Wireless 
+          Data in the United States: Pieces of the Puzzleare Missing, but the 
+          Picture is Taking Shape&quot;.</li>
+      </ul>
+      <ul>
+        <li>There will be about 16.7 million wireless portal users in Europe's 
+          top 15 markets by the end of 2000, according to a new study released 
+          by <em>The Strategis Group</em>. It also says that 2.5G and 3G deployment 
+          in the 2002 to 2003 timeframe will mean that the number of wireless 
+          portal users in Europe should be about 184 million by 2005.</li>
+      </ul>
+      <ul>
+        <li>Currently there are 35 million wireless data subscribers in Europe 
+          according to the <em>ARC Group</em>, a UK-based telecommunications analyst 
+          firm. This figure is expected to increase to 310 million across Europe 
+          by the year 2005.</li>
+      </ul> </td>
+  </tr>
+</table>
+</body>
+</html>

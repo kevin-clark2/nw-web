@@ -1,0 +1,81 @@
+<html><head><title>Careers @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><br>
+    <img src="../images/careers.jpg" width="200" height="300" alt="Careers"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Benefits</strong></font> 
+      <p>NotWired offers employees competitive compensation plans, an ownership 
+        stake in the company and an outstanding benefits package. Below is a summary 
+        of the benefits:<br>
+        <br>
+        <br>
+      <blockquote> 
+        <table border="0" cellpadding="0" width="100%">
+          <tr> 
+            <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"> </td>
+            <td>Health Insurance - HMO with PPO options</td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td> 
+              <p>Dental Insurance</p>
+            </td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td><small><font face="Arial"></font></small>Long Term disability</td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td>Life Insurance plan provided</td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td>savings plans to defer compensation</td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td>Six scheduled paid holidays and five floating paid holidays</td>
+          </tr>
+          <tr> 
+            <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+            <td><small><font face="Arial"></font></small>Paid vacation</td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+      </blockquote>
+      <div align="center">
+        <center>
+          <table border="0" cellpadding="0" cellspacing="0" width="350">
+            <tr> 
+              <td width="150" align="center"><a href="careers/positions.shtml"
+        target="_self">Positions</a></td>
+              <td width="150" align="center"><a href="culture.shtml" target="_self">Culture</a></td>
+              <td width="150" align="center"><a href="benefits.shtml" target="_self">Benefits</a></td>
+              <td width="150" align="center"><a href="projects.shtml"
+        target="_self">Projects</a></td>
+              <td width="150" align="center"><a href="locations.shtml"
+        target="_self">Locations</a></td>
+            </tr>
+          </table>
+          <p>&nbsp;</p>
+        </center>
+      </div>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

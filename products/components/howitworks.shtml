@@ -1,0 +1,625 @@
+<html>
+<head>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<title>NotWired Basic Components</title>
+
+<script src="ts_picker.js">
+
+//Script by Denis Gritcyuk: tspicker@yahoo.com
+//Submitted to JavaScript Kit (http://javascriptkit.com)
+//Visit http://javascriptkit.com for this script
+//This is the base script for the calendar picker
+
+</script>
+
+
+<script>
+
+// open a window with the given name, width, height, 
+// resize capability (boolean), scroll bars (boolean)
+function openwindow(name, w, h, r, sb) {
+    var posX = (screen.width - w)/2;
+    var posY = (screen.height - h)/2;
+
+    if (!r) {
+        r = "no";
+    } else {
+        r = "yes";
+    }
+
+    if (!sb) {
+        sb = "no";
+    } else {
+        sb = "yes";
+    }
+
+    window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+
+</script>
+</head>
+
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small> 
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td valign=top> 
+            <p><font face="Arial"><strong>NotWired Components save time and money 
+              for your project.</strong></font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b>Basic</b><br>
+              Dynamic Validation Framework<br>
+              NameValue Tag <br>
+              Country Tag<br>
+              State Tag<br>
+              Zip Tag<br>
+              Address Tag<br>
+              Date Selector Tag<br>
+              Masked Entry Tag<br>
+              Map Tag<br>
+              Menu Invoke Tag<br>
+              Email Tag<br>
+              </font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworksadv.shtml" target=_self>Advanced</a></b><br>
+              Breadcrumbs Tag<br>
+              Wizard Tag</font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+              Calendar Tag<br>
+              Activities Tag<br>
+              Announcement Tag</font></p>
+            <p>&nbsp;</p>
+            <small>
+            </small></td></tr>
+      </table>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>NotWired 
+            Components&#153;</strong></font></td>
+          <td width="142">
+            <p align="right"><font face="Arial"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a></small></font> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="index.shtml"
+        target="_self"><strong>Overview</strong></a></td>
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt="closedsq.gif (57 bytes)"><strong><font face="Arial" color="#6666cc">Features</font></strong></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong>Pricing</strong></a></td>
+        </tr>
+      </table>
+      <p>NotWired's Components are deliveredin two packages - Basic and Advanced. 
+        The basic package is a good fit for general applications. The <a href="howitworksadv.shtml">advanced</a> 
+        package enables your project to employ calendaring, activities lists, 
+        task lists, wizards, and an advanced table component.</p>
+      <p><font face="Arial"><strong>Basic Features | <a href="howitworksadv.shtml" target=_self>Advanced 
+        Features</a></strong></font></p>
+      <table border="0" cellpadding="0" width="100%" valign="top">
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td> 
+            <p><strong>Dynamic Validation Framework. </strong><a href="http://www.qforms.org" target=new>QForms</a> 
+              is a powerful client-side Javascript validation library that NotWired 
+              Components utilizes. NotWired encapsulates the library so it can 
+              be controlled via JSP and server side Java. Using client-controlled 
+              validation logic limites server requests, increases performance 
+              and enhances the end-user UI experience. </p>
+            <p>Click <a href="validationinfo.shtml" target=_self>here</a> for 
+              more information.</p>
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"> 
+            <p><strong>NameValueTag.</strong> You choose a custom data provider 
+              and this component allows name/value selection for form submission. 
+              Default label, default value, size and data provider are all custom 
+              options. A ResourceBundleDataProvider and aJDBCDataProvider are 
+              included.<br>
+              <br>
+              Sample -&gt; 
+              <select name="carrier" size=1>
+                <option value="">--Select--</option>
+                <option value="alltel">ALLTEL</option>
+                <option value="ameritech">Ameritech Wireless</option>
+                <option value="attpn">AT&T Pocket Net</option>
+                <option value="att">AT&T Wireless Services</option>
+                <option value="cingular">Cingular</option>
+                <option value="gte">GTE Wireless</option>
+                <option value="nextel">Nextel</option>
+                <option value="primeco">PrimeCo PCS</option>
+                <option value="rogersatt">Rogers AT&T</option>
+                <option value="sothernlinc">Southern LINC</option>
+                <option value="sprint">Sprint PCS</option>
+                <option value="tmobile">T Mobile</option>
+                <option value="uscell">U.S. Cellular</option>
+                <option value="uswest">U.S. West PCS</option>
+                <option value="verizon">Verizon</option>
+              </select>
+            </p>
+            <hr>
+            <small><font face="Arial"> </font></small></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"> <strong>CountyTag.</strong> A resource bundle and 
+            cached datasource provider are available with this component. The 
+            sample below is driven from a JDBC data provider. The components include 
+            XMI database definitions, table dumps and properties files.<br>
+            <br>
+            Sample -&gt; 
+            <select name="wcn" size=1>
+              <option value="" selected>--Select--</option>
+              <option value="AF">Afghanistan</option>
+              <option value="AL">Albania</option>
+              <option value="DZ">Algeria</option>
+              <option value="AS">American Samoa</option>
+              <option value="AD">Andorra</option>
+              <option value="AO">Angola</option>
+              <option value="AI">Anguilla</option>
+              <option value="AQ">Antarctica</option>
+              <option value="AG">Antigua and Barbuda</option>
+              <option value="AR">Argentina</option>
+              <option value="AM">Armenia</option>
+              <option value="AW">Aruba</option>
+              <option value="AU">Australia</option>
+              <option value="AT">Austria</option>
+              <option value="AZ">Azerbaijan</option>
+              <option value="AP">Azores</option>
+              <option value="BS">Bahamas</option>
+              <option value="BH">Bahrain</option>
+              <option value="BD">Bangladesh</option>
+              <option value="BB">Barbados</option>
+              <option value="BY">Belarus</option>
+              <option value="BE">Belgium</option>
+              <option value="BZ">Belize</option>
+              <option value="BJ">Benin</option>
+              <option value="BM">Bermuda</option>
+              <option value="BT">Bhutan</option>
+              <option value="BO">Bolivia</option>
+              <option value="BA">Bosnia And Herzegowina</option>
+              <option value="XB">Bosnia-Herzegovina</option>
+              <option value="BW">Botswana</option>
+              <option value="BV">Bouvet Island</option>
+              <option value="BR">Brazil</option>
+              <option value="IO">British Indian Ocean Territory</option>
+              <option value="VG">British Virgin Islands</option>
+              <option value="BN">Brunei Darussalam</option>
+              <option value="BG">Bulgaria</option>
+              <option value="BF">Burkina Faso</option>
+              <option value="BI">Burundi</option>
+              <option value="KH">Cambodia</option>
+              <option value="CM">Cameroon</option>
+              <option value="CA">Canada</option>
+              <option value="CV">Cape Verde</option>
+              <option value="KY">Cayman Islands</option>
+              <option value="CF">Central African Republic</option>
+              <option value="TD">Chad</option>
+              <option value="CL">Chile</option>
+              <option value="CN">China</option>
+              <option value="CX">Christmas Island</option>
+              <option value="CC">Cocos (Keeling) Islands</option>
+              <option value="CO">Colombia</option>
+              <option value="KM">Comoros</option>
+              <option value="CG">Congo</option>
+              <option value="CD">Congo, The Democratic Republic O</option>
+              <option value="CK">Cook Islands</option>
+              <option value="XE">Corsica</option>
+              <option value="CR">Costa Rica</option>
+              <option value="CI">Cote d` Ivoire (Ivory Coast)</option>
+              <option value="HR">Croatia</option>
+              <option value="CU">Cuba</option>
+              <option value="CY">Cyprus</option>
+              <option value="CZ">Czech Republic</option>
+              <option value="DK">Denmark</option>
+              <option value="DJ">Djibouti</option>
+              <option value="DM">Dominica</option>
+              <option value="DO">Dominican Republic</option>
+              <option value="TP">East Timor</option>
+              <option value="EC">Ecuador</option>
+              <option value="EG">Egypt</option>
+              <option value="SV">El Salvador</option>
+              <option value="GQ">Equatorial Guinea</option>
+              <option value="ER">Eritrea</option>
+              <option value="EE">Estonia</option>
+              <option value="ET">Ethiopia</option>
+              <option value="FK">Falkland Islands (Malvinas)</option>
+              <option value="FO">Faroe Islands</option>
+              <option value="FJ">Fiji</option>
+              <option value="FI">Finland</option>
+              <option value="FR">France (Includes Monaco)</option>
+              <option value="FX">France, Metropolitan</option>
+              <option value="GF">French Guiana</option>
+              <option value="PF">French Polynesia</option>
+              <option value="TA">French Polynesia (Tahiti)</option>
+              <option value="TF">French Southern Territories</option>
+              <option value="GA">Gabon</option>
+              <option value="GM">Gambia</option>
+              <option value="GE">Georgia</option>
+              <option value="DE">Germany</option>
+              <option value="GH">Ghana</option>
+              <option value="GI">Gibraltar</option>
+              <option value="GR">Greece</option>
+              <option value="GL">Greenland</option>
+              <option value="GD">Grenada</option>
+              <option value="GP">Guadeloupe</option>
+              <option value="GU">Guam</option>
+              <option value="GT">Guatemala</option>
+              <option value="GN">Guinea</option>
+              <option value="GW">Guinea-Bissau</option>
+              <option value="GY">Guyana</option>
+              <option value="HT">Haiti</option>
+              <option value="HM">Heard And Mc Donald Islands</option>
+              <option value="VA">Holy See (Vatican City State)</option>
+              <option value="HN">Honduras</option>
+              <option value="HK">Hong Kong</option>
+              <option value="HU">Hungary</option>
+              <option value="IS">Iceland</option>
+              <option value="IN">India</option>
+              <option value="ID">Indonesia</option>
+              <option value="IR">Iran</option>
+              <option value="IQ">Iraq</option>
+              <option value="IE">Ireland</option>
+              <option value="EI">Ireland (Eire)</option>
+              <option value="IL">Israel</option>
+              <option value="IT">Italy</option>
+              <option value="JM">Jamaica</option>
+              <option value="JP">Japan</option>
+              <option value="JO">Jordan</option>
+              <option value="KZ">Kazakhstan</option>
+              <option value="KE">Kenya</option>
+              <option value="KI">Kiribati</option>
+              <option value="KP">Korea, Democratic People'S Repub</option>
+              <option value="KW">Kuwait</option>
+              <option value="KG">Kyrgyzstan</option>
+              <option value="LA">Laos</option>
+              <option value="LV">Latvia</option>
+              <option value="LB">Lebanon</option>
+              <option value="LS">Lesotho</option>
+              <option value="LR">Liberia</option>
+              <option value="LY">Libya</option>
+              <option value="LI">Liechtenstein</option>
+              <option value="LT">Lithuania</option>
+              <option value="LU">Luxembourg</option>
+              <option value="MO">Macao</option>
+              <option value="MK">Macedonia</option>
+              <option value="MG">Madagascar</option>
+              <option value="ME">Madeira Islands</option>
+              <option value="MW">Malawi</option>
+              <option value="MY">Malaysia</option>
+              <option value="MV">Maldives</option>
+              <option value="ML">Mali</option>
+              <option value="MT">Malta</option>
+              <option value="MH">Marshall Islands</option>
+              <option value="MQ">Martinique</option>
+              <option value="MR">Mauritania</option>
+              <option value="MU">Mauritius</option>
+              <option value="YT">Mayotte</option>
+              <option value="MX">Mexico</option>
+              <option value="FM">Micronesia, Federated States Of</option>
+              <option value="MD">Moldova, Republic Of</option>
+              <option value="MC">Monaco</option>
+              <option value="MN">Mongolia</option>
+              <option value="MS">Montserrat</option>
+              <option value="MA">Morocco</option>
+              <option value="MZ">Mozambique</option>
+              <option value="MM">Myanmar (Burma)</option>
+              <option value="NA">Namibia</option>
+              <option value="NR">Nauru</option>
+              <option value="NP">Nepal</option>
+              <option value="NL">Netherlands</option>
+              <option value="AN">Netherlands Antilles</option>
+              <option value="NC">New Caledonia</option>
+              <option value="NZ">New Zealand</option>
+              <option value="NI">Nicaragua</option>
+              <option value="NE">Niger</option>
+              <option value="NG">Nigeria</option>
+              <option value="NU">Niue</option>
+              <option value="NF">Norfolk Island</option>
+              <option value="MP">Northern Mariana Islands</option>
+              <option value="NO">Norway</option>
+              <option value="OM">Oman</option>
+              <option value="PK">Pakistan</option>
+              <option value="PW">Palau</option>
+              <option value="PS">Palestinian Territory, Occupied</option>
+              <option value="PA">Panama</option>
+              <option value="PG">Papua New Guinea</option>
+              <option value="PY">Paraguay</option>
+              <option value="PE">Peru</option>
+              <option value="PH">Philippines</option>
+              <option value="PN">Pitcairn</option>
+              <option value="PL">Poland</option>
+              <option value="PT">Portugal</option>
+              <option value="PR">Puerto Rico</option>
+              <option value="QA">Qatar</option>
+              <option value="RE">Reunion</option>
+              <option value="RO">Romania</option>
+              <option value="RU">Russian Federation</option>
+              <option value="RW">Rwanda</option>
+              <option value="KN">Saint Kitts And Nevis</option>
+              <option value="SM">San Marino</option>
+              <option value="ST">Sao Tome and Principe</option>
+              <option value="SA">Saudi Arabia</option>
+              <option value="SN">Senegal</option>
+              <option value="XS">Serbia-Montenegro</option>
+              <option value="SC">Seychelles</option>
+              <option value="SL">Sierra Leone</option>
+              <option value="SG">Singapore</option>
+              <option value="SK">Slovak Republic</option>
+              <option value="SI">Slovenia</option>
+              <option value="SB">Solomon Islands</option>
+              <option value="SO">Somalia</option>
+              <option value="ZA">South Africa</option>
+              <option value="GS">South Georgia And The South Sand</option>
+              <option value="KR">South Korea</option>
+              <option value="ES">Spain</option>
+              <option value="LK">Sri Lanka</option>
+              <option value="NV">St. Christopher and Nevis</option>
+              <option value="SH">St. Helena</option>
+              <option value="LC">St. Lucia</option>
+              <option value="PM">St. Pierre and Miquelon</option>
+              <option value="VC">St. Vincent and the Grenadines</option>
+              <option value="SD">Sudan</option>
+              <option value="SR">Suriname</option>
+              <option value="SJ">Svalbard And Jan Mayen Islands</option>
+              <option value="SZ">Swaziland</option>
+              <option value="SE">Sweden</option>
+              <option value="CH">Switzerland</option>
+              <option value="SY">Syrian Arab Republic</option>
+              <option value="TW">Taiwan</option>
+              <option value="TJ">Tajikistan</option>
+              <option value="TZ">Tanzania</option>
+              <option value="TH">Thailand</option>
+              <option value="TG">Togo</option>
+              <option value="TK">Tokelau</option>
+              <option value="TO">Tonga</option>
+              <option value="TT">Trinidad and Tobago</option>
+              <option value="XU">Tristan da Cunha</option>
+              <option value="TN">Tunisia</option>
+              <option value="TR">Turkey</option>
+              <option value="TM">Turkmenistan</option>
+              <option value="TC">Turks and Caicos Islands</option>
+              <option value="TV">Tuvalu</option>
+              <option value="UG">Uganda</option>
+              <option value="UA">Ukraine</option>
+              <option value="AE">United Arab Emirates</option>
+              <option value="UK">United Kingdom</option>
+              <option value="GB">Great Britain</option>
+              <option value="US">United States</option>
+              <option value="UM">United States Minor Outlying Isl</option>
+              <option value="UY">Uruguay</option>
+              <option value="UZ">Uzbekistan</option>
+              <option value="VU">Vanuatu</option>
+              <option value="XV">Vatican City</option>
+              <option value="VE">Venezuela</option>
+              <option value="VN">Vietnam</option>
+              <option value="VI">Virgin Islands (U.S.)</option>
+              <option value="WF">Wallis and Furuna Islands</option>
+              <option value="EH">Western Sahara</option>
+              <option value="WS">Western Samoa</option>
+              <option value="YE">Yemen</option>
+              <option value="YU">Yugoslavia</option>
+              <option value="ZR">Zaire</option>
+              <option value="ZM">Zambia</option>
+              <option value="ZW">Zimbabwe</option>
+            </select>
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"> <strong>StateTag. </strong>A subclass of the NameValueTag. 
+            A resource bundle and cached datasource provider are available with 
+            this component. State tags have an option to work in conjunction with 
+            the CountryTag. For example, you may choose Canada and the StateTag 
+            will change options to present Canadian provinces.<br>
+            <br>
+            Sample -&gt; 
+            <select name="state">
+              <option VALUE="">--Select--</option>
+              <option VALUE="AL"> Alabama</option>
+              <option VALUE="AK"> Alaska</option>
+              <option VALUE="AS"> American Samoa</option>
+              <option VALUE="AZ"> Arizona</option>
+              <option VALUE="AR"> Arkansas</option>
+              <option VALUE="CA"> California</option>
+              <option VALUE="CO"> Colorado</option>
+              <option VALUE="CT"> Connecticut</option>
+              <option VALUE="DE"> Delaware</option>
+              <option VALUE="DC"> District of Columbia</option>
+              <option VALUE="FM"> Federal States of Micronesia</option>
+              <option VALUE="FL"> Florida</option>
+              <option VALUE="GA"> Georgia</option>
+              <option VALUE="GU"> Guam</option>
+              <option VALUE="HI"> Hawaii</option>
+              <option VALUE="ID"> Idaho</option>
+              <option VALUE="IL"> Illinois</option>
+              <option VALUE="IN"> Indiana</option>
+              <option VALUE="IA"> Iowa</option>
+              <option VALUE="KS"> Kansas</option>
+              <option VALUE="KY"> Kentucky</option>
+              <option VALUE="LA"> Louisiana</option>
+              <option VALUE="ME"> Maine</option>
+              <option VALUE="MH"> Marshall Islands</option>
+              <option VALUE="MD"> Maryland</option>
+              <option VALUE="MA"> Massachusetts</option>
+              <option VALUE="MI"> Michigan</option>
+              <option VALUE="MN"> Minnesota</option>
+              <option VALUE="MS"> Mississippi</option>
+              <option VALUE="MO"> Missouri</option>
+              <option VALUE="MT"> Montana</option>
+              <option VALUE="NE"> Nebraska</option>
+              <option VALUE="NV"> Nevada</option>
+              <option VALUE="NH"> New Hampshire</option>
+              <option VALUE="NJ"> New Jersey</option>
+              <option VALUE="NM"> New Mexico</option>
+              <option VALUE="NY"> New York</option>
+              <option VALUE="NC"> North Carolina</option>
+              <option VALUE="ND"> North Dakota</option>
+              <option VALUE="MP"> Northern Mariana Islands</option>
+              <option VALUE="OH"> Ohio</option>
+              <option VALUE="OK"> Oklahoma</option>
+              <option VALUE="OR"> Oregon</option>
+              <option VALUE="PW"> Palau</option>
+              <option VALUE="PA"> Pennsylvania</option>
+              <option VALUE="PR"> Puerto Rico</option>
+              <option VALUE="RI"> Rhode Island</option>
+              <option VALUE="SC"> South Carolina</option>
+              <option VALUE="SD"> South Dakota</option>
+              <option VALUE="TN"> Tennessee</option>
+              <option VALUE="TX"> Texas</option>
+              <option VALUE="UT"> Utah</option>
+              <option VALUE="VT"> Vermont</option>
+              <option VALUE="VI"> Virgin Islands</option>
+              <option VALUE="VA"> Virginia</option>
+              <option VALUE="WA"> Washington</option>
+              <option VALUE="WV"> West Virginia</option>
+              <option VALUE="WI"> Wisconsin</option>
+              <option VALUE="WY"> Wyoming</option>
+              <option VALUE="AA"> AA (Military)</option>
+              <option VALUE="AE"> AE (Military)</option>
+              <option VALUE="AP"> AP (Military)</option>
+            </select>
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td> <strong>Address Tag. </strong>Address tags utilize a base template 
+            you defined to create an address entry component. a default US entry 
+            component utilizing the country and state tags defined above. Internationalization 
+            is supported by defining templates in resource bundles and label substitution.
+<hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td> 
+            <p>
+            <strong>DateSelectorTag. </strong>Date selectors allow a end user 
+            to select a date from a popup calendar.<br>
+            <br>
+            <form name="test">
+              Sample -&gt; 
+              <input type="Text" name="timestamp" value="">
+              <a href="javascript:show_calendar('document.test.timestamp', document.test.timestamp.value, false);"><img src="cal.gif" width="16" height="16" border="0" alt="Click Here to Pick up the date"></a> 
+            </form> 
+            <p></p>
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"> </td>
+          <td> <strong><a name="maskedEntry"></a>MaskedEntryTag. </strong>Masks 
+            may be provided or fetched from a preference service provider. Phone 
+            numbers, social security numbers and other types of numeric entries 
+            are supported by this tag. The tag uses regular expressions to define 
+            masks. The tag uses standard ResourceBundles to support internationalization. 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"> </td>
+          <td><strong>MapTag. </strong>Designed to pick address components from 
+            a screen and link to a map provider. NotWired map providers include 
+            MapQuest, MapBlast and MapsOnUs. You may customize the provider class 
+            with your own implementation.<br>
+            <br>
+            Sample using an image link -&gt; <a href="http://mapsonus.switchboard.com/bin/maps-map/usr=~new/formName=mapsetaddr?AddrStreetLine=1475+West+Irving+Park+Road&AddrCity=Chicago&AddrState=IL&AddrZip=60613"  onMouseOver="window.status='Map the Main Address';return true" onMouseOut="window.status='';return true" target= new><img src="../../images/map_16.gif" border=0 alt="Map the Main Address" title="Map the Main Address" align="ABSMIDDLE" width="16" height="16"></a> 
+            <hr>
+            <small><font face="Arial"> </font></small></td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td> 
+            <p><strong>MenuNavigationTag. </strong>Invoke a URL server request 
+              based on selection.</p>
+            Sample to change pages -&gt; 
+            <script>
+function executeOpSelection1()
+{
+  window.location = 'index.shtml';
+}
+function executeOpSelection2()
+{
+  window.location = 'howitworks.shtml';
+}
+function executeOpSelection3()
+{
+  window.location = 'howitworksadv.shtml';
+}
+function executeOpSelection4()
+{
+  window.location = 'gettingstarted.shtml';
+}
+
+</script>
+            <select name="OperationSelection" onChange="var sIndex=this.selectedIndex;this.selectedIndex = 0;this.blur();window.focus();eval('executeOpSelection'+this.options[sIndex].value+'()')">
+              <option value="1">Benefits</option>
+              <option value="2" SELECTED>Basic Features</option>
+              <option value="3">Advanced Features</option>
+              <option value="4">Pricing</option>
+            </select>
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td> <strong>EmailTag. </strong>Compose an email to the link provided. 
+            The email link may invoke a client-side email client or server email 
+            compose screen. When constructing the email, the EmailTag utilizes 
+            Javascript dynamic writing to prevent spammers from collecting emails 
+            from web pages.
+            <p>Sample email from client -&gt; 
+              <script language="JavaScript">
+var name = "sales";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+              <br>
+              Sample email from server -&gt; 
+              <script language="JavaScript">
+var name = "sales";
+var domain = "notwired.com";
+document.write('<a href=\"javascript:openwindow(\'email.shtml\',\'600\',\'600\',\'no\',\'no\');\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+            </p>
+            
+          </td>
+        </tr>
+      </table>
+      <blockquote>
+        <p>&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

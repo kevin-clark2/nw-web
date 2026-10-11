@@ -1,0 +1,147 @@
+<html>
+
+<head>
+<title>NotWired How It Works</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+</head>
+
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top">
+       <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><font face="Arial"><strong>NotWired is the most comprehensive
+              scheduling and groupware system in the market. We invite you to
+              compare our solution to any other solution.</strong></font></p>
+            <p>&nbsp;</p>
+            <p><font face="Arial">Supporting Information</font></p><blockquote>
+              <p><font face="Arial"><a href="costs.shtml" target="_self">Pricing</a></font></p>
+              <p><font face="Arial"><a href="NotWiredASPDataSheet.pdf">Data Sheet</a></font></p>
+              <p><font face="Arial"><a href="featurelist.shtml" target="_self">Feature List</a></font></p>
+              <p><font face="Arial"><a href="comparisions.shtml" target="_self">Comparisons</a></font></p>
+              <p><font face="Arial"><a href="javascript:openwindow('../tour/index.html',625,525);" target="_self">Take 
+                a tour</a></font> </p>
+              </blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p align="center">&nbsp; </p>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Manage
+            Your Business Anywhere!</strong></font></td>
+          <td width="142">
+            <p align="left"><a
+        href="../../company/contactsmid.shtml" target="_self"><font face="Arial" color="#6666cc"><small><small>Contact us</small></small></font></a><font face="Arial" color="#6666cc"><small><small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </small></small></font>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="notwired.shtml" target="_self"><strong><font face="Arial" color="#6666cc">Overview</font></strong></a></td>
+        <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt=""><strong><font face="Arial" color="#6666cc">How
+            it works</font></strong></td>
+        <td><br>
+        <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="gettingstarted.shtml" target="_self"><strong><font
+        face="Arial" color="#6666cc">Getting Started</font></strong></a></td>
+        </tr>
+      </table>
+      <p><font face="Arial">NotWired coordinates your organization's information
+        on-line. You can access it with a Web browser or an Internet enabled cell
+        phone or PDA. It is fast and easy to implement but, most importantly,
+        it will <i>save you time and money</i>. <b><a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">SIGNUP</a></b>
+        with NotWired today to receive all the benefits instantly.</font></p>
+      <p><font face="Arial"><strong>Key Features </strong> ( <a href="featurelist.shtml"
+    target="_self">complete list</a> )</font></p>
+      <table border="0" cellpadding="0" width="100%">
+        <tr>
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="8" height="10"
+        alt="../images/bullet.gif (93 bytes)"> </td>
+          <td><font face="Arial"><strong>Personal and shared online calendars.
+            </strong>Schedule personal and group meetings, appointments or tasks.
+            </font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="8" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Invites. </strong>Many of our
+            day-to-day activities include coordinating meetings with people who
+            are not part of our organization. NotWired allows you to request meetings
+            or appointments from anyone. The system will track acceptance and
+            attendance so you always know the status of your schedule and meetings.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Task management.</strong> Tired
+            of tracking requests from your team in e-mail? NotWired tracks task
+            assignments to completion. Track tasks you assign to yourself or others
+            with NotWired's task management.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Meeting minutes and action Items.
+            </strong>Conduct effective meetings, take notes and schedule follow
+            up on action items assigned to others or yourself. </font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Personal and shared contacts.
+            </strong>Always have access to members, customers, prospects, suppliers
+            and your personal phonebook on-line or through your Internet-enabled
+            cell phone or PDA.</font></td>
+        </tr>
+        <tr>
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td><font face="Arial"><strong>Bookmarks. </strong>Share your
+            knowledge of web site URLs with your organization. NotWired allows
+            bookmarks to be managed as an organization.</font></td>
+        </tr>
+      </table>
+      <p align="center"><font face="Arial"><b><a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">SIGNUP</a></b></font></p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

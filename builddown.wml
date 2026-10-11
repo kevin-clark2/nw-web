@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<!DOCTYPE wml PUBLIC "-//WAPFORUM//DTD WML 1.1//EN" "http://www.wapforum.org/DTD/wml_1.1.xml">
+
+<wml>
+    <card id="error" title="NotWired">
+        <p align="center">
+	 <img alt = "NotWired" src="images/notwired/NotWired.bmp"/>
+	</p>
+        <p>
+	NotWired is momentarily down for maintenance. 
+        <br/>
+	We are in the process of upgrading our software.
+        <br/>
+	Thank you for your patience and understanding.
+        </p>
+	<p>
+        <br/>
+        <br/>
+	The NotWired Team.
+	</p>
+    </card>
+</wml>

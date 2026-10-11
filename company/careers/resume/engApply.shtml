@@ -1,0 +1,604 @@
+<html><head><title>Engineering/Consulting Career Application</title>
+<title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+
+<script language="javascript">	
+
+function trim(argvalue) {
+  var tmpstr = ltrim(argvalue);
+  return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+      break;
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+  }
+  return argvalue;
+}
+
+function ltrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(0, 1) != " ")
+      break;
+    argvalue = argvalue.substring(1, argvalue.length);
+  }
+  return argvalue;
+}
+
+function BUTTON2Click(){
+	var flag=0;		document.registration.submit();
+	}
+
+function BUTTON1Click(){
+	var errorflag = false;
+	 
+	var message = "Following fields are required: \n";
+	    
+	
+	if(document.registration.fname.value==""){
+			message += " * First Name\n";
+			errorflag = true;    
+	}
+		if(document.registration.lname.value==""){
+			message += " * Last Name\n";
+			errorflag = true;    
+	}
+		if(document.registration.address1.value==""){
+			message += " * Home Address\n";
+			errorflag = true;    
+	}
+		if(document.registration.city1.value==""){
+			message += " * Home City\n";
+			errorflag = true;    
+	}
+		if(document.registration.state1.value==""){
+			message += " * Home State\n";
+			errorflag = true;    
+	}
+		if(document.registration.zip1.value==""){
+			message += " * Home Zip\n";
+			errorflag = true;    
+	}
+		if(document.registration.country1.value==""){
+			message += " * Home Country\n";
+			errorflag = true;    
+	}
+		if(document.registration.mainphone.value==""){
+			message += " * Main phone number\n";
+			errorflag = true;    
+	}
+		if(document.registration.email.value==""){
+			message += " * E-mail Address\n";
+			errorflag = true;    
+	}
+		if(document.registration.status.options[document.registration.status.selectedIndex].text==""){
+			message += " * ID/Status\n";
+			errorflag = true;    
+	}
+		if(document.registration.visastatus.options[document.registration.visastatus.selectedIndex].text==""){
+			message += " * Visa Status\n";
+			errorflag = true;    
+	}
+   		if(document.registration.email.value.indexOf("@") == -1 && trim(document.registration.email.value) != ""){
+             message += " * Invalid E-mail address.\n";
+             errorflag = true;
+    }
+
+	    if(errorflag == true){
+	        alert(message);
+	        return;
+	    } else document.registration.submit();
+	}
+
+function help(loc){
+      window.open(loc,'HelpWindow','height=290,width=550,toolbar=no,menubar=no,scrollbars=no');
+}
+
+
+
+</script>
+
+
+
+
+<form name="registration" method="post" action="/cgi-bin/resume/resume.cgi" enctype="multipart/form-data">
+<input type="hidden" name="application" value="engcon">  
+<table border="0" cellpadding="0" cellspacing="0"
+  width="500">
+    <tr>
+      <td width="200" valign="top"><a href="../../../index.shtml" target="_top"><img
+    src="../../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+      <img src="../../../images/careers.jpg" alt="Careers" width="200" height="300"></td>
+      <td width="315" valign="top"><blockquote>
+        <table border="0" cellpadding="0" cellspacing="0" width="500">
+          <tr>
+            <td><table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td><br>
+                <font face="Arial" color="#6666cc"><strong><small>Engineering/Consulting Application</small></strong></font><br>
+                <font face="Arial"><br>
+                <small>Thank you for taking the time to apply for an engineering/consulting position at
+                NotWired. People are our most important asset and we want to recruit the very best. To
+                improve our recruiting process, we have implemented this questionnaire to better serve you
+                and us. It will allow us to match your skills to a position. Please complete the form
+                below in its entirety and we will contact you shortly.</small></font><div align="left">
+                        <p><small><font
+                face="Arial"><small>NotWired uses NotWired.com for the colleciton 
+                          of resumes. For information about this resume system, 
+                          click <a href="../resumeSys.shtml">here</a>!</small></font></small>
+                      </div></td>
+              </tr>
+            </table>
+            <p><br>
+            </p>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="100%" bgcolor="#C0C0C0" align="center"><strong><small>Personal Information</small></strong></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>First Name:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="fname" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Last Name:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="lname" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"></td>
+                    <td width="70%" noWrap valign="bottom"></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Main&nbsp;Phone:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="mainphone" size="16">*&nbsp; <strong>Ext.:
+                    </strong><input name="ext" size="3"></small> </td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Mobile&nbsp;Phone:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="mobilephone" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>E-mail:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="email" size="16">*</small></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="50%" valign="top"><table border="0" cellpadding="0" cellspacing="0"
+                width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><small><strong>Company:</strong></small></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="company" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Title:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="title" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Home Phone:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><input name="homephone" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>ID/Status:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><select size="1" name="status">
+                      <option selected></option>
+                      <option>Applicant</option>
+                      <option>Contractor</option>
+                    </select>* </small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="bottom"><strong><small>Visa&nbsp;Status:</small></strong></td>
+                    <td width="70%" noWrap valign="bottom"><small><select size="1" name="visastatus">
+                      <option selected></option>
+                      <option>F1</option>
+                      <option>H1 Required</option>
+                      <option>H1 Transfer</option>
+                      <option>US Citizen</option>
+                    </select>*</small></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="100%" bgcolor="#C0C0C0" align="center"><strong><small>Address Information</small></strong></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="50%" align="center"><strong><small>Home</small></strong> </td>
+                <td width="50%" align="center"><strong><small>Work</small></strong> </td>
+              </tr>
+              <tr>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Address:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="address1" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"></td>
+                    <td width="70%" noWrap valign="top"><small><input name="address12" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>City:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="city1" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>State:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="state1" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Zip:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="zip1" size="16">*</small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Country:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="country1" size="16">*</small></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Address:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="address2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"></td>
+                    <td width="70%" noWrap valign="top"><small><input name="address22" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>City:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="city2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>State:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="state2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Zip:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="zip2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Country:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><input name="country2" size="16"></small></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="100%" bgcolor="#C0C0C0" align="center"><strong><small>Professional Skills <a
+                href="javascript:help('SkillDefinitions.html')"
+                onMouseOver="window.status='Skill Definitions';return true"
+                onMouseOut="window.status='';return true"><img src="help.gif" alt="Skill definitions"
+                border="0" height="13" width="18"></a></small></strong></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Java:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="java">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select> </small><a href="javascript:help('javaskills.html')"
+                    onMouseOver="window.status='Java Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="Java Skills" border="0"
+                    height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><small><strong>HTML:</strong></small></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="html">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select></small> <a href="javascript:help('htmlskills.html')"
+                    onMouseOver="window.status='HTML Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="HTML Skills" border="0"
+                    height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>OO Skills:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="oo">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select></small> <a href="javascript:help('ooskills.html')"
+                    onMouseOver="window.status='OO Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="OO Skills" border="0"
+                    height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Analysis/Design:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="anadesign">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select></small> <a href="javascript:help('analysisskills.html')"
+                    onMouseOver="window.status='Analysis/Design Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="Analysis/Design Skills"
+                    border="0" height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><small><strong>Project Management:</strong></small></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="pman">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select></small> <a href="javascript:help('projectskills.html')"
+                    onMouseOver="window.status='Project Management Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif"
+                    alt="Project Management Skills" border="0" height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Years Experience:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><select size="1" name="experience">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>Academia</option>
+                      <option>0-1 yrs commercial</option>
+                      <option>1-3 yrs commercial</option>
+                      <option>3-5 yrs commercial</option>
+                      <option>5-10 yrs commercial</option>
+                      <option>10+ yrs commercial</option>
+                    </select></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>C++:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="cpp">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select> </small><a href="javascript:help('cppskills.html')"
+                    onMouseOver="window.status='C++ Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="C++ Skills" border="0"
+                    height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><small><strong>XML:</strong></small></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="xml">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select> </small><a href="javascript:help('xmlskills.html')"
+                    onMouseOver="window.status='XML Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="XML Skills" border="0"
+                    height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Databases:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="db">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select> </small><a href="javascript:help('databaseskills.html')"
+                    onMouseOver="window.status='Database Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="Database Skills"
+                    border="0" height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>PalmOS:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="palmos">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>read a book</option>
+                      <option>novice</option>
+                      <option>skilled</option>
+                      <option>very skilled</option>
+                      <option>guru</option>
+                    </select></small> <a href="javascript:help('palmskills.html')"
+                    onMouseOver="window.status='PalmOS Skill';return true"
+                    onMouseOut="window.status='';return true"><img src="help.gif" alt="PalmOS Skills"
+                    border="0" height="13" width="18"></a></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Salary/Rate:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><small><select size="1" name="salary">
+                      <option selected></option>
+                      <option>none</option>
+                      <option>35K-40K</option>
+                      <option>40K-45K</option>
+                      <option>45K-50K</option>
+                      <option>50K-60K</option>
+                      <option>60K-70K</option>
+                      <option>70K-80K</option>
+                      <option>80K-100K</option>
+                      <option>100K+</option>
+                    </select></small></td>
+                  </tr>
+                  <tr>
+                    <td width="30%" noWrap valign="top"><strong><small>Company Contact:</small></strong></td>
+                    <td width="70%" noWrap valign="top"><input name="compcontact" size="16"></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td nowrap width="100" align="right"><div align="left"><p><strong><small>Other Skills:</small></strong></div></td>
+                <td nowrap width="400"><small><textarea cols="45" name="otherskills" rows="4"></textarea></small>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="100%" bgcolor="#C0C0C0" align="center"><strong><small>References</small></strong></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Name:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refname1" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Title:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="reftitle1" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Phone:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refphone1" size="16">&nbsp;<strong>Ext.:
+                    </strong><input name="refext1" size="3"> </small></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Name:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refname2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Title:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="reftitle2" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Phone:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refphone2" size="16">&nbsp;<strong>Ext.:
+                    </strong><input name="refext2" size="3"> </small></td>
+                  </tr>
+                </table>
+                </td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Name:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refname3" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Title:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="reftitle3" size="16"></small></td>
+                  </tr>
+                  <tr>
+                    <td width="15%" noWrap valign="top"><strong><small>Phone:</small></strong></td>
+                    <td width="85%" noWrap valign="top"><small><input name="refphone3" size="16">&nbsp;<strong>Ext.:
+                    </strong><input name="refext3" size="3"> </small></td>
+                  </tr>
+                </table>
+                </td>
+                <td width="50%"></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td width="100%" bgcolor="#C0C0C0" align="center"><strong><small>Miscellaneous Information</small></strong></td>
+              </tr>
+            </table>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr>
+                <td nowrap align="right" width="100"><strong><small>NotWired&nbsp;Referred&nbsp;By:</small></strong></td>
+                <td nowrap width="400">&nbsp;&nbsp;<small><select size="1" name="refby">
+                  <option selected></option>
+                  <option>Browsing</option>
+                  <option>ComputerJobs.com</option>
+                  <option>Employee</option>
+                  <option>HotJobs</option>
+                  <option>JobTrack</option>
+                  <option>Monster.com</option>
+                  <option>Read something about NotWired</option>
+                  <option>Tribune/Silicon Prarie</option>
+                  <option>Other</option>
+                </select></small> </td>
+              </tr>
+              <tr>
+                <td nowrap align="right" width="100"><strong><small>Web Site:</small></strong></td>
+                <td nowrap width="400">&nbsp;&nbsp;<small><input name="refwebsite" size="16"></small> </td>
+              </tr>
+              <tr>
+                <td nowrap align="right" valign="top" width="100"><strong><small>Other&nbsp;Information:</small><br>
+                </strong></td>
+                <td nowrap width="400">&nbsp;&nbsp;<small><textarea cols="40" name="otherinfo" rows="10"></textarea></small>
+                </td>
+              </tr>
+        
+	  	  <tr>
+                <td>&nbsp;</td>
+                    <td><strong><small>RECRUITERS: please enter your contact info 
+                      in the above text area. For more information about NotWired's 
+                      third party recruiter contract, please click <a
+                href="../recruiters.shtml">here</a>.</small></strong></td>
+              </tr>
+		  <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td valign="top"><small><strong>Resume:</strong></small></td>
+                <td><small><strong>Please attach a text resume here.</strong></small><br><small><input
+                type="file" name="upload" size="40"></small></td>
+              </tr>
+              
+            </table>
+            <p><br>
+            <br>
+            </p>
+            <table border="0" cellpadding="0" cellspacing="0" width="500">
+              <tr align="center">
+                <td><input type="button" name="BUTTON1" onclick="BUTTON1Click()" value=" Apply "> </td>
+              </tr>
+            </table>
+            </td>
+            <td></td>
+          </tr>
+        </table>
+        <p>&nbsp;</p>
+      </blockquote>
+      </td>
+    </tr>
+  </table>
+  <p><small><small>Copyright 2000 NotWired, Inc. All rights reserved.</small></small><br>
+  <small><small>NotWired, Inc. (tel)
+    949-371-5449.</small></small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <br>
+  </p>
+</form>
+</body>
+</html>

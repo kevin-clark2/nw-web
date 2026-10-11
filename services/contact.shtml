@@ -1,0 +1,307 @@
+<title>NotWired.com Contact Form</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+
+<script language="Javascript">
+
+function trim(argvalue) {
+  var tmpstr = ltrim(argvalue);
+  return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+      break;
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+  }
+  return argvalue;
+}
+
+function ltrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(0, 1) != " ")
+      break;
+    argvalue = argvalue.substring(1, argvalue.length);
+  }
+  return argvalue;
+}
+
+function CheckRequired()
+{
+    var errorMessage = "Following fields are required:\n";
+    var errorFlag = "";
+    
+    if(document.registration.FIELD1.value == ""){
+        errorMessage += " * First name\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD2.value == ""){
+        errorMessage += " * Last name\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD3.value == ""){
+        errorMessage += " * E-mail address\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD4.value == ""){
+        errorMessage += " * Company name\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD5.value == ""){
+        errorMessage += " * Phone number\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD7.value == ""){
+        errorMessage += " * Address 1\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD9.value == ""){
+        errorMessage += " * City\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD10.value == ""){
+        errorMessage += " * State\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD11.value == ""){
+        errorMessage += " * Zip\n";
+        errorFlag = "true";
+    }
+
+     if(document.registration.FIELD12.value == ""){
+        errorMessage += " * Country\n";
+        errorFlag = "true";
+    }
+    
+    if(document.registration.FIELD14.value == ""){
+        errorMessage += " * I am\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD15.value == "-- Required --"){
+        errorMessage += " * Interest\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD16.value == "-- Required --"){
+        errorMessage += " * Budget\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD17.value == "-- Required --"){
+        errorMessage += " * How did you hear about us?\n";
+        errorFlag = "true";
+    }
+
+    if(document.registration.FIELD3.value.indexOf("@") == -1 && trim(document.registration.FIELD3.value) != ""){
+        errorMessage += " * Invalid email address\n";
+        errorFlag = "true";
+    }
+    
+    if(errorFlag == "true"){
+        alert(errorMessage);
+        return;
+    }else{
+        document.registration.submit();
+    }
+}
+
+
+</script>
+
+
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></td>
+    <td width="472" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      NotWired Registration</strong></font>
+      <p>The NotWired.com team is interested in better serving you. A representative 
+        will contact you to tell you more about our services if you complete this 
+        regisration form. Thanks for your interest. </p>
+      <p>If you are applying for a position at Objectsoft, please click <a href="../company/careers.shtml">here</a>. 
+        Recruiters can should go <a
+    href="../company/careers/recruiters.shtml">here</a>. If you want to be contacted 
+        or would like to stay on our mailing lists, please fill out the information 
+        below.</p>
+    <form name="registration" method="POST" action="/cgi-bin/registration/register.cgi">
+      <input type="hidden" name="MAP"
+      value="20:FIELD17|23:FIELD16|22:FIELD15|21:FIELD14|64:FIELD13|9:FIELD12|8:FIELD11|7:FIELD10|6:FIELD9|4:FIELD8|3:FIELD7|12:FIELD6|11:FIELD5|1:FIELD4|66:FIELD3|2:FIELD2|2:FIELD1|"><input
+      type="hidden" name="NOTES" value="NOTE1:Project"><input type="hidden" name="FIELDNUM"
+      value="68"><input type="hidden" name="OUTPUT"
+      value="../../../registrations/notwiredservices.txt"><input type="hidden" name="TYPE"
+      value="services"><input type="hidden" name="op" value="MOCK"><table>
+        <tr>
+          <td><table width="402">
+            <tr>
+                  <td width="110"><small><font face="Arial">First Name:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD1"
+              size="20">
+                    *</font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">Last Name:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD2"
+              size="20">
+                    *</font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">E-mail:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD3"
+              size="20">
+                    *</font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">Company:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD4"
+              size="20">
+                    *</font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">Phone Number:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD5"
+              size="20">
+                    *</font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>Fax:</small></font></td>
+                  <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD6"
+              size="20">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>Address 1*:</small></font></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD7"
+              size="20">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>Address 2:</small></font></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD8"
+              size="20">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>City*:</small></font></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD9"
+              size="20">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">State*:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD10"
+              size="20">
+                    Zip*:
+                    <input type="text" name="FIELD11" size="7">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">Country*:</font></small></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <input type="text" name="FIELD12"
+              size="20">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><small><font face="Arial">Web address:</font></small></td>
+                  <td nowrap width="297"><small><font face="Arial"> 
+                    <input type="text"
+              name="FIELD13" size="30">
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="50%"><small><font face="Arial">I am*:</font></small></td>
+              <td width="50%"><font face="Arial"><select name="FIELD14" size="1">
+                <option selected value="-- Required --">-- Required --</option>
+                <option value="press">a press editor</option>
+                <option value="wireless operator">wireless operator</option>
+                <option value="device manufacturer">device manufacturer</option>
+                <option value="content provider">content provider</option>
+                <option value="telco hardware provider">telco hardware provider</option>
+                <option value="WAP server provider">WAP server provider</option>
+                <option value="portal operator">portal operator</option>
+                <option value="Software tools company">Software tools company</option>
+                <option value="Consulting company">Consulting company</option>
+                <option value="Software vendor">Software vendor</option>
+                <option value="student">a student</option>
+                <option value="vendor">a vendor</option>
+              </select></font></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>Interest*:</small></font></td>
+              <td nowrap width="297"><font face="Arial"><small>
+                    <select size="1" name="FIELD15">
+                      <option selected value="-- Required --">-- Required --</option>
+                      <option value="Wireless Offerings">Wireless Offerings</option>
+                      <option value="NotWired Web Services">NotWired Web Services</option>
+                      <option value="NotWired Billing">NotWired Billing</option>
+                      <option value="Component Licensing">Component Licensing</option>
+                      <option value="ISV Offerings">ISV Offerings</option>
+                    </select>
+                    </small></font></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>Budget*:</small></font></td>
+              <td nowrap width="297"><small><font face="Arial">
+                    <select size="1" name="FIELD16">
+                      <option selected value="-- Required --">-- Required --</option>
+                      <option value="None created">None created</option>
+                      <option value="0 - 500K">0 - 500K</option>
+                      <option value="500K - 1M">500K - 1M</option>
+                      <option value="1M - 5M">1M - 5M</option>
+                      <option value="5M+">5M+</option>
+                    </select>
+                    </font></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>What are you doing?</small></font></td>
+              <td nowrap width="297"><small><textarea rows="5" name="NOTE1" cols="30"></textarea></small></td>
+            </tr>
+            <tr>
+                  <td width="110"><font face="Arial"><small>How did you hear about 
+                    us*:</small></font></td>
+              <td nowrap width="297"><small><small><font face="Arial">
+                    <select size="1"
+              name="FIELD17">
+                      <option selected value="-- Required --">-- Required --</option>
+                      <option value="Press Release">Press Release</option>
+                      <option value="Trade Show">Trade Show</option>
+                      <option>Web Browsing</option>
+                      <option>Direct Email</option>
+                      <option>Friend</option>
+                      <option>Other</option>
+                    </select>
+                    </font></small></small></td>
+            </tr>
+          </table>
+          <p><font face="Arial"><small><input type="button" name="BUTTON1" onclick="CheckRequired()"
+          value="Register"></small></font></td>
+        </tr>
+      </table>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

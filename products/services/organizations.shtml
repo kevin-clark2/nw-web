@@ -1,0 +1,93 @@
+<html><head><title>NotWired For Organizations</title>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+          <a href="featurelist.html">Calendar</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Scheduling</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Tasks</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="featurelist.html">Contacts</a></font></p>
+        <p><a href="featurelist.html"><font face="Arial, Helvetica, sans-serif" size="-1">Email</font></a></p>
+      </blockquote>
+    </td>
+    <td valign="top" width="422">&nbsp; 
+      <table border="0" cellpadding="0" cellspacing="0" width="420">
+        <tr> 
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong><font size="-1">NotWired 
+            For Organizations</font></strong></font></td>
+          <td width="142"> 
+            <p align="left"><a href="../../company/contactsmid.shtml" target="_self"><small><font
+        face="Arial"><small>Contact Us</small></font></small></a> 
+          </td>
+        </tr>
+      </table>
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">Whether you are a 
+        small charitable organization, fraternity, sorority, a social club or 
+        a large national non-profit organization, NotWired provides the tools 
+        necessary to keep a centralized phone directory, plan events, share information, 
+        communicate more effectively or promote your organization.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Centralize and Share Information</b><br>
+        <font size="-1">Keep your staff, members and volunteers informed about 
+        events. Calendars, tasks, contacts, notes, documents and email may be 
+        shared. NotWired helps improve coordination in you organization: </font></font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Centralize a <a href="featurelist.html#phonebook">self-updating 
+          phonebook</a></font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Keep <a href="featurelist.html#phonebook">email 
+          lists always up to date</a></font></li>
+        <li><a href="featurelist.html#tasks"><font face="Arial, Helvetica, sans-serif" size="-1">Keep 
+          track of contacts</font></a><font face="Arial, Helvetica, sans-serif" size="-1"> 
+          across your entire organization</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Send <a href="featurelist.html#broadcast">mass-mailings</a> 
+          to contacts</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Manage projects 
+          by <a href="featurelist.html#tasks">delegating and track tasks</a></font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Create <a href="featurelist.html#meetings">meeting 
+          minutes and action items</a> to make sure the proper follow ups are 
+          done</font></li>
+        <li><a href="featurelist.html#notifications"><font face="Arial, Helvetica, sans-serif" size="-1">Notifications</font></a><font face="Arial, Helvetica, sans-serif" size="-1"> 
+          keep your organization members informed</font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif"><b>Coordinate Multiple Chapters</b></font><br>
+        <font face="Arial, Helvetica, sans-serif"><font size="-1">NotWired's unique 
+        patent-pending &quot;single dashboard&quot; technology allows you to establish 
+        multiple organizations, yet still keep information centralized with one 
+        login. </font></font> <font face="Arial, Helvetica, sans-serif" size="-1">NotWired 
+        is designed to support multiple organizations, projects and teams. Shared 
+        information is only visible to team members. The NotWired multiple organization 
+        capability allows:</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Keep <a href="featurelist.html#calendar">calendars</a> 
+          by organization</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Keep <a href="featurelist.html#contacts">contact 
+          lists</a> by organization</font></li>
+        <li><font face="Arial, Helvetica, sans-serif" size="-1">Cross-organization 
+          <a href="featurelist.html#search">searching</a> for users that are members 
+          of multiple organizations</font></li>
+      </ul>
+      <p><font face="Arial, Helvetica, sans-serif" ><b>Empower Your Team, <a
+    href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">Join NotWired 
+        Now</a>!</b><br>
+        <font size="-1">NotWired offers a complete suite of email, SFA and collaboration 
+        applications for a low monthly fee. We want to help your organization 
+        achieve maximum productivity and maximum savings.</font> </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="-1">NotWired may also 
+        be customized to create applications to meet your specific needs. Contact 
+        <script language="JavaScript">
+var name = "sales";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script> for more information.</font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,99 @@
+<title>NotWired How It Works</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top" height="306">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><font face="Arial"><strong>NotWired is the most comprehensive
+              scheduling and groupware system in the market. We invite you to
+              compare our solution to any other solution.</strong></font></p>
+            <p>&nbsp;</p>
+            <p><font face="Arial">Supporting Information</font></p>
+            <blockquote> 
+              <p><font face="Arial"><a href="costs.shtml" target="_self">Pricing</a></font></p>
+              <p><font face="Arial"><a href="NotWiredASPDataSheet.pdf">Data Sheet</a></font></p>
+              <p><font face="Arial"><a href="featurelist.html" target="_self">Feature 
+                List</a></font></p>
+              <p><font face="Arial"><a href="comparisions.shtml" target="_self">Comparisons</a></font></p>
+              <font face="Arial"><a href="javascript:openwindow('../tour/index.html',625,525);"  target="_self">Take 
+              a tour</a></font> 
+              <p>&nbsp;</p>
+              </blockquote>
+            <p>&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+    </td>
+    <td width="422" valign="top" align="left" height="306"><font face="Arial"><strong><br>
+    </strong></font><table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td width="278"><font face="Arial" color="#6666cc"><strong>Manage Your Business
+        Anywhere!</strong></font></td>
+        <td width="142">
+            <p align="left"><a
+        href="../../company/contactsmid.shtml" target="_self"><font face="Arial" color="#6666cc"><small><small>Contact us</small></small></font></a><font face="Arial" color="#6666cc"><small><small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              </small></small></font>
+          </td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="notwired.shtml" target="_self"><strong><font face="Arial"  color="#6666cc">Overview</font></strong></a></td>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt=""><a
+        href="howitworks.shtml" target="_self"><strong><font face="Arial" color="#6666cc">How
+            it works</font></strong></a></td>
+        <td><br>
+        <img src="../../images/closedsq.gif" width="13" height="7" alt=""><strong><font
+        face="Arial" color="#6666cc">Getting Started</font></strong></td>
+      </tr>
+    </table>
+    <p><font face="Arial">With a Web browser, open a NotWired account and your
+    organization will have the most powerful scheduling and group collaboration tool on the
+    Internet. </font></p>
+      <p><font face="Arial" color="#6666cc"><strong>Step 1</strong></font>: 
+        <font
+    face="Arial">Go to the NotWired registration at <strong><a href="/notwired/main?op=SignupModule.SignupPageOp"
+    target="_self">SIGNUP</a></strong>.</font></p>
+      <p><font face="Arial" color="#6666cc"><strong>Step 2</strong></font>: 
+        <font
+    face="Arial">Logon to <b><a href="http://www.notwired.com" target="_blank">NotWired</a></b> 
+        with your logon sent to you in email.</font></p>
+      <p><strong><font face="Arial" color="#6666cc"><br>
+        </font></strong></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

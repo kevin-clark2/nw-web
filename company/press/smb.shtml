@@ -1,0 +1,82 @@
+<title>Small and Medium Business Stats</title>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img alt="Press wire" height="200" src="../../images/companypeople.jpg" width="200"><font
+    face="Arial"><small>&nbsp;&nbsp;&nbsp; </small><br>
+    </font></td>
+    <td width="422" valign="middle">&nbsp;<table border="0" cellpadding="0" cellspacing="0"
+    width="420">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Small and Medium 
+            Business Stats</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="../contactsmid.shtml" target="_self"><small><font
+        face="Arial"><small>Contact Us</small></font></small></a>
+          </td>
+      </tr>
+    </table>
+      <p>Small and medium business employs 75% of the workforce, comprises over 
+        50% of the total $300 billion global information technology market, are 
+        the fastest growing segment in the economy and are mobile. NotWired empowers 
+        the mobile professional. See what others say about our marketplace...
+      <ul><font
+    FACE="Arial" SIZE="2">
+      </font><font SIZE="2">
+      <li>&quot;Small businesses represent 99 percent of all companies globally and employ 80
+        percent of the world's work force.&quot; </li>
+    </font></ul><font SIZE="2">
+    <i><p ALIGN="RIGHT">IBM, International Data Corporation<br>
+    Dataquest and U.S. Small Business Administration<br>
+    San Francisco Chronicle, June 23, 1999</p></i>
+    <ul>
+      <li>According to Cahners In-Stat, small and medium business is a natural market for ASPs.
+        They estimate 53M employees will compute on-line by 2003. <p ALIGN="RIGHT"><i>Chahners
+        Analysis of the ASP marketplace</i></p>
+      </li>
+      <li>&quot;The small business market is growing at 11 percent to 13 percent per year,
+        compared with 8 percent or 9 percent for larger businesses.&quot; </li>
+    </ul>
+    <i><p ALIGN="RIGHT">IBM, International Data Corporation<br>
+    Dataquest and U.S. Small Business Administration<br>
+    San Francisco Chronicle, June 23, 1999</p>
+    </i><ul><i>
+      </i>
+      <li>&quot;...96 percent of nonresidential small businesses are seeking business-to-business
+        information online. Four categories &#151; software, hardware and peripherals, office
+        supplies and books &#151; account for over 50 percent of the online product
+        searches.&quot; </li>
+    </ul>
+    <i><p ALIGN="RIGHT">Cyber Dialogue<br>
+    Silicon Alley Reporter<br>
+    Spring 1999</p>
+    </i><ul><i>
+      </i>
+      <li>&quot;International Data Corp. estimates that small and midsize businesses make up about
+        half of the $300 billion global information technology market and that their expenditures
+        are growing faster than those of large companies.&quot; </li>
+    </ul>
+    <i><p ALIGN="RIGHT">IBM, International Data Corporation<br>
+    Dataquest and U.S. Small Business Administration<br>
+    San Francisco Chronicle, June 23, 1999</p>
+    </i><ul>
+      <li>The millions of small businesses in the United States shelled out more than $57 billion
+        for computer hardware, operating systems and software in 1998, according to research by
+        Cahners In-Stat Group. Also, according to Cahners In-Stat Group, small business spending
+        on computer software will grow significantly over the next few years, jumping to $44
+        billion by 2002. This spending will shift toward application services since SMBs cannot
+        afford the time, staff or cost of operating their own systems. This is the genesis of the
+        ASP marketplace.</li>
+    </ul>
+    <i><p ALIGN="RIGHT">Cahners In-Stat Group</i></font></td>
+  </tr>
+</table>
+</body>
+</html>

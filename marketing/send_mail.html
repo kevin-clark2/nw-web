@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Marketing Mailing List Manager: Send Mail</title>
+<script type="text/javascript">
+function validateAndSubmit() {
+  if (document.mailing.fromName.value == "") {
+    alert("Please enter a \"From Name\"");
+    return;
+  }
+  if (document.mailing.fromEmail.value == "") {
+    alert("Please enter a \"From Email\"");
+    return;
+  }
+  if (document.mailing.subject.value == "") {
+    alert("Please enter a \"Subject\"");
+    return;
+  }
+  if (document.mailing.htmlBody.value == "") {
+    alert("Please attach HTML body file");
+    return;
+  }
+  if (document.mailing.plainTextBody.value == "") {
+    alert("Please attach Plain Text body file");
+    return;
+  }
+  document.mailing.submit();
+}   
+</script>
+
+
+</script>
+</head>
+<body>
+| <a href="index.html">Home</a> | Marketing Mailing List Manager: <i>Send Mail</i>
+<hr>
+<form name="mailing" action="/app/send_mail" enctype="multipart/form-data" method="POST">
+<table>
+<tr>
+<td>From Name:</td>
+<td><input type="text" name="fromName" size="32"></td>
+</tr>
+<tr>
+<td>From Email:</td>
+<td><input type="text" name="fromEmail" size="32" value="newsletter@notwired.com"></td>
+</tr>
+<tr>
+<td>Subject:</td>
+<td><input type="text" name="subject" size="32"></td>
+</tr>
+<tr>
+<td>Attach HTML Body:</td>
+<td><input type="file" name="htmlBody"></td>
+</tr>
+<tr>
+<td>Attach Plain Text Body:</td>
+<td><input type="file" name="plainTextBody"></td>
+</tr>
+</table>
+<p>
+This mail will be sent to all email addresses with a normal status.  If you would like to additionally send mail to email addresses with a non-normal status, please select to include:
+<p>
+<input type="checkbox" name="includeInMailing" value="review">Review<br>
+<input type="checkbox" name="includeInMailing" value="deleted">Deleted<br>
+<input type="checkbox" name="includeInMailing" value="optout">Opt-Out
+<p>
+<input type="button" value="    SEND    " onClick="validateAndSubmit()">
+</form>
+</body>
+</html>

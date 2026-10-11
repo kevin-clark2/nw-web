@@ -1,0 +1,522 @@
+<!--NULL-->
+<html>
+
+<head>
+<!--HEADER-->
+<!-- Customized Styles for the login page -->
+<style>
+TD
+{
+    font-style:         "Trebuchet MS", Arial;
+    font-size:          11px;
+  
+}
+
+DIV
+{
+    font-style:         "Trebuchet MS", Arial;
+    font-size:          11px;
+ 
+}
+
+BODY
+{
+    background-color:   #FFFFFF;
+}
+
+A
+{
+    color:              #FF0000;   
+    font-weight:        bold;
+}
+</style>
+
+<title>NotWired.com Signup</title>
+
+<script>
+
+function validate() {
+    hasErrors = false;
+    message = "Please correct the following errors: \n";
+
+    var signup = document.SIGNUP;
+
+    var isNorthAmerican = false;
+    if (signup.cn.selectedIndex == 1 || signup.cn.selectedIndex == 3)
+        isNorthAmerican = true;
+
+    if (signup.fn.value == "") {
+        message += "* Please enter first name.\n";
+        hasErrors = true;
+    }
+    if (signup.ln.value == "") {
+        message += "* Please enter last name.\n";
+        hasErrors = true;
+    }
+    if (signup.cn.selectedIndex == 0) {
+        message += "* Please select a country.\n";
+        hasErrors = true;
+    }
+    if (signup.a1.value == "") {
+        message += "* Please enter as address.\n";
+        hasErrors = true;
+    }
+    if (signup.ct.value == "") {
+        message += "* Please enter a city.\n";
+        hasErrors = true;
+    }
+    if (isNorthAmerican) {
+        if (signup.st.value == "") {
+            message += "* Please enter a state.\n";
+            hasErrors = true;
+        }
+        if (signup.zc.value == "") {
+            message += "* Please enter zip code.\n";
+            hasErrors = true;
+        }
+    }
+    if (signup.oid.value == "") {
+        message += "* Please enter organization.\n";
+        hasErrors = true;
+    }
+    if (signup.uid.value == "") {
+        message += "* Please enter email.\n";
+        hasErrors = true;
+    }
+
+
+    if (signup.uid.value.indexOf("@") == -1 && trim(signup.uid.value) != "") {
+        message += "* User ID is invalid. Please enter a valid email address.\n";
+        hasErrors = true;
+    }
+
+    if (hasErrors == true) {
+        alert(message);
+        return false;
+    } else {
+        return true;
+    }
+}
+
+function trim(argvalue) {
+    var tmpstr = ltrim(argvalue);
+    return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+    while (1) {
+        if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+            break;
+        argvalue = argvalue.substring(0, argvalue.length - 1);
+    }
+
+    return argvalue;
+}
+
+function ltrim(argvalue) {
+    while (1) {
+        if (argvalue.substring(0, 1) != " ")
+            break;
+        argvalue = argvalue.substring(1, argvalue.length);
+    }
+    return argvalue;
+}
+
+</script>
+<!--NULL-->
+</head>
+
+<body link="#FF0000" alink="#FF0000" vlink="#FF0000" bgcolor="#FFFFFF">
+<!--BODY-->
+
+<form method="POST" action="http://my.notwired.com/servlet/Main" name="SIGNUP">
+  <input type="hidden" name="op" value="">
+  <table border="0" cellpadding="3" cellspacing="0" width="100%">
+    <tr>
+      <td valign="top" width="220"><br>
+      <img src="../images/aa001457.jpg" width="185" height="153" alt="NotWired.com Team!"></td>
+      <td width="100%"><table width="400" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td align="center"><table border="0" width="400" cellspacing="0" cellpadding="0">
+            <tr>
+              <td valign="middle" align="right"><font face="arial, helvetica" size="-2"><a
+              href="http://www.notwired.com" target="_top">NotWired.com</a> - <a
+              href="http://www.notwired.com/help.html">Help</a></font></td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="2" cellspacing="0" width="400">
+        <tr>
+          <td valign="middle"><font size="+1" face="arial"><b>NotWired.com Signup</b></font></td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td><br>
+          <font face="Arial"><small><small>Signup for NotWired.com services and take advantage of
+          the great features today.</small></small><br>
+          <small><small>Please read the <a href="../legal/terms.html">terms of service</a>. </small><br>
+          <br>
+          <small><strong>Your information:</strong></small> <small>(All fields except phone and ext
+          are required)</small></small></font><table border="1" cellpadding="0" cellspacing="0"
+          width="400">
+            <tr>
+              <td><table border="0" cellspacing="0" width="100%" height="150">
+                <tr>
+                  <td width="100" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><strong><small>First
+                  Name*</small></strong> </font></small></td>
+                  <td width="300" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="fn" size="20" maxlength = "40" value=""></small>&nbsp;&nbsp;&nbsp;&nbsp; </font></small><a
+                  href="../legal/privacy.html"><font SIZE="-2" FACE="Arial, Helvetica">Privacy Statement</font></a></td>
+                </tr>
+                <tr>
+                  <td width="100" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><strong><small>Last
+                  Name*</small> </strong></font></small></td>
+                  <td width="300" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="ln" size="20" maxlength = "40" value=""> </small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="100" height="24" bgcolor="#F4F4F4"><small><font face="Arial"><strong><small>Country*</small>
+                  </strong></font></small></td>
+                  <td width="300" height="24" bgcolor="#F4F4F4"><small><font face="Arial"><small><select
+                  NAME="cn" size="1">
+                    <option SELECTED>Select a Country </option>
+                    <option>United States </option>
+                    <option>Germany </option>
+                    <option>Canada </option>
+                    <option>United Kingdom </option>
+                    <option>Japan </option>
+                    <option>India </option>
+                    <option>France </option>
+                    <option>Australia </option>
+                    <option>Korea (South) </option>
+                    <option>Afghanistan </option>
+                    <option>Albania </option>
+                    <option>Algeria </option>
+                    <option>American Samoa </option>
+                    <option>Andorra </option>
+                    <option>Angola </option>
+                    <option>Anguilla </option>
+                    <option>Antarctica </option>
+                    <option>Antigua and Barbuda </option>
+                    <option>Argentina </option>
+                    <option>Armenia </option>
+                    <option>Aruba </option>
+                    <option>Australia </option>
+                    <option>Austria </option>
+                    <option>Azerbaijan </option>
+                    <option>Bahamas </option>
+                    <option>Bahrain </option>
+                    <option>Bangladesh </option>
+                    <option>Barbados </option>
+                    <option>Belarus </option>
+                    <option>Belgium </option>
+                    <option>Belize </option>
+                    <option>Benin </option>
+                    <option>Bermuda </option>
+                    <option>Bhutan </option>
+                    <option>Bolivia </option>
+                    <option>Bosnia and Herzegovina </option>
+                    <option>Botswana </option>
+                    <option>Bouvet Island </option>
+                    <option>Brazil </option>
+                    <option>British Indian Ocean Territo </option>
+                    <option>Brunei Darussalam </option>
+                    <option>Bulgaria </option>
+                    <option>Burkina Faso </option>
+                    <option>Burundi </option>
+                    <option>Cambodia </option>
+                    <option>Cameroon </option>
+                    <option>Canada </option>
+                    <option>Cape Verde </option>
+                    <option>Cayman Islands </option>
+                    <option>Central African Republic </option>
+                    <option>Chad </option>
+                    <option>Chile </option>
+                    <option>China </option>
+                    <option>Christmas Island </option>
+                    <option>Cocos (Keeling Islands) </option>
+                    <option>Colombia </option>
+                    <option>Comoros </option>
+                    <option>Congo </option>
+                    <option>Cook Islands </option>
+                    <option>Costa Rica </option>
+                    <option>Cote D'Ivoire (Ivory Coast) </option>
+                    <option>Croatia (Hrvatska) </option>
+                    <option>Cyprus </option>
+                    <option>Czech Republic </option>
+                    <option>Denmark </option>
+                    <option>Djibouti </option>
+                    <option>Dominica </option>
+                    <option>Dominican Republic </option>
+                    <option>East Timor </option>
+                    <option>Ecuador </option>
+                    <option>Egypt </option>
+                    <option>El Salvador </option>
+                    <option>Equatorial Guinea </option>
+                    <option>Eritrea </option>
+                    <option>Estonia </option>
+                    <option>Ethiopia </option>
+                    <option>Falkland Islands (Malvinas) </option>
+                    <option>Faroe Islands </option>
+                    <option>Fiji </option>
+                    <option>Finland </option>
+                    <option>France </option>
+                    <option>France, Metropolitan </option>
+                    <option>French Guiana </option>
+                    <option>French Polynesia </option>
+                    <option>French Southern Territories </option>
+                    <option>Gabon </option>
+                    <option>Gambia </option>
+                    <option>Georgia </option>
+                    <option>Germany </option>
+                    <option>Ghana </option>
+                    <option>Gibraltar </option>
+                    <option>Greece </option>
+                    <option>Greenland </option>
+                    <option>Grenada </option>
+                    <option>Guadeloupe </option>
+                    <option>Guam </option>
+                    <option>Guatemala </option>
+                    <option>Guinea </option>
+                    <option>Guinea-Bissau </option>
+                    <option>Guyana </option>
+                    <option>Haiti </option>
+                    <option>Heard and McDonald Islands </option>
+                    <option>Honduras </option>
+                    <option>Hong Kong </option>
+                    <option>Hungary </option>
+                    <option>Iceland </option>
+                    <option>India </option>
+                    <option>Indonesia </option>
+                    <option>Ireland </option>
+                    <option>Israel </option>
+                    <option>Italy </option>
+                    <option>Jamaica </option>
+                    <option>Japan </option>
+                    <option>Jordan </option>
+                    <option>Kazakhstan </option>
+                    <option>Kenya </option>
+                    <option>Kiribati </option>
+                    <option>Korea (South) </option>
+                    <option>Kuwait </option>
+                    <option>Kyrgyzstan </option>
+                    <option>Laos </option>
+                    <option>Latvia </option>
+                    <option>Lebanon </option>
+                    <option>Lesotho </option>
+                    <option>Liberia </option>
+                    <option>Liechtenstein </option>
+                    <option>Lithuania </option>
+                    <option>Luxembourg </option>
+                    <option>Macau </option>
+                    <option>Macedonia </option>
+                    <option>Madagascar </option>
+                    <option>Malawi </option>
+                    <option>Malaysia </option>
+                    <option>Maldives </option>
+                    <option>Mali </option>
+                    <option>Malta </option>
+                    <option>Marshall Islands </option>
+                    <option>Martinique </option>
+                    <option>Mauritania </option>
+                    <option>Mauritius </option>
+                    <option>Mayotte </option>
+                    <option>Mexico </option>
+                    <option>Micronesia </option>
+                    <option>Moldova </option>
+                    <option>Monaco </option>
+                    <option>Mongolia </option>
+                    <option>Montserrat </option>
+                    <option>Morocco </option>
+                    <option>Mozambique </option>
+                    <option>Myanmar </option>
+                    <option>Namibia </option>
+                    <option>Nauru </option>
+                    <option>Nepal </option>
+                    <option>Netherlands </option>
+                    <option>Netherlands Antilles </option>
+                    <option>New Caledonia </option>
+                    <option>New Zealand </option>
+                    <option>Nicaragua </option>
+                    <option>Niger </option>
+                    <option>Nigeria </option>
+                    <option>Niue </option>
+                    <option>Norfolk Island </option>
+                    <option>Northern Mariana Islands </option>
+                    <option>Norway </option>
+                    <option>Oman </option>
+                    <option>Pakistan </option>
+                    <option>Palau </option>
+                    <option>Panama </option>
+                    <option>Papua New Guinea </option>
+                    <option>Paraguay </option>
+                    <option>Peru </option>
+                    <option>Philippines </option>
+                    <option>Pitcairn </option>
+                    <option>Poland </option>
+                    <option>Portugal </option>
+                    <option>Puerto Rico </option>
+                    <option>Qatar </option>
+                    <option>Reunion </option>
+                    <option>Romania </option>
+                    <option>Russian Federation </option>
+                    <option>Rwanda </option>
+                    <option>Saint Kitts and Nevis </option>
+                    <option>Saint Lucia </option>
+                    <option>Samoa </option>
+                    <option>San Marino </option>
+                    <option>Sao Tome and Principe </option>
+                    <option>Saudi Arabia </option>
+                    <option>Senegal </option>
+                    <option>Seychelles </option>
+                    <option>Sierra Leone </option>
+                    <option>Singapore </option>
+                    <option>Slovak Republic </option>
+                    <option>Slovenia </option>
+                    <option>Solomon Islands </option>
+                    <option>Somalia </option>
+                    <option>South Africa </option>
+                    <option>Spain </option>
+                    <option>Sri Lanka </option>
+                    <option>St. Helena </option>
+                    <option>St. Pierre and Miquelon </option>
+                    <option>Suriname </option>
+                    <option>Swaziland </option>
+                    <option>Sweden </option>
+                    <option>Switzerland </option>
+                    <option>Taiwan </option>
+                    <option>Tajikistan </option>
+                    <option>Tanzania </option>
+                    <option>Thailand </option>
+                    <option>Togo </option>
+                    <option>Tokelau </option>
+                    <option>Tonga </option>
+                    <option>Trinidad and Tobago </option>
+                    <option>Tunisia </option>
+                    <option>Turkey </option>
+                    <option>Turkmenistan </option>
+                    <option>Turks and Caicos Islands </option>
+                    <option>Tuvalu </option>
+                    <option>Uganda </option>
+                    <option>Ukraine </option>
+                    <option>United Arab Emirates </option>
+                    <option>United Kingdom </option>
+                    <option>United States </option>
+                    <option>Uruguay </option>
+                    <option>US Minor Outlying Islands </option>
+                    <option>Uzbekistan </option>
+                    <option>Vanuatu </option>
+                    <option>Venezuela </option>
+                    <option>Viet Nam </option>
+                    <option>Virgin Islands (British) </option>
+                    <option>Virgin Islands (US) </option>
+                    <option>Wallis and Futuna Islands </option>
+                    <option>Western Sahara </option>
+                    <option>Yemen </option>
+                    <option>Yugoslavia </option>
+                    <option>Zaire </option>
+                    <option>Zambia </option>
+                    <option>Zimbabwe </option>
+                  </select></small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="150" height="22" bgcolor="#F4F4F4"><small><small><font face="Arial"><strong>Address 1*
+                  </strong></font></small></small></td>
+                  <td width="352" height="22" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="a1" size="20" maxlength = "100" value=""></small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="150" height="22" bgcolor="#F4F4F4"><small><small><font face="Arial"><strong>Address 2
+                  </strong></font></small></small></td>
+                  <td width="352" height="22" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="a2" size="20" maxlength = "100" value=""></small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="150" height="22" bgcolor="#F4F4F4"><small><small><font face="Arial"><strong>City*
+                  </strong></font></small></small></td>
+                  <td width="352" height="22" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="ct" size="10" maxlength = "30" value=""></small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="150" height="22" bgcolor="#F4F4F4"><small><small><font face="Arial"><strong>State*
+                  </strong></font></small></small></td>
+                  <td width="352" height="22" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="st" size="10" maxlength = "30" value="">State is required for US and Canada.</small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="100" height="22" bgcolor="#F4F4F4"><small><small><font face="Arial"><strong>Zip
+                  Code*</strong></font></small></small></td>
+                  <td width="300" height="22" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="zc" size="10" maxlength = "20" value=""> Zip code is required for US and Canada.</small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="100" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><small><strong>Phone</strong></small>
+                  </font></small></td>
+                  <td width="300" height="23" bgcolor="#F4F4F4"><small><font face="Arial"><small><input
+                  type="text" name="ph" size="20" maxlength = "25" value=""> Ext <input type="text" name="ex" size="4" maxlength = "10" value=""> </small></font></small></td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+        <tr>
+          <td><small><font face="Arial"><strong><br>
+          <small>Company and Login Information:</small> </strong><small>(All fields required)</small></font></small><table
+          border="1" cellpadding="0" cellspacing="0" width="400">
+            <tr>
+              <td><table border="0" cellspacing="0" width="100%">
+                <tr>
+                  <td width="100" bgcolor="#F4F4F4" valign="top"><small><font face="Arial"><strong><small>Organization*</small></strong> </font></small></td>
+                  <td width="300" bgcolor="#F4F4F4"><small><font face="Arial"><small><input type="text"
+                  name="oid" size="20" maxlength = "40" value=""></small> <br>
+                  <small><strong>Hint: </strong>Choose a company name that is easy to remember. Try to avoid
+                  Inc., LLC, etc. </small></font></small></td>
+                </tr>
+                <tr>
+                  <td width="100" bgcolor="#F4F4F4" valign="top"><small><font face="Arial"><strong><small>Email*</small></strong>
+                  </font></small></td>
+                  <td width="300" bgcolor="#F4F4F4"><font face="Arial"><small><small><input type="text"
+                  name="uid" size="20" maxlength = "75"  value=""></small></small><br>
+                  <small><small>This is your login! Please avoid using characterrs /:*?\&quot;<>|. </small></small></font></td>
+                </tr>
+                <tr>
+                  <td width="100" bgcolor="#F4F4F4" valign="top"><font face="Arial"><small><strong><small>Reference
+                  code</small></strong> </small></font></td>
+                  <td width="300" bgcolor="#F4F4F4"><small><small><font face="Arial"><input type="text"
+                  name="refcode" size="20" maxlength = "30" value=""></font></small></small><br>
+                  <small><small><font face="Arial">Enter your promotion code for to win prizes or free
+                  services! Promotion codes are found on flyers, ads or promotional materials.</font></small></small></td>
+                </tr>
+              </table>
+              </td>
+            </tr>
+          </table>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="400">
+        <tr>
+          <td><font face="Arial"><small><small><div align="center"><center><p></small></small><br>
+          </font><a href="javascript:validate()"><img src="../images/Signup.gif" width="100" height="25" alt="Signup Now!"></a><font
+          SIZE="-2" FACE="Arial, Helvetica"></p>
+          </center></div><div align="center"><center><p><a href="http://www.notwired.com"
+          target="_top">Notwired.com</a></font></p>
+          </center></div><div align="center"><center><p><font SIZE="-2" FACE="Arial, Helvetica">Copyright
+          © 2000 <a href="http://www.objsoft.com" target="_blank">Objectsoft, Inc.</a> All rights
+          reserved.<br>
+          <a href="../legal/privacy.html">Privacy Statement</a> - <a
+          href="../legal/terms.html#disclaimer">Legal Disclaimer</a></font></td>
+        </tr>
+      </table>
+      </td>
+    </tr>
+  </table>
+</form>
+<!--NULL-->
+</body>
+</html>

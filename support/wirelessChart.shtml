@@ -1,0 +1,92 @@
+<title>Wireless Device Chart</title>
+<link rel="stylesheet" type="text/css" href="../css/notwired.css">
+
+<!--#include virtual="/ssi/menuNet.html"--> 
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top" nowrap><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+      <img src="../images/companypeople.jpg" width="200" height="200" alt="Company">
+<p class="bodyCopy">&nbsp;
+    </td>
+    <td valign="top"><font face="Arial" color="#6666d7"><b><br>
+      Wireless Device Chart</b></font> 
+      <p>
+      <p><font face="Arial"><small> <b>PQA (Palm Query Application) Interface</b></small></font></p>
+      <table width="100%" border="0" class=FORMBACKGROUND>
+        <tr>
+          <td>
+            <table border="0" style="font-size: 12px;" width=100% class=FORMFOREGROUND>
+              <tr> 
+                <th width="100%" align=left>Device</th>
+                <th>Supported</th>
+              </tr>
+              <tr> 
+                <td>Handspring Visor with OmniSky Minstrel S</td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>HP Jornada 540 with Novatel Minstrel 540</td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>Palm V with OminSky Minstrel V</td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>Palm VII</td>
+                <td align="center">Y</td>
+              </tr>
+            </table>
+		</td>
+        </tr>
+      </table>
+      <p><font face="Arial"><small><br>
+        </small></font></p>
+      <font face="Arial"></font>
+<p></p>
+    <p>
+      <p><font face="Arial"> <b>WML (Wireless Markup Language) Browser</b></font></p>
+      <table width="100%" border="0" cellpadding=1 class=FORMBACKGROUND>
+        <tr>
+          <td>
+            <table border="0" style="font-size: 12px;" width=100% class=FORMFOREGROUND>
+              <tr> 
+                <th width="100%" align=left>Browser</th>
+                <th>Supported</th>
+              </tr>
+              <tr> 
+                <td>Ericsson</td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>Neomar<br>
+                  <small>RIM and PalmOS devices</small></td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>Nokia</td>
+                <td align="center">Y</td>
+              </tr>
+              <tr> 
+                <td>Phone.com Browser<br>
+                  <small>AT&amp;T Wireless, Nextel, Sprint PCS, Verizon Wireless<br>
+                  Check this <a href="http://developer.phone.com/resources/carriers.html">page</a> 
+                  for more carriers. <br>
+                  <br>
+                  <b>Neopint 1000/1600 on Sprint PCS is NOT SUPPORTED.</b></small></td>
+                <td align="center">Y</td>
+              </tr>
+            </table>
+            </td>
+        </tr>
+      </table>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>

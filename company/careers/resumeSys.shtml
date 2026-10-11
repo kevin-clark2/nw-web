@@ -1,0 +1,29 @@
+<title>Resume System</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><br>
+    <img src="../../images/careers.jpg" width="200" height="300" alt="Careers"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+    <small>About NotWired Resume System</small></strong></font><p><font face="Arial"><small>NotWired
+    is working on technologies to improve operational efficiencies of businesses. In today's
+    competitive job marketplace, the ability to accept applications, track applicants and
+    follow a thorough interview process will help to insure the enhancement and growth of your
+    most important investment - people.</small></font></p>
+    <p><font face="Arial"><small>NotWired's system is a combination of HTML, Javascript and
+    CGI scripts that run on your server. New applicants are captured by the server and stored
+    on the local system. They are also sent to a designated email account. </small></font></p>
+    <p><font face="Arial"><small>The resume system can receive new applications from the
+    server or email. New applicants are stored in a database as incoming applications. A
+    resume review team can rank and categorize skills of the applications and assign
+    attractive candidates to a contact person in the company. After assignment, the system
+    tracks candidates through the interview process from application through offer/acceptance
+    or rejection.</small></font></p>
+      <p><font face="Arial"><small><a href="/company/contactsmid.shtml" target="_self">Contact 
+        us</a> if you would like more information.</small></font>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

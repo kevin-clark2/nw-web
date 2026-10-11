@@ -1,0 +1,106 @@
+<html>
+
+<head>
+<title>Data Propagation Engine</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></p>
+      <p>&nbsp;</p>
+      <p align="center"><a href="../index.shtml" target="_self"><small><font face="Arial" color="#6666cc">main 
+        products</font></small></a><br>
+        <br>
+        <br>
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><font face="Arial"><strong><small>NotWired is the most advanced 
+              data propagation service in the industry. Not only do we handle 
+              the propagation of alerts and notifications, but we also can deliver 
+              event and contact information anywhere.</small></strong></font></p>
+            <p>&nbsp;</p>
+            <p><small><font face="Arial">Supporting Information</font></small></p>
+            <blockquote> <small> 
+              <p><small><font face="Arial" color="#6666cc"><a href="NotWiredPropagationDataSheet.pdf">Data 
+                Sheet</a></font></small></p>
+              </small>
+              <p><small><small><font face="Arial"><a href="propagationsupport.shtml" target="_self">Supported 
+                Sites and Devices</a></font></small></small><br>
+              </p>
+            </blockquote>
+          </td>
+        </tr>
+      </table>
+      <p align="center">&nbsp;</p>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+    </strong></font><table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong><small>Data 
+            Propagation Engine Support</small></strong></font></td>
+        <td width="142"><p align="left"><font face="Arial"><small><small><a
+        href="../company/contactsmid.shtml" target="_self">Contact us</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </small></small></font></td>
+      </tr>
+    </table>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <td><br>
+        <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="index.shtml"
+        target="_self"><font face="Arial" color="#6666cc"><strong><small>Overview</small></strong></font></a></td>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><font
+        face="Arial" color="#6666cc"><strong><a href="howitworks.shtml"
+        target="_self"><font face="Arial" color="#6666cc"><strong><small>How it 
+            works </small></strong></font></a></strong></font></td>
+        <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong><small><font face="Arial" color="#6666cc">Trial</font></small></strong></a></td>
+      </tr>
+    </table>
+      <p><small><font face="Arial">The following platforms are supported -</font></small></p>
+
+	<font face="Arial">
+
+      <table width="100%" border="1" cellpadding="5" cellspacing="0">
+        <tr> 
+          <td><small><b>Platform</td>
+          <td><small><b>Type</td>
+        </tr>
+        <tr> 
+          <td><small>Outlook and Outlook Express</td>
+          <td><small>Software</td>
+        </tr>
+        <tr> 
+          <td><small>ACT!</td>
+          <td><small>Software</td>
+        </tr>
+        <tr> 
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+        </tr>
+        <tr> 
+          <td><small>NotWired</td>
+          <td><small>Web</td>
+        </tr>
+        <tr> 
+          <td><small>Yahoo!</td>
+          <td><small>Web</td>
+        </tr>
+        <tr> 
+          <td><small>AOL</td>
+          <td><small>Web</td>
+        </tr>
+      </table>
+	</font>
+      <p>&nbsp;</p>
+      </td>
+  </tr>
+</table></body>
+</html>

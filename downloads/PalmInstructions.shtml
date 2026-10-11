@@ -1,0 +1,99 @@
+<title>NotWired Palm Coordinator Download</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+      <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"><br>
+      <br>
+      <blockquote>
+        <p><font face="Arial, Helvetica, sans-serif"><a href="../support/faq.shtml"><font size="-1">Frequent 
+          Questions</font></a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="../support/feedback.shtml">Feedback</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="../support/knownBugs.shtml">Known 
+          Issues</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="../support/issueTrack.shtml">Issue 
+          Tracking</a></font></p>
+      </blockquote>
+    </td>
+    <td width="422" valign="top"> 
+      <p><a name="top"></a><font face="Arial" color="#6666cc"><strong><br>
+        <small>Palm Coordinator Installation Directions</small></strong></font> 
+      </p>
+<font face="Arial"><small>
+        <p><b>1. <a href="setup.exe">DOWNLOAD</a> THE SETUP.</b><br>
+        <p><b>2. FOLLOW THE DIRECTIONS BELOW EXACTLY AS THEY ARE WRITTEN.</b></p>
+        <p><b>Installation Notes</b>:<br>
+          The file Setup.exe that is downloaded from NotWired contains the NotWired 
+          applications, the NotWired conduit, the JSyncInstaller, and all ancillary 
+          files needed to setup the system When Setup.exe is executed, the <a href="#JSyncAnchor">JSync</a> 
+          runtime environment, and the NotWired conduit are installed. </p>
+        <p><b>To Install the NotWired conduit:<br>
+          </b>Run the program Setup.exe. This will lead you through the installation 
+          and setup procedure for the NotWired conduit. It will also place the 
+          NotWired applications in a directory from where they can be installed 
+          on your PalmOS device. </p>
+        <p><b>IMPORTANT NOTES: <br>
+          1. You MUST choose the directory where your Palm desktop tools are installed 
+          as the installation directory (E.g. c:\Palm)</b>.<br>
+          <b>2. After Setup.exe is complete you MUST stop and re-start HotSync. 
+          </b></p>
+        <p>Setup.exe will use the 'Install Tool' to setup Calendar.prc and Task 
+          List.prc for installation on your Palm device next time HotSync is run. 
+          If you choose not to install these applications during setup, you can 
+          follow the directions below to install these applications manually.</p>
+        <p><b>To Manually Install the NotWired applications for PalmOS:</b> <br>
+          1. Change to the directory where the Palm HotSync is installed (E.g. 
+          c:\Palm). <br>
+          2. Execute InstApp.exe (can be found on the start menu Programs-&gt;Palm 
+          Desktop-&gt;Install Tool). <br>
+          3. Click Add. <br>
+          4. Choose the Calendar.prc file from the NotWired directory (E.g. c:\Palm\NotWired) 
+        </p>
+        <p>NOTE: While InstApp will allow you to select multiple applications 
+          for install, it is not recommended as it may cause problems with one 
+          application being loaded on top of another. SO, FOLLOW THESE DIRECTIONS 
+          EXACTLY AS THEY ARE WRITTEN.<br>
+          <br>
+          5. Click Done. <br>
+          6. Place your Palm device in the cradle.<br>
+          7. Push the HotSync button. At this point, HotSync should start, and 
+          you should see the message "Installing handheld applications&quot;.<br>
+          This operation takes approximately 45 seconds to complete.<br>
+          The Calendar application should now be installed on your PalmOS device. 
+          <br>
+          To Install the Task List application, repeat the above steps using Task 
+          List.prc in place of Calendar.prc. <br>
+        </p>
+
+        <p><b>Calendar Application Instructions:</b></p>
+        <p>The Calendar application is an enhanced version of the PalmOS native 
+          Datebook application. It uses the same underlying database as Datebook. 
+          Therefore, events created on the Calendar app will appear on the Datebook 
+          and visa-versa. The Calendar application contains a feature that allows 
+          you to invite people to events (meetings) created on your Palm device. 
+          When you create an event using Calendar, you can invite people to attend 
+          by clicking the 'Details' button and then clicking the 'Invite' button. 
+          You add invitees to your event by writing their e-mail address on the 
+          line labeled 'EMail' and then clicking the Add button. You can also 
+          use the 'Lookup' button to view the entries in your address book that 
+          have e-mail addresses (Note: Since an e-mail address is required to 
+          invite someone to an event, only Addressbook entries with e-mail addresses 
+          are shown). When you have completed your list of invitees, click done. 
+          If you look at the notes for this events, you will see something like 
+          the following:</p>
+        <p>&lt;NotWired Invitees - do not edit&gt;<br>
+          someone@yahoo.com<br>
+          other@hotmail.com<br>
+          &lt;/NotWired&gt;</p></small></font>
+        <p>&nbsp; </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="228" valign="top"></td>
+    <td width="422" valign="top"></td>
+  </tr>
+</table>
+</body>
+</html>

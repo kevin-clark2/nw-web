@@ -1,0 +1,37 @@
+<html><head><title>Careers @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><img src="../images/NotWired.gif" width="174" height="52"
+    alt="NotWired.gif (1754 bytes)"><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><br>
+    <img src="../images/projectteam.jpg" width="200" height="200"
+    alt="projectteam.jpg (10222 bytes)"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Projects</strong></font> 
+      <p>NotWired believes in small project teams to enhance the focus and minimize 
+        communications complexity. Project teams consist of three to eight members 
+        that focus on solving problems quickly and professionally.</p>
+      <p>Projects include major e-business applications for clients, strategic 
+        technology developments for NotWired and tactical developments. All have 
+        characteristics that are best met by a certain type of team structure. 
+        This project approach is a key success factor at NotWired.</p>
+    <div align="center"><center><table border="0" cellpadding="0" cellspacing="0" width="350">
+      <tr>
+              <td width="150" align="center"><a href="careers/positions.shtml"
+        target="_self">Positions</a></td>
+              <td width="150" align="center"><a href="culture.shtml" target="_self">Culture</a></td>
+              <td width="150" align="center"><a href="benefits.shtml" target="_self">Benefits</a></td>
+              <td width="150" align="center"><a href="projects.shtml"
+        target="_self">Projects</a></td>
+              <td width="150" align="center"><a href="locations.shtml"
+        target="_self">Locations</a></td>
+      </tr>
+    </table>
+    </center></div></td>
+  </tr>
+</table>
+</body>
+</html>

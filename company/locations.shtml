@@ -1,0 +1,22 @@
+<title>Location of NotWired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><br>
+    </td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Locations</strong></font>
+      <p><strong>Corporate Headquarters</strong><br>
+        21720 W Long Grove Road<br>
+        Deer Park, IL 60047<small> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+        <a href="http://maps.google.com/maps?q=21720+Long+Grove+Road,+Deer+Park,+IL&hl=en&sll=37.0625,-95.677068&sspn=62.572465,63.28125&vpsrc=0&hnear=21720+Long+Grove+Rd,+Deer+Park,+Lake,+Illinois+60074&t=m&z=17"
+    target="_blank">Map...</a></small></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,162 @@
+<html>
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<head>
+<base target="bottom">
+<title>NotWired Pricing</title>
+<script langauge="JavaScript">
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+</script>
+</head>
+<body link="#6666cc" vlink="#6666cc" alink="#6666cc" bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr>
+          <td>
+            <p><font face="Arial"><strong>NotWired is the most comprehensive
+              scheduling and groupware system in the market. We invite you to
+              compare our solution to any other solution.</strong></font></p>
+            <p>&nbsp;</p>
+            <p><font face="Arial">Supporting Information</font></p><blockquote>
+            <small>
+              <p><font face="Arial"><a href="costs.shtml" target="_self">Pricing</a></font></p>
+              <p><font face="Arial"><a href="NotWiredASPDataSheet.pdf">Data Sheet</a></font></p>
+              <p><font face="Arial"><a href="featurelist.shtml" target="_self">Feature 
+                List</a></font></p>
+              <p><font face="Arial"><a href="comparisions.shtml" target="_self">Comparisons</a></font></p>
+              <p><font face="Arial"><a href="javascript:openwindow('../tour/index.html',625,525);"  target="_self">Take 
+                a tour</a></font></p>
+              </small>
+            </blockquote>
+          </td>
+        </tr>
+      </table>
+      <p align="left"><strong><font face="Arial"><br>
+    </font></strong></td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="278"><strong><font face="Arial" color="#6666cc">Pricing</font></strong></td>
+          <td width="142">
+            <p align="left"><font face="Arial"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              </small></font> 
+          </td>
+        </tr>
+      </table>
+      <p><font face="Arial">Pricing is based on the number of active users in 
+        your organization. NotWired is currently FREE for 60 days. <font
+        face="Arial"><strong><a
+        href="/notwired/main?op=SignupModule.SignupPageOp" target="_self">SIGNUP</a></strong> 
+        now! </font></font></p>
+      <p><font face="Arial"><b>NotWired Platinum</b></font></p>
+          
+      <font face="Arial"> 
+      <ul>
+        <li><font face="Arial">Ability to search in events, tasks, notes, contacts 
+          or any data entered into NotWired</font></li>
+        <li><font face="Arial">Allows you to check schedules in real-time</font></li>
+        <li>Wireless access</li>
+        <li>100MB of storage (About 10,000 contacts and 2 years of calendars for 
+          10 people)</li>
+      </ul>
+      </font>
+      <p><font face="Arial"><b>NotWired Gold </b><font size="-1">- similar to
+        platinum except does not allow general search.</font></font></p>
+          
+      <font face="Arial"> 
+      <ul>
+        <li><font face="Arial">Allows you to check schedules in real-time</font></li>
+        <li>Wireless access</li>
+        <li>10MB of storage (About 1,000 contacts and 2 years of calendars for 
+          5 people)</li>
+      </ul>
+      </font>
+      <p><b><font face="Arial">NotWired Standard </font></b><font face="Arial"><b>
+        </b><font size="-1">- similar to platinum except does not allow checking
+        of schedules in real-time.</font></font></p>
+          
+      <font face="Arial"> 
+      <ul>
+        <li>Wireless access</li>
+        <li>10MB of storage (About 1,000 contacts and 2 years of calendars for 
+          5 people)</li>
+      </ul>
+      </font>
+      <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="91">&nbsp;</td>
+          <td width="65" valign="top"><small><font face="Arial">Wireless
+            Access </font></small></td>
+          <td width="75" valign="top"><small><font face="Arial">Real-time
+            scheduling </font></small></td>
+          <td width="65" valign="top"><small><font face="Arial">Search</font></small></td>
+          <td width="65" valign="top"><small><font face="Arial">Storage</font></small></td>
+          <td width="131" valign="top" align="center"><small><font face="Arial">Costs</font></small></td>
+        </tr>
+        <tr>
+          <td width="91"><small><font face="Arial">NotWired Platinum</font></small></td>
+          <td width="47" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="53" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="44" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="40" align="center"><small><font face="Arial">100MB</font></small></td>
+          <td width="131" align="center"><font face="Arial"><small><font face="Arial">15.95/month/user</font></small></font></td>
+        </tr>
+        <tr>
+          <td width="91"><small><font face="Arial">NotWired Gold</font></small></td>
+          <td width="47" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="53" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="44" align="center">&nbsp;</td>
+          <td width="40" align="center"><small><font face="Arial">&nbsp;&nbsp;10MB</font></small></td>
+          <td width="131" align="center"><small><font face="Arial">12.95/month/user</font></small></td>
+        </tr>
+        <tr>
+          <td width="91"><small><font face="Arial">NotWired Standard</font></small></td>
+          <td width="47" align="center"><img src="../../images/checkmark.gif" width="8" height="11"
+        alt="../images/../images/../images/../images/../../images/checkmark.gif (865 bytes)"></td>
+          <td width="53" align="center">&nbsp;</td>
+          <td width="44" align="center">&nbsp;</td>
+          <td width="40" align="center"><small><font face="Arial">&nbsp;&nbsp;10MB</font></small></td>
+          <td width="131" align="center"><small><font face="Arial"> 9.95/month/user</font></small></td>
+        </tr>
+      </table>
+      <p><font face="Arial">Discounts apply for volume above 50 users. Contact 
+        <script language="JavaScript">
+var name = "sales";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+        for additional pricing information.</font></p>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

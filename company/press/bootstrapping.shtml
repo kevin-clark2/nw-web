@@ -1,0 +1,37 @@
+<title>Bootstrapping</title>
+<!--#include virtual="/ssi/menuNet2.html"--> 
+<base target="bottom">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img alt="Press wire" height="200" src="../../images/companypeople.jpg" width="200"></td>
+    <td width="422" valign="top">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Bootstrapping</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="../contactsmid.shtml" target="_self"><small><font
+        face="Arial"><small>Contact Us</small></font></small></a>
+          </td>
+      </tr>
+    </table>
+    <p><font size="2" face="Arial">Lately, the hot topic in the press is about the rise and
+    fall of many dotcoms. Many businesses that ran into the Internet gold rush, spent money
+    freely and ended up bust. Perhaps they did not understand the value of a dollar because it
+    was not theirs to begin with...</font></p>
+      <p><font face="Arial" size="2">NotWired and Objectsoft have built a multi-million 
+        dollar business from some basic principals - generating revenue, controlling 
+        costs and serving clients. Profits are used to grow the business and undertake 
+        strategic projects. NotWired was a strategic project within Objectsoft. 
+        Our vision about the future of computing was correct and we have built 
+        a tremendous product and service that is starting to grow and prosper. 
+        </font></p>
+      <p><font face="Arial" size="2">Even today, we continue to grow revenues 
+        and expand on our vision.</font>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

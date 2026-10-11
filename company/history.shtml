@@ -1,0 +1,50 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></td>
+    <td width="422"><font face="Arial" color="#6666cc"><strong><br>
+    </strong></font><table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Company Overview</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+      <p><strong>Technology Development</strong></p>
+      <p>NotWired is the brainchild of <a
+    href="http://www.objsoft.com" target="_blank">Objectsoft</a>. It is an application 
+        service to assist mobile professionals with scheduling and coordinating 
+        groups of people including employees, customers and suppliers.</p>
+      <p>In 1996, Objectsoft started with visual components for Smalltalk. Before 
+        the advent of Java, Smalltalk was a rapidly growing language in the Fortune 
+        1000. About a hundred Fortune 1000 clients purchased and use our development 
+        components for VisualWorks Smalltalk.</p>
+      <p>With the introduction of Java, Objectsoft pursued development of tools 
+        for the Java marketplace. The first versions of these tools are described 
+        in our <a
+    href="http://www.objsoft.com/products/index.html" target="_blank">products</a> 
+        catalog.</p>
+      <p>The Internet moved in the direction of thin clients and devices. Devices 
+        attached to the Internet will eclipse the number of PCs in the marketplace 
+        today. For the next revolution Objectsoft provides the architecture design 
+        and implementation services to deliver custom, scaleable, strategic applications 
+        to the <em>entire</em> Internet user community.</p>
+      <p><strong>Consulting Success</strong><br>
+        Throughout our history, Objectsoft has assisted projects in the successful 
+        implementation of leading-edge technologies. We have major clients in 
+        telecommunications, pharmaceuticals, insurance, information services, 
+        medical distribution and manufacturing. We have participated in the development 
+        several Internet systems that are in use today at companies such as Fireman's 
+        Fund, Encyclopedia Britannica, Caremark and others...
+    </td>
+  </tr>
+</table>
+</body>
+</html>

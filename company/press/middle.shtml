@@ -1,0 +1,89 @@
+<title>Press @ Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<table border="0" cellpadding="0" cellspacing="0" width="752">
+  <tr>
+    <td width="228" valign="top"><a href="../../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img alt="Press wire" height="200" src="../../images/companypeople.jpg" width="200"><p><font
+    face="Arial"><strong><small>&nbsp; Contact</small><br>
+    </strong><small>&nbsp; Public Relations</small><br>
+        <small>&nbsp; 949-371-5449</small><br> <script language="JavaScript">
+var name = "pr";
+var domain = "notwired.com";
+document.write('&nbsp;&nbsp;<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write('<small>'+name + '@' + domain + '</small></a>');
+</script></font><br>
+    <br>
+    </td>
+    <td width="524" valign="top">&nbsp; 
+      <table border="0" cellpadding="0" cellspacing="0"
+    width="100%">
+      <tr>
+        <td width="50%"><table border="0" cellpadding="0" cellspacing="0" width="420">
+          <tr>
+            <td width="278"><font face="Arial" color="#6666cc"><strong><small>Press</small></strong></font></td>
+            <td width="142">
+                  <p align="left">d<a href="../../company/contactsmid.shtml" target="_self"><small><font
+            face="Arial"><small>Contact Us</small></font></small></a>
+                </td>
+          </tr>
+        </table>
+        </td>
+      </tr>
+    </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="200" valign="top"> 
+            <p align="left"><font face="Arial"><strong><br>
+              </strong><small>NotWired empowers mobile professionals with immediate 
+              access to corporate information to increase productivity.</small></font></p>
+            <p align="left">&nbsp;</p>
+            <p align="left"><font face="Arial"><small>NotWired News and Information<br></small>
+              </font><font face="Arial"><img src="../../images/closedsq.gif" width="12" height="8" alt=" "><small><a href="pressreleases.shtml"
+        target="_self">NotWired in the News</a> <small>(news, stories, press releases)</small></small></font><font face="Arial"><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="presskit.zip"
+        target="_self">Press Kit</a> <small>(logos, stories, stats, bios)</small></small></font><font face="Arial"><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="brochures.zip"
+        target="_self">Brochures</a></small> <small><small>(data sheets, corporate)</small></small><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><a href="/company/history.shtml"
+        target="_self"><small>Company Overview</small></a><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="/features.shtml"
+        target="_self">Features</a> &amp; <a href="/benefits.shtml" target="_self">Benefits</a></small><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><a href="/company/bios.shtml"
+        target="_self"><small>Management Bios</small></a><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><a href="/company/events.shtml"
+        target="_self"><small>Events</small></a><br>
+              </font> </p>
+            <p align="left"><br>
+              <font face="Arial"><small>NotWired Articles and White Papers</small></font><br>
+              <font face="Arial"><img src="../../images/closedsq.gif" width="13"
+        height="7" alt=" "><small><a href="../../sales/WirelessInternetWhitePaper.pdf"
+        target="_self">Sync or Real-Time: A White Paper</a></small></font><font face="Arial"><small><br>
+              </small><img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="what.shtml"
+        target="_self">What's Unique About NotWired?</a><br>
+              </small><img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="how.shtml"
+        target="_self">How is NotWired Being Used?</a><br>
+              </small><img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a
+        href="groupware.shtml" target="_self">What is Groupware?</a></small></font><font face="Arial"> 
+              </font><br>
+              <font face="Arial"><img src="../../images/closedsq.gif" width="13"
+        height="8" alt=" "><small><a href="stories.shtml" target="_self">General 
+              Stories</a></small><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><a href="bootstrapping.shtml"
+        target="_self"><small>&quot;Bootstrapping&quot; Story</small></a></font> 
+            <p align="left"><font face="Arial"><small>Research and Analysis</small><br>
+              <img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="smb.shtml"
+        target="_self">Business Stats</a><br>
+              </small><img src="../../images/closedsq.gif" width="13" height="7" alt=" "><small><a href="mobile.shtml"
+        target="_self">Mobile Stats</a></small></font> 
+            <p align="left">&nbsp;
+            <p align="left">&nbsp;
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

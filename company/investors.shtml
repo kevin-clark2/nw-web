@@ -1,0 +1,49 @@
+<html><head><title>About Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+          <a href="factsheet.shtml">Fact Sheet</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="contactsmid.shtml">Contacts</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="careers.shtml">Careers</a></font></p>
+        <p><a href="partnersmid.shtml"><font face="Arial, Helvetica, sans-serif" size="-1">Partners</font></a></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="affiliations.shtml">Affiliations</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="press/index.shtml">Press</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="events.shtml">Events</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="investors.shtml">Investors</a></font></p>
+      </blockquote>
+    </td>
+    <td valign="top" width="422">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong> 
+            Investors</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+      <p>NotWired is self-funded. Our parent company, Objectsoft, is profitable; 
+        has always run a profit in the enterprise consulting market.</p>
+      <p>Investors contact:</p>
+      <p>Kevin Clark<br>
+        <script language="JavaScript">
+var name = "info";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+        <br>
+        949-371-5449
+    </td>
+  </tr>
+</table>
+</body>
+</html>

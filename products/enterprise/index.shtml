@@ -1,0 +1,153 @@
+<html>
+<head>
+<title>Enterprise Application Frameworks</title>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small> 
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><strong>NotWired is the missing link on your application server 
+              to deliver secure enterprise-class applications fast.</strong></p>
+            <p>&nbsp;</p>
+            <p>Supporting Information</p>
+            <blockquote>
+              <p><a href="EnterprisePortalDataSheet.pdf">Data Sheet</a> <font size="-1">(PDF)</font></p>
+            </blockquote>
+            <small>
+            <p>&nbsp;</p>
+            </small></td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Portal Application Frameworks</strong></font></td>
+          <td width="142">
+            <p align="left"><font face="Arial"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+              </small></font> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="8" alt="closedsq.gif (57 bytes)"><font face="Arial" color="#6666cc"><strong>Overview</strong></font></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="14" height="8" alt><a href="howitworks.shtml" target="_self"><strong>How 
+            it works</strong></a></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong>Getting Started</strong></a></td>
+        </tr>
+      </table>
+      <p>Development of enterprise system is expensive and time consuming. NotWired 
+        lowers the cost of development and allows your organization to deliver 
+        robust Internet applications quickly.</p>
+      <p><strong>Key Benefits</strong></p>
+      <table border="0" cellpadding="0" width="100%" valign="top">
+        <tr valign=top> 
+          <td width="10" valign="top"> <img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td><strong>Standards Support. </strong>Built on JSP and Struts, NotWired 
+            provides the structure and pre-build high-level components necessary 
+            to build and enterprise portal.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"> <img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td><strong>Lower cost of development. </strong>Why invest the money 
+            building custom application frameworks. Good frameworks and business 
+            models will allow you to invest a fraction of the time and support 
+            industry standards frameworks such as JSP, Struts and Java Server 
+            Faces.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"> </td>
+          <td><strong>Faster development. </strong>Today, speed is king. Taking 
+            time to develop an infrastructure does not match general business 
+            objectives.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Lower Maintenance Costs. </strong>Writing your own frameworks 
+            will require time and money to maintain it and keep up with the ever 
+            changing standards. NotWired reduces this cost by accepting the additional 
+            maintenance burden.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>High Quality Applications. </strong>NotWired applications 
+            and frameworks have been tested and debugged for two years. They will 
+            be higher quality than those that are built the for first time.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Consistency. </strong>NotWired is entirely layered. Applications 
+            interact with frameworks that insure a consistent implementation. 
+            This will save time and money in terms of training and the ability 
+            to move personnel from one project to another.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>International Support. </strong>NotWired screens and applications 
+            externalize all lables and messages to resource bundles. It utilizes 
+            standard JSP technology to deliver international support. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Flexibility. </strong>Every layer of NotWired is designed 
+            for flexibility. Its design will allow for varied user devices and 
+            interfaces. Frameworks and applications can be adapted to custom or 
+            legacy databases. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Adaptable Datasources. </strong>NotWired delivers a service 
+            layer implementation which may utilize one or more pre-built or custom 
+            datasources to adapter to databases, message queues or any other transactional 
+            storage.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Integrated. </strong>NotWired integrates the basis for most 
+            applications on all major platforms - event scheduling, workflow, 
+            contact/customer databases and application security.</td>
+        </tr>
+        <tr valign=top> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td><strong>Easy to integrate. </strong>NotWired is Java libraries, 
+            JSP pages, Tablibs, and EJBs. It delivers as a WAR file which may 
+            be loaded into any standard J2EE server.</td>
+        </tr>
+      </table>
+      <blockquote>
+        <p>&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,77 @@
+<title>Login Help</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<!--BODY-->
+
+<form method="POST" action="/notwired/main" name="FORGOTTEN_PASSWORD"
+align="center">
+  <input type="hidden" name="op" value="LoginModule.ForgottenPasswordOp"><table border="0"
+  cellpadding="3" cellspacing="0" width="600">
+    <tr>
+      <td width="200" valign="top" cellpadding="10"><a href="/index.html"
+      target="_top"><img src="../images/NotWired.gif" width="174" height="52"
+      alt="NotWired.gif (2387 bytes)" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small></td>
+      <td width="400"><table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td><br>
+              <font color="#6666cc"><strong>Are you having trouble signing in?</strong></font><br>
+              Login and Password are case sensitive. Login needs to be at least 
+              6 characters in length. Remember, your Login must be a valid email 
+              address. <!--
+      <p>
+      <strong><font color="#000000">Forget your Organization, Login or Password?</font></strong><br>
+      Please enter your E-mail address you used during signup and your Login information will be
+      mailed to you. If you are a member of multiple Organizations, all Logins will be sent to you
+      in email.<br>
+      </p>
+      <table border="0" cellpadding="0" cellspacing="1" width="500">
+        <tr>
+          <td align="right"><font face="Arial"><small>email: </small></font></td>
+          <td><font face="Arial"><small><input type="text" name="T1" size="20"> <small><input
+          type="submit" value="Get Login" name="getPass"></small></small></font></td>
+        </tr>
+      </table>
+      --> 
+              <p><strong><font color="#6666cc">Forget your password?</font></strong><br>
+                Please enter your Login email address. Your login information 
+                will be e-mailed to you if we can match your email information 
+                in our database. <br>
+              </p>
+              <table BORDER="0" CELLPADDING="0" CELLSPACING="3" WIDTH="100%">
+                <tr> 
+                  <td >Your E-mail:</td>
+                  <td><font face="Arial"> 
+                    <input TYPE="TEXT" NAME="uid" SIZE="30">
+                    <input type="submit" value="Submit" name="Forgot">
+                    </font></td>
+                </tr>
+              </table>
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td><br>
+              <strong><font color="#6666cc">Can't remember your email that you 
+              used on your account?</font></strong><br>
+              If you cannot remember your email on your account, contact your 
+              organization administrator. If you are the organization administrator 
+              and a subscriber, go to the <a
+          href="/support/index.shtml" target="_top">support</a> page. You may 
+              also create a <a
+          href="/notwired/main?op=SignupModule.SignupPageOp">new organization</a>. 
+              <p><strong><font color="#6666cc">Other Problems or Questions?</font></strong><br>
+                If you are still having problems accessing your account and you 
+                are a subscriber, please contact <a href="/support/index.shtml" target="_top">NotWired 
+                support</a>. 
+            </td>
+        </tr>
+      </table>
+      </td>
+    </tr>
+  </table>
+</form>
+<!--NULL-->
+</body>
+</html>

@@ -1,0 +1,289 @@
+<HTML>
+<HEAD>
+
+<!-- Copyright (c) 1999 - 2001 NotWired, Inc. All Rights Reserved. -->
+
+<LINK rel="stylesheet" type="text/css" href="../../css/notwired.css">
+<!--
+<SCRIPT src="/nw_js/main.js"></SCRIPT>
+<SCRIPT src="/nw_js/calendar.js"></SCRIPT>
+<SCRIPT src="/nw_js/chooser.js"></SCRIPT>
+<SCRIPT src="/nw_js/email.js"></SCRIPT>
+-->
+
+<script language="JavaScript">
+// NOTE: The scripts are normally in the Notwired.js file. They have been placed on this
+// screen to protect the source code of that file. Therefore, selected methods were copied 
+// into this template
+
+/**
+ * Shows the default confirm message
+ * 
+ * @param msg the message to be displayed
+ */
+function showConfirm(msg){
+   if (msg== null) {
+      msg = "All unsaved information will be lost. Are you sure?\nClick OK to discard the changes.";
+   }
+   return confirm(msg);
+}
+
+/**
+ * Function to trim the leading and trailing spaces of a string
+ * 
+ * @param argvalue the string that is to be trimmed
+ * @return the trimmed string
+ */
+function trim(argvalue) {
+    if (!argvalue) {
+        return "";
+    }
+
+    var tmpstr = ltrim(argvalue);
+    return rtrim(tmpstr);
+}
+
+/**
+ * Function to trim the leading spaces of the string
+ * 
+ * @param argvalue the string to be trimmed
+ * @return the trimmed string
+ */
+function ltrim(argvalue) {
+    while (1) {
+        if (argvalue.substring(0, 1) != " ")
+            break;
+        argvalue = argvalue.substring(1, argvalue.length);
+    }
+    return argvalue;
+}
+
+/**
+ * Function to trim the trailing spaces of a string
+ * 
+ * @param argvalue the String that is to be trimmed
+ * @return the trimmed string
+ */
+function rtrim(argvalue) {
+    while (1) {
+        if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+            break;
+        argvalue = argvalue.substring(0, argvalue.length - 1);
+    }
+    return argvalue;
+}
+
+// used to validate email addresses
+// this is extracted from main.js, since currently, the function in main.js
+// works specifically with text fields, and with invitee status flags.
+
+var maxEmailAddressLength = 75;
+var emailPattern = /([^\s\\\(\)\[\]<>;,:"@]+@[^\s\\\(\)\[\]<>;,:"]+)[:;,\s]*/;
+var groupPattern = /.+-.+/;
+
+function isValidEmailAddress(address)
+{
+    var match = address.match(emailPattern);
+
+    if (match != null)
+    {
+        return (match.length <= maxEmailAddressLength);
+    } else
+    {
+        match = address.match(groupPattern);
+
+        if (match != null)
+        {
+            return (match.length <= maxEmailAddressLength);
+        }
+
+        return false;
+    }
+}
+
+function validateEmailAddresses(addresses)
+{
+    var addressList = addresses.split(",");
+
+    for (var i = 0; i < addressList.length; i++)
+    {
+        var address = trim(addressList[i]);
+        if ((address.length > 0) && !isValidEmailAddress(address))
+        {
+            alert("Invalid email address: '" + address + "'");
+            return false;
+        }
+    }
+
+    return true;
+}
+
+function validateRecipients()
+{
+    if (trim(document.emailForm.recipientsTo.value).length == 0 &&
+        trim(document.emailForm.recipientsCc.value).length == 0 &&
+        trim(document.emailForm.recipientsBcc.value).length == 0)
+    {
+        alert("Please specify recipients.");
+        return false;
+    }
+
+    return validateEmailAddresses(document.emailForm.recipientsTo.value) &&
+           validateEmailAddresses(document.emailForm.recipientsCc.value) &&
+           validateEmailAddresses(document.emailForm.recipientsBcc.value);
+}
+
+ function validateAttachment(form){
+       
+    var form = document.emailForm;
+       if (trim(form.attachment.value) == ""){
+          alert("Please select a file to attach");
+          return false;
+       }
+
+       return true;
+  }
+function setFocus(field){
+    field.focus();
+}
+</script>
+
+</HEAD>
+<BODY onLoad='setFocus(document.emailForm.recipientsTo)'>
+
+<TABLE border=0 cellspacing=0 cellpadding=0 width=100% ><TR><TD>
+
+
+<form name = EmailModuletb action= /notwired/main>
+
+
+<INPUT type=hidden name=op>
+
+<INPUT type=hidden name="windowName" value="self">
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <script> var frm  = document.EmailModuletb; </script>
+          <tr> 
+            <td width="92%" class=MODULETITLEBAR >Email</td>
+          </tr>
+        </table> 
+</form>
+
+
+<!--END TOOLBAR-->
+</TD></TR><TR><TD>
+<form name="emailForm" action="/notwired/main" method="POST" enctype="multipart/form-data">
+<input type="hidden" name="msgId" value="">
+<input type="hidden" name="attachmentId" value="">
+<input type="hidden" name="op" value="">
+<input type="hidden" name="ka" value="">
+<input type="hidden" name="tab" value="">
+<input type="hidden" name="recipientsToIds" value="">
+<input type="hidden" name="recipientsCcIds" value="">
+<input type="hidden" name="recipientsBccIds" value="">
+
+
+
+        <table border="0" cellpadding="2" cellspacing="0" align="center">
+          <tr> 
+            <td class="SECTIONBAR">Compose</td>
+            <td class="SECTIONBARBUTTONS">
+              <INPUT type=button onClick="if ( validateRecipients() ) { document.emailForm.op.value='EmailModule.ComposeOp';document.emailForm.ka.value='done';document.emailForm.target='_self';document.emailForm.submit() }" value="&nbsp;&nbsp;&nbsp;&nbsp;Send&nbsp;&nbsp;&nbsp;&nbsp;">
+              <INPUT type=button onClick="if ( showConfirm('Are you sure?\nClick OK to discard the changes or Cancel to return to compose.') ) {window.close();}" value="&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;">
+            </td>
+          </TR>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;From:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+            <td class="FORMBACKGROUND" align="left">Sales Manager &lt;sales@notwired.com&gt;</td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;Reply To:</td>
+            <td class="FORMBACKGROUND" align="left">&lt;sales@notwired.com&gt;</td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;[&nbsp;To&nbsp;]*:</td>
+            <td class="FORMBACKGROUND" align="left"> 
+              <input type="text" name="recipientsTo" size="80" value="sales@notwired.com">
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;[&nbsp;Cc&nbsp;]*:</td>
+            <td class="FORMBACKGROUND" align="left"> 
+              <input type="text" name="recipientsCc" size="80" value="">
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;[&nbsp;Bcc&nbsp;]*:</td>
+            <td class="FORMBACKGROUND" align="left"> 
+              <input type="text" name="recipientsBcc" size="80" value="">
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td>&nbsp;</td>
+            <td CLASS="FORMBACKGROUNDLABEL"><small>* Please enter email addresses 
+              separated by a comma.</small><BR>
+              <div class="FORMBACKGROUNDLABEL"><BR>
+              </div>
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td class="FORMBACKGROUNDLABEL" align="left">&nbsp;Subject:</td>
+            <td class="FORMBACKGROUND" align="left"> 
+              <input type="text" name="subject" size="80" value="">
+            </td>
+          </tr>
+          <tr> 
+            <td class="FORMBACKGROUND" colspan="2"> &nbsp; 
+              <textarea name="body" cols="70" rows="15">
+
+Sales Manager
+Tel: 949-371-5449
+NotWired, Inc.
+</textarea>
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td colspan="2"> 
+              <div align="left" valign="top" class=LABEL> File:&nbsp;
+                <input type="file" name="attachment" size="50">
+                &nbsp;&nbsp;
+                <INPUT type=button onClick="if ( validateAttachment() ) {confirm('Attachmennts are disabled for demo.\nThe ServerEmailTag may disable the attachment capability\nand remove the attachment components from this template.');}" value="Add&nbsp;Attachment">
+              </div>
+              <span class="FORMBACKGROUNDLABEL">&nbsp;<br>
+              Attachments:</span><br>
+              <div class="OPTIONS"> <span class="FORMBACKGROUNDLABEL"> None </span> 
+              </div>
+            </td>
+          </tr>
+          <tr class="FORMBACKGROUND"> 
+            <td colspan="2"> 
+              <hr width="100%" NOSHADE>
+            </td>
+          </tr>
+          <tr class="SECTIONBARBUTTONS"> 
+            <td colspan="2"> 
+              <INPUT type=button onClick="if ( validateRecipients() ) {window.close();}" value="&nbsp;&nbsp;&nbsp;&nbsp;Send&nbsp;&nbsp;&nbsp;&nbsp;">
+              <INPUT type=button onClick="if ( showConfirm() ) {window.close(); }" value="&nbsp;&nbsp;&nbsp;Cancel&nbsp;&nbsp;&nbsp;">
+            </td>
+          </tr>
+        </table>
+</form>
+
+
+<br>
+
+<div align="center" class=LABEL>
+        <p><img src="../../images/poweredby.gif"></p>
+        <table width="550" border="0" cellspacing="0" cellpadding="0">
+          <tr>
+            <td>Note: When installed with the <a href="../enterprise/index.shtml">NotWired 
+              Enterprise Frameworks</a>, the To, Cc and Bcc fields are link enabled 
+              to lookup contacts from the contact managment service provider.</td>
+          </tr>
+        </table><p><br>
+        </p>
+      </div>
+
+
+</TD></TR></TABLE></BODY>
+</HTML>

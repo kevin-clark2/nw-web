@@ -1,0 +1,456 @@
+<title>iCal/vCard </title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top" nowrap><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+      <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+      <img src="../images/companypeople.jpg" width="200" height="200" alt="Company">
+<p class="bodyCopy">&nbsp;
+    </td>
+    <td valign="top"><font face="Arial" color="#6666d7"><strong><br>
+      <small>Tool support for iCal/vCard <br>
+      </small></strong></font> 
+      <div align=right><font size="-1">Legend:<b>Y</b>-implemented <b>N</b>-not 
+        implemented <b>n/a</b>-Not Applicable</font></div>
+        
+      <table border="1" cellpadding="2" width="100%" cellspacing="0">
+        <tr> 
+          <td> 
+            <div align="center"> 
+              <h4>Tool/Elements</h4>
+            </div>
+          </td>
+          <td> 
+            <div align="center">iCal Event<br>
+              (VEVENT)</div>
+          </td>
+          <td> 
+            <div align="center">iCal Tasks<br>
+              (VTODO) </div>
+          </td>
+          <td> 
+            <div align="center">iCal Attendees</div>
+          </td>
+          <td> 
+            <div align="center">iCal Repeat Rule</div>
+          </td>
+          <td> 
+            <div align="center">iCal TimeZone</div>
+          </td>
+          <td> 
+            <div align="center">iCal Alarm</div>
+          </td>
+          <td> 
+            <div align="center">vCard Profile</div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">NotWired 2.0</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Outlook 2000</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Lotus Organizer 6.0</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>n/a</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Lotus Notes R5</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>n/a&nbsp;</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Act 2000</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b> &nbsp;Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y&nbsp;</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Netscape Calendar</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>&nbsp;N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>n/a</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Yahoo! Calendar</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>n/a</b></font></div>
+          </td>
+        </tr>
+      </table>
+        <br>
+        <br>
+        <font face="Arial" color="#6666d7"><strong><small>iCal/vCard Tool Integration</small></strong></font> 
+        <br>
+      <div align=right><font size="-1">Legend:<b>Y</b>-integrated <b>N</b>-not 
+        integrated <b>n/a</b>-Not Applicable</font><br>
+      </div>
+      <table border="1" cellpadding="2" width="100%" cellspacing="0">
+        <tr> 
+          <td rowspan="2" nowrap> 
+            <div align="center"> 
+              <h4>Tool/ <br>
+                Notwired Elements</h4>
+            </div>
+          </td>
+          <td colspan="5">NotWired - iCal 2.0, vCard 3.0</td>
+        </tr>
+        <tr> 
+          <td> 
+            <div align="center">iCal Event</div>
+          </td>
+          <td> 
+            <div align="center">iCal Tasks</div>
+          </td>
+          <td> 
+            <div align="center">iCal Attendees</div>
+          </td>
+          <td> 
+            <div align="center">iCal Repeat Rule</div>
+          </td>
+          <td> 
+            <div align="center">vCard Profile</div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Outlook 2000</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Lotus Organizer 6.0</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>&nbsp;n/a</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Lotu Notes R5</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>&nbsp;n/a</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Act 2000</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>&nbsp;Y</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Netscape Calendar</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>Y</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>n/a&nbsp;</b></font></div>
+          </td>
+        </tr>
+        <tr> 
+          <td nowrap> 
+            <div align="center">Yahoo! Calendar</div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>N</b></font></div>
+          </td>
+          <td> 
+            <div align="center"><font size="2"><b>&nbsp;n/a</b></font></div>
+          </td>
+        </tr>
+      </table>
+        <br>
+        <br>
+        <font face="Arial" color="#6666d7"><strong><small>iCal Version Support Summary</small></strong></font> 
+        <br>
+        <br>
+        <table border="1" cellpadding="2" width="100%" cellspacing="0">
+          <tr> 
+            <td><b>Tool</b></td>
+            <td width="200"><b>iCal 1.0</b></td>
+            <td width="200"><b>iCal 2.0</b></td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>NotWired 2.0</b></div>
+            </td>
+            <td width="200">No support</td>
+            <td width="200">Full support.<br>
+              No timezone and alarm support.</td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>Outlook 2000</b></div>
+            </td>
+            <td width="200"> Partial support<br>
+              Simple repeating cases only. <br>
+              No timezone and alarm support.<br>
+              Cannot export repeating events.<br>
+            </td>
+            <td width="200">Full support</td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>Lotu Organizer 6.0</b></div>
+            </td>
+            <td width="200">Partial support<br>
+              No repeating rule and alarm support</td>
+            <td width="200"> 
+              <p>Partial support<br>
+                No repeating rule and alarm support</p>
+            </td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>Act 2000</b></div>
+            </td>
+            <td width="200">Full support</td>
+            <td width="200">Full support</td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>Netscape Calendar</b></div>
+            </td>
+            <td width="200">Partial Support<br>
+              No repeating and alarm support</td>
+            <td width="200">No support</td>
+          </tr>
+          <tr> 
+            <td> 
+              <div align="left"><b>Yahoo! Calendar</b></div>
+            </td>
+            <td width="200">No support</td>
+            <td width="200">No support</td>
+          </tr>
+        </table>
+
+    </td>
+  </tr>
+</table>
+</body>
+</html>

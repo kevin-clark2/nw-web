@@ -1,0 +1,53 @@
+<title>Support @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><br>
+    <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+    <small>Support</small></strong></font><p><font face="Arial"><strong><small>Bugs, Features
+    and Issues</small></strong><br>
+        <small>NotWired's preferred method of support is through our<a href="issueTrack.shtml"
+    target="_self"> issue tracking system</a>. NotWired's support staff monitors 
+        the issues, prioritizes them and works on a resolution as quickly as possible.</small></font></p>
+    <p><font face="Arial"><strong><small>Online Support</small><br>
+        </strong><small><a href="faq.shtml" target="_self">Frequently asked questions</a> 
+        are available on our website. Additional support is available through 
+        our <a
+    href="feedback.shtml" target="_self">feedback form</a>.</small></font></p>
+    <p><font face="Arial"><strong><small>Internet Access</small><br>
+    </strong><small>Internet Connectivity. A modem of 56K speed is recommended. For greater
+    performance, Bidcom recommends a dedicated ISDN , DSL, cable modem or T1 line. <br>
+    </small></font><b><br>
+    <font face="Arial"><small>Hardware Requirements</small></font></b><font face="Arial"><small><br>
+    A Intel based Pentium-based or equivalent processors, with the lastest browser (see
+    below). In addition, computers should have at least 64 MB of RAM. </small></font></p>
+    <p><b><font face="Arial"><small>Software Requirements</small></font></b><font face="Arial"><small><br>
+    All of the following applications and updates are provided for free, and may be downloaded
+    by selecting Help from your Browser main screen and choosing the Product Updates
+    selection. Alternately you can download the browser updates via the following URL's. </small></font>
+      <ul>
+        <li><font face="Arial"><small>Latest Netscape Navigator/Communicator Browser. 
+          You can download from the Netscape site at <a
+        href="http://home.netscape.com/computing/download/index.html?cp=hom05tdow" target="_blank"><b>http://home.netscape.com/computing/download/index.html?cp=hom05tdow</b></a> 
+          </small></font></li>
+        <li><font face="Arial"><small>Latest Microsoft Internet Explorer. You 
+          can download from the Microsoft site: <a href="http://www.microsoft.com/windows/ie/" target="_blank"><b>http://www.microsoft.com/windows/ie/</b></a> 
+          A new browser will open. </small></font></li>
+        <li><font face="Arial"><small>Viewer - Adobe Acrobat Reader. Used when 
+          viewing schedules and other documents on the Bidcom system. Adobe Acrobat 
+          allows users to view a variety of file types, even if the user does 
+          not have the appropriate software application. You can download this 
+          application at the Adobe web site at <a
+        href="http://www.adobe.com/prodindex/acrobat/readstep.html"><b>http://www.adobe.com/prodindex/acrobat/readstep.html</b></a></small></font></li>
+        <li><b><a href="iCal_vCardSupport.shtml" target="_self"><font face="Arial"><small>iCal/vCard 
+          Integration and Support</small></font></a></b></li>
+      </ul>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

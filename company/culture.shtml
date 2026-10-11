@@ -1,0 +1,91 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="../css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><br>
+    <a name="top"></a><img src="../images/companypeople.jpg" width="200" height="200"
+    alt="Company"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+      Culture</strong></font> 
+      <p>NotWired's team-based culture reflects our core values. Respect for the 
+        individual and commitment to the team are central to our culture. We work 
+        on technically challenging projects in-house and at our clients. Our focus 
+        is on 100% success in the markets we choose to pursue.</p>
+      <div align="center">
+        <table border="0" cellpadding="0" cellspacing="0" width="350">
+          <tr> 
+            <td width="150" align="center"><a href="careers/positions.shtml"
+          target="_self">Positions</a></td>
+            <td width="150" align="center"><a href="culture.shtml" target="_self">Culture</a></td>
+            <td width="150" align="center"><a href="benefits.shtml" target="_self">Benefits</a></td>
+            <td width="150" align="center"><a href="projects.shtml"
+          target="_self">Projects</a></td>
+            <td width="150" align="center"><a href="locations.shtml"
+          target="_self">Locations</a></td>
+          </tr>
+        </table>
+      </div>
+      <p><br>
+        <small><font face="Arial">Here are some commonly asked questions and our 
+        responses:</font></small></p>
+      <p><font face="Arial"><a href="#environment">1. What is the work environment 
+        like?</a><br>
+        <a href="#team">2. What is a typical development team?</a><br>
+        <a href="#projects">3. What types of projects are there to work on?</a><br>
+        <a href="#succeed">4. What makes NotWired succeed?</a><br>
+        <a href="#teammember">5. What is NotWired looking for in a team member?</a><br>
+        <a href="#travel">6. How much travel is required?</a><br>
+        <a href="#overtime">7. How much overtime is required?</a><br>
+    <strong><br>
+        <a name="environment">1. What is the work environment like?</a></strong><br>
+        We are casual yet intense. There are no set hours, yet software development 
+        is a team process. Team processes involve communication. Whatever will 
+        facilitate getting the project done on time and on budget is acceptable.</font></p>
+      <p><font face="Arial"><strong><a name="team">2. What is a typical development 
+        team?</a><br>
+        </strong>A typical team consists of four to eight engineers along with 
+        supporting team members. Supporting team members include management, administration 
+        and operational support.</font></p>
+      <p><font face="Arial"><strong><a name="projects">3. What type of projects 
+        will I work on?</a><br>
+        </strong>Projects in the latest technologies. In engineering we are developing 
+        revolutionary applications based on wireless technologies. In consulting, 
+        we chose projects that meet our core competencies - development of e-infrastructures 
+        and foundations for portal and wireless computing. </font></p>
+      <p><font face="Arial"><strong><a name="succeed">4. What makes NotWired succeed?</a><br>
+        </strong>The best people, a strong engineering process, a religious belief 
+        in quality and dogmatic iteration. On &quot;Internet-time&quot; you must 
+        get it out fast. However, building the next great product is not usually 
+        an overnight effort. It takes years of development and refinement to gain 
+        strategic competitive advantage. This type of competitive advantage is 
+        a huge barrier to entry for potential entrants into the marketplace.</font></p>
+      <p><font face="Arial"><strong><a name="teammember">5. What are we looking 
+        for in a team member?</a><br>
+        </strong>Someone who believes in software development the way we do. We 
+        want the best, who think they are the best and want to work with the best. 
+        We want members that will always look for a better way, are not short-sighted, 
+        believe in quality and not just getting the job done, have the patience 
+        of a master chess player with the very best skills.</font></p>
+      <p><font face="Arial"><strong><a name="travel">6. How much travel is required?</a><br>
+        </strong>Travel is part of the consulting lifestyle. When long-term assignments 
+        are involved, NotWired establishes apartments to ease the burden of travel. 
+        For engineers, travel may be limited, but hours may be longer. Engineering 
+        is typically in one location with minor travel related to trade shows 
+        and new product launches.</font></p>
+      <p><font face="Arial"><strong><a name="overtime">7. How much overtime is required?</a><br>
+        </strong>NotWired is competing on &quot;internet-time&quot; with other 
+        software companies, service providers, consulting organizations and ourselves. 
+        When deadlines are looming, overtime is often required. Management understands 
+        the requirement to &quot;take a break&quot; to research, investigate and 
+        have fun after critical deadlines have past.</font></p>
+    <p><br>
+        <a href="#top">Top</a><br>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

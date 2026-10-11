@@ -1,0 +1,124 @@
+<title>Partners</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<body bgcolor="#FFFFFF">
+<base target="bottom">
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!</font></small></small><br>
+    <img src="../images/companypeople.jpg" width="200" height="200" alt="Company"></td>
+    <td width="422" valign="top"><font face="Arial" color="#6666cc"><strong><br>
+    </strong></font><table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong>Supplier 
+            Partners</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+      <p>As a NotWired supplier, you can offer your company's products and services 
+        to businesses through our service. As a NotWired supplier you:</p>
+    <blockquote>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td width="17" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+          alt=""></td>
+            <td width="403">Gain access to a profitable and fast-growing segment 
+              of the economy.</td>
+        </tr>
+        <tr>
+          <td width="17" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+          alt=""></td>
+            <td width="403">Improve customer acquisition and retention by leveraging 
+              the integration provided by NotWired.</td>
+        </tr>
+        <tr>
+          <td width="17" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+          alt=""></td>
+            <td width="403">Reach outside the Internet to the wireless community.</td>
+        </tr>
+      </table>
+    </blockquote>
+      <p>Join these leading companies to become a key supplier in the NotWired 
+        service. Contact 
+        <script language="JavaScript">
+var name = "info";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</small></a>');
+</script>
+      </p>
+      <small><br>
+      <br>
+      <table border="0" cellpadding="0" cellspacing="0" width="420" height="114">
+        <tr> 
+          <td height="21" width="210"><strong>Business Services</strong></td>
+          <td height="21" width="210"><strong>Products </strong></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">iPrint.com</td>
+          <td height="21" width="210">Travelscape.com</td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">JFax.com</td>
+          <td height="21" width="210">TravelNow.com</td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Experian</td>
+          <td height="21" width="210">Motorola Direct</td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">MadeToOrder.com</td>
+          <td height="21" width="210">Verizon</td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Register.com</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Stamps.com/iShip.com</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210"></td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210"><strong>Content</strong></td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Big Yellow</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Hoovers</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">@Backup</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="21" width="210">Oanda.com</td>
+          <td height="21" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="18" width="210">Switchboard.com</td>
+          <td height="18" width="210"></td>
+        </tr>
+        <tr> 
+          <td height="18" width="210">Weather.com</td>
+          <td height="18" width="210"></td>
+        </tr>
+      </table>
+    </small></td>
+  </tr>
+</table>
+</body>
+</html>

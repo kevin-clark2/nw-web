@@ -1,0 +1,127 @@
+<html><head><title>Services @ Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></p>
+      <p><br>
+      </p>
+      <blockquote> 
+        <p align="center"><small><font face="Arial"><a href="../index.shtml" target="_self"> 
+          </a></font></small></p>
+      <p>&nbsp;</p></blockquote>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><strong>NotWired is the missing link on your application server 
+              to deliver secure enterprise-class applications fast.</strong></p>
+            <p>&nbsp;</p>
+            <p>Supporting Information</p>
+            <blockquote> 
+              <p><a href="enterprise.shtml" target="_self">Service details</a></p>
+              <p><a href="EnterpriseServicesDataSheet.pdf" target="_self">Data 
+                Sheet</a> (pdf)</p>
+            </blockquote>
+            <p align="center">&nbsp;</p>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp; </p>
+      </td>
+    <td width="422" valign="top" bgcolor="#FFFFFF"><table border="0" cellpadding="0"
+    cellspacing="0" width="100%">
+      <tr>
+        <td><font face="Arial" color="#6666cc"><strong><br>
+        </strong></font><table border="0" cellpadding="0" cellspacing="0" width="100%">
+          <tr>
+                <td width="278"><font face="Arial" color="#6666cc"><strong> Consulting 
+                  Services</strong></font></td>
+            <td width="142">
+                  <p align="left"><font face="Arial"><small><a
+            href="../company/contactsmid.shtml" target="_self">Contact us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                    </small></font> 
+                </td>
+          </tr>
+        </table>
+            <p>The NotWired team wants your business! We work with you to deliver 
+              a complete solutions to address your marketplace.</p>
+            <p>We deliver solutions that:</p>
+            <table border="0" cellpadding="0" width="100%">
+              <tr>
+                <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+            alt="bullet.gif (93 bytes)"></td>
+                <td valign="top"><strong>Build business portals faster. </strong>Face 
+                  it. Time is money. NotWired can show you complete solutions 
+                  to get to market faster with professional, scalable solutions.</td>
+              </tr>
+              <tr> 
+                <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+            alt="bullet.gif (93 bytes)"></td>
+                <td valign="top"><strong>Generate incremental revenue. </strong>Increase 
+                  revenue from your website or existing customer base with NotWired's 
+                  value-added applications.</td>
+              </tr>
+              <tr> 
+                <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+            alt="bullet.gif (93 bytes)"></td>
+                <td valign="top"><strong>Increase customer retention. </strong>Customer 
+                  retention is the key to increasing selling opportunities and 
+                  monthly subscription revenue.</td>
+              </tr>
+              <tr> 
+                <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+            alt="bullet.gif (93 bytes)"></td>
+                <td valign="top"><strong>Capture new customers. </strong>Mobile 
+                  professionals comprise 43% of the U.S. workforce. NotWired creates 
+                  solutions for this target customer.</td>
+              </tr>
+              <tr> 
+                <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+            alt="bullet.gif (93 bytes)"></td>
+                <td valign="top"><strong>Increase usage. </strong>NotWired's applications 
+                  drive users to your service many times during the day. This 
+                  will increase your selling opportunities along with your advertising 
+                  and transaction revenues.</td>
+              </tr>
+            </table>
+        </td>
+      </tr>
+    </table>
+      <p>We help your organization with consulting services for:</p>
+      <table border="0" cellpadding="0" width="100%">
+        <tr> 
+          <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td valign="top"><strong>Portal Fast-Start. </strong>NotWired's consulting 
+            services will setup your development enviornment and have you delivering 
+            applications in a month.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td valign="top"><strong>Custom application development. </strong>NotWired's 
+            consulting services delivers world-class web and wireless applications.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></td>
+          <td valign="top"><strong>Wireless integration. </strong>Do you want 
+            to integrate wireless to your web applications. NotWired's wireless 
+            application service can help your team get to market as fast as possible 
+            with a solution. </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"></td>
+          <td><br>
+            <a href="../company/contactsmid.shtml" target="_self">Contact us</a> 
+            for more information.</td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<html>
+
+<head><script language="JavaScript">
+<!--
+
+var remote=null;
+function rs(n,u,w,h,x) {
+  args="width="+w+",height="+h+",resizable=yes,scrollbars=yes,status=0";
+  remote=window.open(u,n,args);
+  if (remote != null) {
+    if (remote.opener == null)
+      remote.opener = self;
+  }
+  if (x == 1) { return remote; }
+}
+
+var awnd=null;
+function permissions(url) {
+  awnd=rs('att',url,500,440,1);
+  awnd.focus();
+}
+
+
+// -->
+</script>
+
+<style>
+BODY
+{
+    font-family:        "Trebuchet MS", Arial;
+    font-size:          14px;
+    background-color:   #FFFFFF;
+}
+
+TD
+{
+    font-size:          14px;
+}
+
+A
+{
+    color:              #FF0000;
+    text-decoration:    none;
+}
+
+.CAPS
+{
+    font-size:          18px;
+    font-style:         bold;
+}
+
+.PROMO
+{
+    font-size:          13px;
+}
+
+.RULES
+{
+    font-size:          11px;
+}
+</style>
+<title>NotWired.com Suggestions</title>
+</head>
+
+<body link="#FF0000" alink="#800000">
+
+<table border="0" cellpadding="0" cellspacing="0" width="652">
+  <tr bgcolor="#EEEEEE">
+    <td width="148"></td>
+    <td width="100%"><p align="right"><img src="images/notwired.gif" width="200" height="40"
+    alt="notwired.gif (2050 bytes)"></td>
+  </tr>
+  <tr>
+    <td bgcolor="#EEEEEE" width="148" valign="top"><table border="0" width="141" height="555">
+      <tr>
+        <td height="52" width="137" align="center">Signup for <strong>Notwired.com</strong><br>
+        now and enter to win a wireless Palm VII!</td>
+      </tr>
+      <tr>
+        <td align="center" height="90" width="137"><img src="images/palmvii_prod.gif"
+        alt="palmvii_prod.gif (1168 bytes)" width="75" height="90"></td>
+      </tr>
+      <tr>
+        <td height="51" width="137" align="center"><a
+        href="http://demo.notwired.com/notwired/main?op=StartupModule.GenOrganizationSignupPageOp&amp;whichPage=subscription"
+        target="_top">Signup now and enter to win!</a> <br>
+        [<a href="javascript:permissions('signupContest.html')" CLASS="RULES">Contest Rules</a>]<br>
+        </td>
+      </tr>
+      <tr>
+        <td height="108" width="137" align="center" valign="bottom">Tell us what you want to do
+        wireless and enter to win a Internet phone from Sprint PCS!</td>
+      </tr>
+      <tr>
+        <td align="center" height="100" width="137"><img src="images/NPK100101_s.gif" width="65"
+        height="100" alt="images/NPK100101_s.gif (1679 bytes)"></td>
+      </tr>
+      <tr>
+        <td height="118" width="137" align="center" valign="top"><a href="suggestion.html">Tell us
+        and enter to win!</a><br>
+        [<a href="javascript:permissions('suggestContest.html')" CLASS="RULES">Contest Rules</a>] </td>
+      </tr>
+    </table>
+    </td>
+    <td width="100%" valign="top"><p align="center"><strong>Suggestions</strong></p>
+    <table border="0" cellpadding="3" cellspacing="0" width="500">
+      <tr>
+        <td><table border="0" cellspacing="0" width="100%">
+          <tr>
+            <td valign="top"><small><small><strong>Your email address?</strong></small></small></td>
+            <td><small><small><input name="email" size="30"></small></small></td>
+          </tr>
+          <tr>
+            <td><small><small><strong>Type of business?</strong></small></small></td>
+            <td><small><small><input name="cotype" size="30"></small></small></td>
+          </tr>
+          <tr>
+            <td><small><small><strong>Type of access to Web?</strong></small></small></td>
+            <td><small><small><select name="access" size="1">
+              <option selected value="-- Required --">-- Required --</option>
+              <option value="T1 or greater">T1 or greater</option>
+              <option value="DSL">DSL</option>
+              <option value="56K">56K modem</option>
+              <option value="&lt;56K">&lt;56K modem</option>
+            </select></small></small></td>
+          </tr>
+          <tr>
+            <td><small><small><strong>Wireless access to Web?</strong></small></small></td>
+            <td><small><small><select name="wirelessAccess" size="1">
+              <option selected value="- Required -">-- Required --</option>
+              <option value="None">None</option>
+              <option value="Palm">Palm</option>
+              <option value="SmartPhone">SmartPhone</option>
+              <option value="Other">Other</option>
+            </select></small></small></td>
+          </tr>
+          <tr>
+            <td><small><small><strong>Module?</strong></small></small></td>
+            <td><small><small><select name="module" size="1">
+              <option selected value="-- Required --">-- Required --</option>
+              <option value="Profile Management">Profile management</option>
+              <option value="Organization Management">Organization Management</option>
+              <option value="Security Management">Security Management</option>
+              <option value="Reminders">Reminders</option>
+              <option value="Meetings">Meetings</option>
+              <option value="Phonebook">Phonebook</option>
+              <option value="Preferences">Preferences</option>
+              <option value="Signup Process">Signup Process</option>
+              <option value="Invite colleague or member">Invite colleague or member</option>
+              <option value="Main page">Main page</option>
+              <option value="&lt;New Suggestion&gt;">&lt;New Suggestion&gt;</option>
+            </select></small></small></td>
+          </tr>
+          <tr>
+            <td><small><small><strong>How would you classify this suggestion?</strong></small></small></td>
+            <td><small><small><select name="type" size="1">
+              <option selected value="-- Required --">-- Required --</option>
+              <option value="Bug">Bug</option>
+              <option value="Clarification">Clarification</option>
+              <option value="Feature">Feature</option>
+              <option value="Lack of documentation">Lack of documentation</option>
+            </select></small></small></td>
+          </tr>
+        </table>
+        <p><small><small><strong>Suggestion?</strong><br>
+        <textarea cols="60" name="suggestion" rows="10"></textarea></small></small></p>
+        <p><small><small><input name="submit" type="submit" value="Submit"> <input
+        name="submitandanother" type="submit" value="Submit and Submit another"> <input
+        name="clear" type="reset" value="Clear">&nbsp; [<a
+        href="javascript:permissions('suggestContest.html')">Contest Rules</a>]</small></small></td>
+      </tr>
+    </table>
+    </td>
+  </tr>
+</table>
+<script language="JavaScript">
+<!--
+
+var organization;
+var user;
+		
+var cookieString = document.cookie;
+
+if (cookieString != "")
+ {
+	var cookies = cookieString.split(";");
+	for (i = 0; i < cookies.length; i++) {
+		var pair = cookies[i].split("=");
+		// get existing session key if it exists
+		if (pair[0] == "orgUserCache") {
+				var info = pair[1].split(":");
+				document.login.oid.value=info[0];
+				document.login.uid.value=info[1];		
+		}
+	}
+}
+
+
+-->
+</script>
+
+</body>
+</html>

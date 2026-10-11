@@ -1,0 +1,4 @@
+User-agent: *   # directed to all spiders, not just AltaVista Search
+Disallow: /cgi-bin
+Disallow: /ssi
+Disallow: /css

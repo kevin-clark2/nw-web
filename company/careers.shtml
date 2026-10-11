@@ -1,0 +1,91 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small><br>
+    <img src="../images/careers.jpg" width="200" height="300" alt="Careers"></td>
+    <td width="422" valign="top">&nbsp; 
+      <table border="0" cellpadding="0" cellspacing="0" width="420">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Careers</strong></font></td>
+          <td width="142"><a href="contactsmid.shtml" target="_self"><small>Contact 
+            Us</small></a></td>
+        </tr>
+      </table>
+      <p>Why would you want to work on NotWired? 
+      <p><small><font face="Arial"><br>
+        </font></small>
+      <table border="0" cellpadding="0" width="100%">
+        <tr> 
+          <td width="10" valign="top"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"> </td>
+          <td>Work with talented teams on the latest technology.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td>Work on enhancing an exciting project that is driving a fundamental 
+            change in software and mobile computing.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td>Work with a senior management team that understands business and 
+            the application of advanced technologies.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td>Be part of team that wants to change the way applications are delivered 
+            to consumers and businesses.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td>Employee stock ownership.</td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../images/bullet.gif" width="6" height="10"
+        alt="bullet.gif (93 bytes)"></font></td>
+          <td>And more....</td>
+        </tr>
+      </table>
+      <blockquote>
+        <p><strong>What to apply?</strong> Review positions and send in your resume.</p>
+      </blockquote>
+      <blockquote> 
+        <table border="0" cellpadding="0" cellspacing="0" width="350">
+          <tr> 
+            <td width="150" align="center"><a href="careers/positions.shtml"
+          target="_self">Positions</a></td>
+            <td width="150" align="center"><a href="culture.shtml" target="_self">Culture</a></td>
+            <td width="150" align="center"><a href="benefits.shtml" target="_self">Benefits</a></td>
+            <td width="150" align="center"><a href="projects.shtml"
+          target="_self">Projects</a></td>
+            <td width="150" align="center"><a href="locations.shtml"
+          target="_self">Locations</a></td>
+          </tr>
+        </table>
+      </blockquote>
+      <table border="1" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td> 
+            <p align="center"><strong><u><br>
+              </u></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Technical Recruiters: 
+              Please see our <a href="careers/recruiters.shtml" target="_self">recruiter 
+              agreement</a><br>
+              Non-Technical Recruiters: Please see our <a href="careers/telerecruiters.shtml"
+        target="_self">recruiter agreement</a><br>
+              <br>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

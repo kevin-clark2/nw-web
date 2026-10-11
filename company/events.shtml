@@ -1,0 +1,61 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small><img
+    alt="Press wire" height="200" src="../images/companypeople.jpg" width="200"></p>
+      <p><strong>&nbsp; Contact<br>
+        </strong>&nbsp; Public Relations<br>
+        &nbsp; 949-371-5449<br>
+        <script language="JavaScript">
+var name = "pr";
+var domain = "notwired.com";
+document.write('&nbsp;&nbsp;<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>
+        <br>
+    </td>
+    <td width="422">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td width="278"><font face="Arial" color="#6666cc"><strong>Events</strong></font></td>
+        <td width="142">
+            <p align="left"><small><a href="contactsmid.shtml" target="_self">Contact 
+              Us</a></small> 
+          </td>
+      </tr>
+    </table>
+      <p><b>March 2002<br>
+        </b>CTIA 2002 - Orlando, FL<b></b></p>
+      <p><b>Febuary 2002<br>
+        </b>Mobile Business For The Enterprise - Chicago, IL<b></b></p>
+      <p><b>March 2001<br>
+        </b>CTIA Global Exchange - Las Vegas, NV<b></b></p>
+      <p><b>January 2001<br>
+        </b>Mobile Internet Summit - San Diego, CA<b><br>
+        </b></p>
+      <p><strong>October 2000<br>
+        </strong><a
+    href="http://www.wow-com.com/convsem/wit/2000/home.cfm?CFID=21530&amp;CFTOKEN=83077814"
+    target="_blank">Wireless I.T.</a> (Booth 503) - October Santa Clara, CA</p>
+      <p><b>September 2000<br>
+        </b>University of Illinois Recruiting Fair - Urbana, IL<b><br>
+        </b><a href="http://www.internetstreetfair.com" target="_blank">Internet 
+        Street Fair</a> (Booth 63) - September 9, Chicago, IL<br>
+        <a href="http://www.pcia.com" target="_blank">PCIA Global Exchange</a> 
+        (Booth 4417) - September 26-29, Chicago, IL 
+      <p><font size="2"><font face="Arial"><b>August 2000</b></font></font><br>
+        Motorola Developer Conference - San Diego, CA<br>
+        Wireless Developer 2000 - Santa Clara, CA<br>
+        <b></b></p>
+      <p><b>July 2000<br>
+        </b>Nokia Developers Conference - Phoenix, AZ <font face="Arial" size="2"><b> 
+        </b></font></p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

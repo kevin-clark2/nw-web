@@ -1,0 +1,50 @@
+<html><head><title>About Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<body bgcolor="#FFFFFF">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top">
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+          <a href="factsheet.shtml">Fact Sheet</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="contactsmid.shtml">Contacts</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="careers.shtml">Careers</a></font></p>
+        <p><a href="partnersmid.shtml"><font face="Arial, Helvetica, sans-serif" size="-1">Partners</font></a></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="affiliations.shtml">Affiliations</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="press/index.shtml">Press</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="events.shtml">Events</a></font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="-1"><a href="investors.shtml">Investors</a></font></p>
+      </blockquote>
+    </td>
+    <td valign="top" width="422">&nbsp;<table border="0" cellpadding="0" cellspacing="0" width="420">
+      <tr>
+          <td valign="top" width="278"><font face="Arial" color="#6666cc"><strong>About 
+            Us</strong></font></td>
+        <td width="142">
+            <p align="left"><a href="contactsmid.shtml" target="_self"><small>Contact 
+              Us</small></a> 
+          </td>
+      </tr>
+    </table>
+      <p><strong>Profile<br>
+        </strong>NotWired is the vision of <a href="http://www.objsoft.com" target="_blank">Objectsoft, 
+        Inc.</a>, a leading developer of thin client and mobile applications. 
+        NotWired is an application service created to support mobile professionals 
+        through Internet browsers <strong>and</strong> mobile devices.&nbsp;Objectsoft 
+        developers leveraged years of experiences in consulting and product development 
+        to empower your mobile lifestyle.</p>
+      <p><strong>Corporate Headquarters</strong><br>
+        21720 W Long Grove Road<br>
+        Deer Park, IL 60047<br>
+        tel: 949-371-5449&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <small><a
+    href="http://maps.google.com/maps?q=21720+Long+Grove+Road,+Deer+Park,+IL&hl=en&sll=37.0625,-95.677068&sspn=62.572465,63.28125&vpsrc=0&hnear=21720+Long+Grove+Rd,+Deer+Park,+Lake,+Illinois+60074&t=m&z=17"
+    target="_blank">Map...</a></small></p>
+      </td>
+  </tr>
+</table>
+</body>
+</html>

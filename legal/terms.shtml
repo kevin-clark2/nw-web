@@ -1,0 +1,343 @@
+<html><head><title>Notwired</title>
+<!--#include virtual="/ssi/menuNet.html"-->
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+    <td width="220" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!</font></small></small>
+      <p align="center"><a href="/notwired/main?op=SignupModule.SignupPageOp"
+    target="_self"><small><font face="Arial"><b>SIGNUP NOW!</b></font></small></a></p>
+      <p>&nbsp;</p>
+    <p align="center"><font SIZE="-2" FACE="Arial, Helvetica">Copyright © 2000, NotWired<br>
+    All rights reserved.<br>
+        <a href="terms.shtml">Terms of Service</a><br>
+        <a href="terms.shtml#disclaimer">Legal Disclaimer</a><br>
+        <a href="privacy.shtml">Privacy Statement</a><br>
+        <a href="security.shtml">Security at NotWired</a><br>
+    </font></td>
+    <td><div align="center"><center><table border="0" cellpadding="10" cellspacing="0"
+    width="500">
+      <tr>
+        <td valign="middle"><font size="+1" face="arial"><b>Terms of Service</b></font></td>
+      </tr>
+    </table>
+    </center></div><div align="center"><center><table CELLSPACING="0" CELLPADDING="10"
+    BORDER="0" WIDTH="500">
+      <tr>
+        <td><p align="left"><small><font face="Arial">NotWired is pleased to welcome you to the
+        NotWired.com service. By using NotWired.com (the &quot;Service&quot;)&nbsp; you agree to
+        the terms and conditions listed on this page (the &quot;Terms of Service&quot;), which may
+        be updated by NotWired from time to time. Please read them carefully.</font></small></p>
+        <p align="left"><small><font face="Arial">THIS IS A LEGAL AGREEMENT BETWEEN YOU AND
+        NOTWIRED INCORPORATED, A WHOLLY OWNED COMPANY OF OBJECTSOFT. PLEASE REVIEW THIS DOCUMENT
+        CAREFULLY. BY CLICKING ON THE &quot;I ACCEPT&quot; BUTTON WHEN ENTERING NOTWIRED.COM, YOU
+        AGREE TO THE TERMS AND CONDITIONS OF THIS AGREEMENT. IF YOU DO NOT AGREE, CLICK ON THE
+        &quot;I DECLINE&quot; BUTTON AND YOU WILL EXIT THE REGISTRATION PROCESS.</font></small></p>
+        <p align="center"><small><font face="Arial"><strong>Definitions</strong></font></small></p>
+        <p align="left"><small><font face="Arial">When used in this agreement:</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Administrator&quot; means a person
+        responsible for the original creation of an organization on NotWired.com.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Content&quot; is all materials provided to
+        you through NotWired.com or any derivative sites including but not limited to documents,
+        products, graphics, sounds, images, software, and services whether provide by NotWired or
+        any third party. Content excludes information you place on the NotWired.com web site,
+        registrations, templates or data you create.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Data&quot; means any documents, database
+        records, personal profile information and other information you store on NotWired.com.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Service&quot; is the NotWired.com service
+        that includes content, business processes, software, graphics and user interface workflow.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Submissions&quot; means all comments,
+        feedback, suggestions or letters in any written, electronic or verbal form you submit to
+        NotWired relating to the NotWired.com site or services related to the NotWired.com site.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Subscription Fee&quot; means the fee
+        charged for services by NotWired for use of NotWired.com or any derivative third party
+        add-on to NotWired.com.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Templates&quot; means components used that
+        may be customized by you or a third party to improve NotWired.com.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;TOS&quot; means Terms of service or this
+        agreement.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;Third party providers&quot; means parties
+        other that NotWired that provide templates, functionality or derivative services with
+        NotWired.com.</font></small></p>
+        <p align="left"><small><font face="Arial">&quot;User&quot; means a user of the service.
+        Users may be administrators.</font></small></p>
+        <p align="center"><small><font face="Arial"><strong>Summary of Terms of Service</strong></font></small></p>
+        <p><small><font face="Arial">Summary I. You agree to provide true and correct information
+        about yourself in the Service <a href="/notwired/main?op=SignupModule.SignupPageOp">signup</a> form.</font></small></p>
+        <p><small><font face="Arial">Summary II. You agree not to plagiarize information and
+        presentation from the Service.</font></small></p>
+        <p><small><font face="Arial">Summary III. You must be over sixteen years of age to create
+        any organization. </font></small></p>
+        <p><small><font face="Arial">Summary IV. You agree not to use the Service, create any
+        organization, user id, or other content or otherwise transmit any information or material
+        that: </font></small><ul>
+          <li><small><font face="Arial">Promotes or contains any information that is unlawful, false
+            or misleading or that promotes illegal conduct or purposes; </font></small></li>
+          <li><small><font face="Arial">Promotes racism, bigotry, hatred, or harm of any kind against
+            any group or individual; </font></small></li>
+          <li><small><font face="Arial">Is or could be in any way harmful to minors; </font></small></li>
+          <li><small><font face="Arial">Is harassing, libelous, invasive of another's privacy,
+            abusive, threatening, vulgar, obscene, tortuous, or otherwise objectionable, or that
+            infringes or may infringe the intellectual property or other rights of another; </font></small></li>
+          <li><small><font face="Arial">Involves chain letters, junk mail, &quot;spamming&quot; or
+            commercial solicitations.</font></small> </li>
+        </ul>
+        <p><small><font face="Arial">Summary V. You agree that NotWired, in its sole discretion,
+        may terminate your organization login and all user logins for your organization, your
+        membership in other organization profiles and remove and discard any and all related
+        content for any reason, including, without limitation, if NotWired believes you have in
+        any way violated the Terms of Service. NotWired may also in its sole discretion and at any
+        time discontinue the Service with or without notice. You may report any violations of
+        these Terms of Service to <script language="JavaScript">
+var name = "support";
+var domain = "notwired.com";
+document.write('<a href=\"mailto:' + name + '@' + domain + '\">');
+document.write(name + '@' + domain + '</a>');
+</script>.
+        </font></small></p>
+        <p><small><font face="Arial">Summary VI. NotWired does not endorse and is not be
+        responsible for any companies created by the Service or any content or material contained
+        in any&nbsp; on-line organization or the conduct of any service members.</font></small></p>
+        <p align="center"><small><font face="Arial"><strong>Terms of Service</strong></font></small></p>
+        <p><small><font face="Arial">I. ACKNOWLEDGMENT AND ACCEPTANCE OF TERMS OF SERVICE </font></small></p>
+        <p><small><font face="Arial">The Service is provided to you (&quot;you&quot; or
+        &quot;User&quot;) under the terms and conditions of this Service Terms of Service
+        (&quot;TOS&quot;) and any amendments thereto and any operating rules or policies that may
+        be published from time to time by NotWired. NotWired may change the TOS from time to time
+        with or without notice to you and such change shall be effective with or without notice.
+        Each use by you of the &quot;Service&quot; reaffirms your acceptance of, and your
+        agreement to be bound and to abide by, the TOS as amended. The TOS comprises the entire
+        agreement between the User and NotWired and supersedes any prior agreements pertaining to
+        the subject matter contained herein. BY COMPLETING THE REGISTRATION PROCESS AND CLICKING
+        THE &quot;I ACCEPT&quot; BUTTON ON REGISTRATIONS AND NEW MEMBER SIGNUP, YOU ARE AGREEING
+        TO BE BOUND BY THIS AGREEMENT. </font></small></p>
+        <p><small><font face="Arial">II. DESCRIPTION OF SERVICE AND RESPONSIBILITIES </font></small></p>
+        <p><small><font face="Arial">NotWired is providing the User with the capability to create
+        an an on-line organization via the Service. NotWired is also providing the User with the
+        software tools for organizing and communicating with other members of the Service. It is
+        also providing tools to streamline business processes over the Internet. There are two
+        classes of Users of the Service.</font></small></p>
+        <p><small><font face="Arial"><u>Administrators</u> </font></small></p>
+        <p><small><font face="Arial">The original creator of an organization on the Service and
+        all other members designated by the original creator granted the security rights of an
+        Administrator are &quot;Administrators.&quot; Administrators make the decisions about who
+        to invite into the on-line organization, the subject matter and membership guidelines for
+        the organization. Administrators are responsible for all activities of the organization
+        and for ensuring compliance with TOS. They also have special administrative privileges
+        (e.g., they can change organization information, grant or revoke access privileges, signup
+        for fee services, etc.). Furthermore, Administrators will establish, implement and enforce
+        appropriate minimum age requirements and will not allow members under sixteen (16) years
+        of age to join any organization that is inappropriate for minors or of an age sensitive
+        subject matter. </font></small></p>
+        <p><small><font face="Arial"><u>Members</u> </font></small></p>
+        <p><small><font face="Arial">User acknowledges that Administrators of the organization
+        determine the membership rules and the other users who are invited into the on-line
+        organization. Administrators have the discretion to remove members or revoke access
+        privileges from an organization at any time. User agrees that NotWired has no
+        responsibility for the conduct or content of any on-line organization, the membership
+        rules or requirements of any organization, or resolving any disputes arising from any
+        organization or use of the Service. </font></small></p>
+        <p><small><font face="Arial">III. FEES</font></small></p>
+        <p><small><font face="Arial">User must: (a) provide for User's own access to the Internet
+        and pay any service fees associated with such access, and (b) provide all equipment
+        necessary for User to make such connection to the Internet, including but not limited to a
+        computer and modem. User understands that NotWired provides no assistance, including any
+        technical or customer support, to the User, and that your use of the Service is at your
+        own risk. </font></small></p>
+        <p><small><font face="Arial">IV. DATA ON THE SERVICE</font></small></p>
+        <p><small><font face="Arial">&quot;Data&quot; includes all graphic files, documents or any
+        other information that you upload into the system that is part of the Service. You are
+        solely responsible for your Data. You and the administrator(s) of your organization have
+        the right to remove and edit the Data you upload into the system. Other members of your
+        organization can view the Data and may be able to copy and redistribute the Data you
+        upload into system. NotWired reserves the right at any time to take any action with
+        respect to such Data and to remove Data at any time at NotWired's sole discretion,
+        including, without limitation, if any Data contains content that NotWired believes may be
+        harmful to minors. NotWired has no responsibility or liability for the deletion or failure
+        to store any Data on the Service.</font></small></p>
+        <p><small><font face="Arial">You agree (a) that you have the right to upload the Data, (b)
+        to comply with all requirements, procedures, policies and regulations regarding the
+        uploading of Data including, without limitation, limitations regarding maximum file size,
+        (c) that the Data shall not (i) infringe any third party's copyright, patent, trademark,
+        trade secret or other proprietary rights or rights of publicity or privacy; (ii) violate
+        any law, statute, ordinance or regulation (including without limitation laws governing
+        export control, consumer protection, unfair competition, or false advertising); (iii) be
+        defamatory, libelous, threatening or harassing; (iv) be obscene or contain child
+        pornography or any other material that is in any way or could be harmful to minors.</font></small></p>
+        <p><small><font face="Arial">V. USER'S REGISTRATION OBLIGATIONS </font></small></p>
+        <p><small><font face="Arial">In consideration of use of the Service, User agrees to: (a)
+        provide true, accurate, current and complete information about User as prompted by the
+        Registration Form, and (b) to maintain and update this information to keep it true,
+        accurate, current and complete. This information about a User shall be referred to as
+        &quot;Registration Data.&quot; If any information provided by User is untrue, inaccurate,
+        not current or incomplete, NotWired has the right but not the obligation to terminate
+        User's account and refuse any and all current or future use of the Service. </font></small></p>
+        <p><small><font face="Arial">VI. USE OF REGISTRATION DATA </font></small></p>
+        <p><small><font face="Arial">User agrees NotWired or its designee may disclose
+        Registration Data to third parties about User and information about User's use of the
+        Service provided that such disclosures do not include User's name, mailing address, email
+        address, telephone or facsimile number, or account number, except as authorized by User or
+        in the good faith belief that such action is reasonably necessary to comply with the law
+        or legal process, or as set forth in the <a href="privacy.shtml">Privacy Policy</a>. </font></small></p>
+        <p><small><font face="Arial">VII. MODIFICATIONS TO SERVICE </font></small></p>
+        <p><small><font face="Arial">NotWired reserves the right to modify or discontinue,
+        temporarily or permanently, the Service with or without notice to User. User agrees that
+        NotWired shall not be liable to User or any third-party for any modification or
+        discontinuance of the Service. NotWired does not guarantee that changes to the service
+        will affect data or other portions of the system.</font></small></p>
+        <p><small><font face="Arial">VIII. USER ACCOUNT, PASSWORD AND SECURITY </font></small></p>
+        <p><small><font face="Arial">User will receive a password and account designation upon
+        completing the registration process. User is responsible for maintaining the
+        confidentiality of the account and password, and is fully responsible for all activities
+        that occur under User's account. User agrees to immediately notify the Service of any
+        unauthorized use of User's account or any other breach of security. User acknowledges that
+        NotWired cannot guarantee the security of any information or data distributed or posted on
+        any connected office and shall not be responsible or liable for any loss of or breach of
+        security with respect to such information or data. </font></small></p>
+        <p><small><font face="Arial">IX. USER CONDUCT</font></small></p>
+        <p><small><font face="Arial">User agrees to abide by all applicable local, state,
+        national, and international laws and regulations in User's use of the Service, and agrees
+        not to interfere with the use and enjoyment of the Service by other Users. User agrees to
+        be solely responsible for User's actions and the contents of User's transmissions through
+        the Service. User agrees not to impersonate any person or entity, including but not
+        limited to, a NotWired official, Administrator or member, or falsely state or otherwise
+        misrepresent your affiliation with a person or entity. </font></small></p>
+        <p><small><font face="Arial">User agrees (a) not to use the Service for illegal purposes;
+        (b) not to interfere with or disrupt the Service or servers or networks connected to the
+        Service; (c) not to upload or distribute in any way files that contain viruses, corrupted
+        files, or any other similar software or programs that may damage, disrupt or otherwise
+        harm the operation of another's computer; (d) to comply with all requirements, procedures,
+        policies and regulations of networks connected to the Service; (e) not to use the Service
+        in any way that is or could be in any way harmful to minors; and (f) to comply with all
+        applicable laws regarding the transmission of technical data or software exported from the
+        United States. User agrees not to use the Service to collect or harvest any personal
+        information, including, without limitation, identifying or financial information, about
+        other users of the Service. User also agrees not to impersonate or create a false identity
+        of any person. </font></small></p>
+        <p><small><font face="Arial">User agrees not to post, promote or transmit through the
+        Service any unlawful, harassing, libelous, invasive of another's privacy, abusive,
+        threatening, harmful, vulgar, obscene, hateful, racially, ethnically or otherwise
+        objectionable material of any kind. User agrees not to transmit or post any material that
+        violates the rights of another, including but not limited to the intellectual property
+        rights of another. User agrees not to transmit, promote or disseminate any material that
+        violates any applicable local, state, national, or international law or regulation. User
+        agrees not to attempt to gain unauthorized access to other computer systems or networks
+        connected to the Service. Finally, User agrees not use the Service to post or transmit
+        &quot;junk mail&quot;, &quot;spam&quot;, &quot;chain letters&quot;, or unsolicited mass
+        distribution of email. </font></small></p>
+        <p><small><font face="Arial">NotWired may, but is not in any way obligated to, enforce
+        these TOS against any user. </font></small></p>
+        <p><small><font face="Arial">X. NO RESALE OF SERVICE </font></small></p>
+        <p><small><font face="Arial">User agrees not to reproduce, duplicate, copy, sell, resell
+        or exploit for any commercial purposes, the Service or use of or access to the Service. </font></small></p>
+        <p><small><font face="Arial">XI. NON-TRANSFERABLE</font></small></p>
+        <p><small><font face="Arial">A User cannot transfer this agreement to another party.</font></small></p>
+        <p><small><font face="Arial">XII. STORAGE </font></small></p>
+        <p><small><font face="Arial">User agrees that NotWired has no responsibility or liability
+        for the deletion or failure to store any files, messages and other organization
+        communications or other content maintained or transmitted by the Service. NotWired may
+        establish an upper limit on the amount of computer memory or capacity that is allocated to
+        each organization. </font></small></p>
+        <p><small><font face="Arial">XIII. INDEMNITY </font></small></p>
+        <p><small><font face="Arial">User agrees to indemnify and hold NotWired, Inc., and its
+        subsidiaries, affiliates, officers, agents, co-branders or other partners, and employees,
+        harmless from any claim or demand, including reasonable attorneys' fees, made by any third
+        party due to or arising out of User's use of the Service, User's connection to the
+        Service, User's violation of the TOS, or User's violation of any rights of another. </font></small></p>
+        <p><small><font face="Arial">XIV. TERMINATION </font></small></p>
+        <p><small><font face="Arial">User agrees that NotWired, in its sole discretion, may
+        terminate User's password, account or use of the Service and terminate User's use of
+        Service, for any reason, including, without limitation, if NotWired believes (a) that User
+        has violated or acted inconsistently with the letter or spirit of the TOS, or (b) that
+        User has violated the rights of NotWired or other Users or parties. User agrees that any
+        termination of service under any provision of this TOS may be effected without prior
+        notice, and acknowledges and agrees that NotWired may immediately delete User's account,
+        membership in any organization, and all related information and files in User's account
+        and bar any further access to such files or the Service. </font></small></p>
+        <p><small><font face="Arial">XV. DEALINGS WITH ADVERTISERS </font></small></p>
+        <p><small><font face="Arial">User's correspondence with or participation in promotions of
+        advertisers found on the Service, including payment and delivery of related goods or
+        services, and any other terms, conditions, warranties or representations associated with
+        such dealings, are solely between User and such advertiser. User agrees NotWired shall not
+        be responsible or liable for any loss or damage of any sort incurred as the result of any
+        such dealings or as the result of the presence of such advertisers on the Service. </font></small></p>
+        <p><small><font face="Arial">XVI. LINKS </font></small></p>
+        <p><small><font face="Arial">The Service may provide, or Users may provide, links to other
+        Web sites or resources. User acknowledges and agrees that NotWired is not responsible for
+        the availability of such external sites or resources, and does not endorse and is not
+        responsible or liable for any content, advertising, products, or other materials on or
+        available from such sites or resources. User agrees that NotWired shall not be responsible
+        or liable, directly or indirectly, for any damage or loss caused or alleged to be caused
+        by or in connection with use of or reliance on any such content, goods or services
+        available on such external sites or resources. </font></small></p>
+        <p><small><font face="Arial">XVII. NOTWIRED'S PROPRIETARY RIGHTS </font></small></p>
+        <p><small><font face="Arial">User acknowledges and agrees that content, including but not
+        limited to text, software, music, sound, photographs, graphics, video, or other material
+        or information presented to User through the Service or contained in sponsor
+        advertisements is protected by copyrights, trademarks, service marks, patents, or other
+        proprietary rights and laws. User acknowledges and agrees that User is permitted to use
+        this material and information only as expressly authorized by NotWired or advertisers, and
+        may not copy, reproduce, transmit, distribute, or create derivative works of such content
+        or information without express authorization. </font></small></p>
+        <p><small><font face="Arial"><a name="disclaimer"></a>XVIII. DISCLAIMER OF WARRANTIES </font></small></p>
+        <p><small><font face="Arial">YOU UNDERSTAND AND EXPRESSLY AGREE THAT USE OF THE NOTWIRED
+        SERVICES ARE AT YOUR SOLE RISK, THAT ANY MATERIAL AND/OR DATA DOWNLOADED OR OTHERWISE
+        OBTAINED THROUGH THE USE OF NOTWIRED.COM SERVICES IS AT YOUR OWN DISCRETION AND RISK AND
+        THAT YOU WILL BE SOLELY RESPONSIBLE FOR ANY DAMAGE TO YOUR COMPUTER SYSTEM OR LOSS OF DATA
+        THAT RESULTS FROM THE DOWNLOAD OF SUCH MATERIAL AND/OR DATA.<br>
+        <br>
+        EXCEPT AS EXPRESSLY SET FORTH ON OUR SITES, NOTWIRED DISCLAIMS ALL WARRANTIES OF ANY KIND,
+        EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTY OF MERCHANTABILITY, FITNESS
+        FOR A PARTICULAR PURPOSE OR NON-INFRINGEMENT AND IT MAKES NO WARRANTY OR REPRESENTATION
+        REGARDING THE RESULTS THAT MAY BE OBTAINED FROM THE USE OF NOTWIRED&#146;S SERVICES,
+        REGARDING THE ACCURACY OR RELIABILITY OF ANY INFORMATION OBTAINED THROUGH NOTWIRED&#146;S
+        SERVICES, REGARDING ANY GOODS OR SERVICES PURCHASED OR OBTAINED THROUGH NotWired&#146;S
+        SERVICES, REGARDING ANY TRANSACTIONS ENTERED INTO THROUGH NOTWIRED&#146;S SERVICES OR THAT
+        NotWired&#146;S SERVICES WILL MEET ANY USER&#146;S REQUIREMENTS, BE UNINTERRUPTED, TIMELY,
+        SECURE OR ERROR FREE. <br>
+        <br>
+        XIX. LIMITATION OF LIABILITY </font></small></p>
+        <p><small><font face="Arial">NOTWIRED WILL NOT BE LIABLE FOR ANY DIRECT, INDIRECT,
+        INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES OF ANY KIND RESULTING FROM THE USE
+        OF OR THE INABILITY TO USE NotWired&#146;S SERVICES, RESULTING FROM ANY GOODS OR SERVICES
+        PURCHASED OR OBTAINED OR MESSAGES RECEIVED OR TRANSACTIONS ENTERED INTO THROUGH
+        NOTWIRED&#146;S SERVICES, RESULTING FROM LOSS OF, UNAUTHORIZED ACCESS TO OR ALTERATION OF
+        A USER'S TRANSMISSIONS OR DATA OR FOR THE COST OF PROCUREMENT OF SUBSTITUTE GOODS AND
+        SERVICES, INCLUDING BUT NOT LIMITED TO DAMAGES FOR LOSS OF PROFITS, USE, DATA OR OTHER
+        INTANGIBLES, EVEN IF NotWired HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.</font></small></p>
+        <p><small><font face="Arial">USER FURTHER AGREES THAT NotWired SHALL NOT BE LIABLE FOR ANY
+        DAMAGES ARISING FROM INTERRUPTION, SUSPENSION OR TERMINATION OF SERVICE, INCLUDING BUT NOT
+        LIMITED TO DIRECT, INDIRECT, INCIDENTAL, SPECIAL CONSEQUENTIAL OR EXEMPLARY DAMAGES,
+        WHETHER SUCH INTERRUPTION, SUSPENSION OR TERMINATION WAS JUSTIFIED OR NOT, NEGLIGENT OR
+        INTENTIONAL, INADVERTENT OR ADVERTENT. </font></small></p>
+        <p><small><font face="Arial">USER AGREES THAT NOTWIRED SHALL NOT BE RESPONSIBLE OR LIABLE
+        TO USER, OR ANYONE, FOR THE STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SERVICE. </font></small></p>
+        <p><small><font face="Arial">SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OR EXCLUSION
+        OF LIABILITY FOR INCIDENTAL OR CONSEQUENTIAL DAMAGES SO SOME OF THE ABOVE LIMITATIONS MAY
+        NOT APPLY TO YOU. </font></small></p>
+        <p><small><font face="Arial">XX. NOTICE </font></small></p>
+        <p><small><font face="Arial">Any notice to User or to the Service shall be made via either
+        email or regular mail. The Service may also provide notices of changes to the TOS or other
+        matters by displaying notices or links to notices to Users generally on the Service. </font></small></p>
+        <p><small><font face="Arial">XXI. GENERAL </font></small></p>
+        <p><small><font face="Arial">The TOS and the relationship between User and NotWired shall
+        be governed by the laws of the State of Illinois without regard to its conflict of law
+        provisions. User and NotWired agree to submit to the personal and exclusive jurisdiction
+        of the courts located within the county of Cook, Illinois. The failure of NotWired to
+        exercise or enforce any right or provision of the TOS shall not constitute a waiver of
+        such right or provision. If any provision of the TOS is found by a court of competent
+        jurisdiction to be invalid, the parties nevertheless agree that the court should endeavor
+        to give effect to the parties' intentions as reflected in the provision, and the other
+        provisions of the TOS remain in full force and effect. User agrees that regardless of any
+        statute or law to the contrary, any claim or cause of action arising out of or related to
+        use of the Service or the TOS must be filed within one (1) year after such claim or cause
+        of action arose or be forever barred from action. The section titles in the TOS are for
+        convenience only and have no legal or contractual effect. </font></small></td>
+      </tr>
+    </table>
+    </center></div></td>
+  </tr>
+</table>
+</body>
+</html>

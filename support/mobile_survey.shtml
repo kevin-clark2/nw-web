@@ -1,0 +1,340 @@
+<title>Mobile Business Survey @ Notwired.com</title>
+<!--#include virtual="/ssi/menuNet.html"--> 
+<link rel="stylesheet" href="/css/notwired.css">
+<script LANGUAGE="JavaScript">
+
+<!-- 
+
+function trim(argvalue) {
+  var tmpstr = ltrim(argvalue);
+  return rtrim(tmpstr);
+}
+
+function rtrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(argvalue.length - 1, argvalue.length) != " ")
+      break;
+    argvalue = argvalue.substring(0, argvalue.length - 1);
+  }
+  return argvalue;
+}
+
+function ltrim(argvalue) {
+  while (1) {
+    if (argvalue.substring(0, 1) != " ")
+      break;
+    argvalue = argvalue.substring(1, argvalue.length);
+  }
+  return argvalue;
+}
+
+function validate()
+
+{
+
+    var errorMessage = "Following fields are required:\n";
+    var errorFlag = "";
+    
+    if(document.feedback.first_name.value == ""){
+        errorMessage += " * First name\n";
+        errorFlag = "true";
+    }
+
+    if(document.feedback.last_name.value == ""){
+        errorMessage += " * Last name\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value == ""){
+        errorMessage += " * E-mail\n";
+        errorFlag = "true";
+    }
+    if(document.feedback.phone.value == ""){
+        errorMessage += " * Telephone Number\n";
+        errorFlag = "true";
+    }
+    if(document.feedback.address.value == ""){
+        errorMessage += " * Address\n";
+        errorFlag = "true";
+    }
+    
+    if(document.feedback.email.value.indexOf("@") == -1 && trim(document.feedback.email.value) != ""){
+        errorMessage += " * Invalid email address\n";
+        errorFlag = "true";
+    }
+    
+    if (errorFlag == "true")
+    {
+        alert(errorMessage);
+        return;
+    }else{
+        document.feedback.submit();
+    }
+}
+
+//-->
+
+</script>
+
+<title>Tell us what you think about our web site</title>
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr>
+    <td width="228" valign="top"><a href="../index.shtml" target="_top"><img
+    src="../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+    <small><small><font face="Arial">&nbsp; Empowering the mobile lifestyle!&#153;</font></small></small>
+<br>
+<center>
+<img src="../images/palmvii_prod_transp.gif" width="75" height="90" alt="Palm VII">
+<br><font face="Arial"><h4>
+ENTER TO<br>
+WIN A WIRELESS<br>
+MODEM!
+</h4></font></center></td>
+
+<td width="422" valign="top"><br>
+<table>
+<tr>
+<td colspan="2">
+<font face="Arial" color="#6666cc"><h2>MOBILE OFFICE SWEEPSTAKES</h2></font>
+</td>
+</tr>
+<tr>
+<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+<td>
+<ul><font face="Arial" color="#6666cc"><h3>ENTER NOW TO WIN</h3></font>
+</ul></td>
+</tr>
+</table>
+
+<form name="feedback" action="/cgi-bin/survey/mobile_survey.cgi" method="POST">
+
+<!-- begin survey -->
+
+<b>Required Information:</b><br>
+<br>
+<table>
+<tr><td>First Name:</td><td><input type="text" name="first_name" size="35"></td></tr>
+<tr><td>Last Name:</td><td><input type="text" name="last_name" size="35"></td></tr>
+<tr><td>Email:</td><td><input type="text" name="email" size="35"></td></tr>
+<tr><td>Telephone Number:</td><td><input type="text" name="phone" size="35"></td></tr>
+<tr><td>Address:</td><td><textarea name="address" rows="2" cols="30"></textarea></td></tr>
+</table>
+<br>
+
+    <font face="Arial" color="#6666cc"><small><strong>Mobile Business Survey</strong></small></font> <p><font
+    face="Arial"><small>Thank you for participating in this survey. Your feedback is important to NotWired.
+<br><br>
+          By completing and submitting this survey no later than February 28, 
+          2001, you will automatically be entered in NotWired's Mobile Office 
+          Sweepstakes. One (1) Grand Prize and five (5) Second Prizes will be 
+          awarded from a random drawing of survey entries. The Grand Prize is 
+          a wireless modem for use with either a Palm III, Palm V, or Pocket PC 
+          (depending on Grand Prize Winner's preference). Second Prize is a NotWired 
+          polo shirt. (See <a href="contest_rules.html">Sweepstakes Rules</a>). 
+          <br>
+          <br>
+Please complete the following survey and press submit.  Only one survey per company is allowed.  This information will only be used by NotWired and will not be released to any other party.
+</small></font></p>
+    
+<b>Survey Questions:</b><br>
+<br>
+<ol>
+<li>What is your line of business?<br>
+<table>
+<tr valign="top">
+<td>
+<input type="checkbox" name="lineOfBusiness" value="Accounting/Finance">Accounting/Finance<br>
+<input type="checkbox" name="lineOfBusiness" value="Advertising/PR">Advertising/PR<br>
+<input type="checkbox" name="lineOfBusiness" value="Arts/Entertainment/Publishing">Arts/Entertainment/Publishing<br>
+<input type="checkbox" name="lineOfBusiness" value="Engineering">Engineering<br>
+<input type="checkbox" name="lineOfBusiness" value="Health Care">Health Care<br>
+<input type="checkbox" name="lineOfBusiness" value="Human Resources">Human Resources<br>
+<input type="checkbox" name="lineOfBusiness" value="Insurance">Insurance
+</td>
+<td>
+<input type="checkbox" name="lineOfBusiness" value="Internet/New Media/Technology">Internet/New Media/Technology<br>
+<input type="checkbox" name="lineOfBusiness" value="Legal">Legal<br>
+<input type="checkbox" name="lineOfBusiness" value="Manufacturing">Manufacturing<br>
+<input type="checkbox" name="lineOfBusiness" value="Marketing">Marketing<br>
+<input type="checkbox" name="lineOfBusiness" value="Sales">Sales<br>
+<input type="checkbox" name="lineOfBusiness" value="Telecommunications">Telecommunications<br>
+</td>
+</tr>
+<tr>
+<td><input type="checkbox" name="lineOfBusiness" value="Consulting">
+Consulting (please specify)</td>
+<td><input type="text" name="lobSpecifiedConsulting" size="20"></td>
+</tr><tr>
+<td><input type="checkbox" name="lineOfBusiness" value="Other">
+Other (please specify)</td>
+<td><input type="text" name="lobSpecifiedOther" size="20">
+</td>
+</tr>
+</table>
+
+<br>
+<li>How many employees work full-time for your company?<br>
+<table>
+<tr><td>
+<input type="radio" name="numberOfFulltimeEmployees" value="1-5">1-5<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="5-10">5-10<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="10-20">10-20<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="20-30">20-30
+</td><td>
+<input type="radio" name="numberOfFulltimeEmployees" value="30-50">30-50<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="50-75">50-75<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="75-100">75-100<br>
+<input type="radio" name="numberOfFulltimeEmployees" value="100+">100+
+</td></tr>
+</table>
+
+<br>
+<li>How many employees in your company travel frequently or make frequent sales calls for business (include employees who make day-trips)?<br>
+<table>
+<tr><td>
+<input type="radio" name="numberOfTravelingEmployees" value="1-5">1-5<br>
+<input type="radio" name="numberOfTravelingEmployees" value="5-10">5-10<br>
+<input type="radio" name="numberOfTravelingEmployees" value="10-20">10-20<br>
+<input type="radio" name="numberOfTravelingEmployees" value="20-30">20-30
+</td><td>
+<input type="radio" name="numberOfTravelingEmployees" value="30-50">30-50<br>
+<input type="radio" name="numberOfTravelingEmployees" value="50-75">50-75<br>
+<input type="radio" name="numberOfTravelingEmployees" value="75-100">75-100<br>
+<input type="radio" name="numberOfTravelingEmployees" value="100+">100+
+</td></tr>
+</table>
+
+<br>
+<li>Do these traveling employees have mobile internet access?<br>
+<input type="radio" name="haveMobileNetAccess" value="yes">Yes<br>
+<input type="radio" name="haveMobileNetAccess" value="no">No
+
+<br><br>
+<li>If Yes, how many employees have mobile internet access?
+<table>
+<tr valign="top"><td>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="zero">Zero<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="1-5">1-5<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="5-10">5-10<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="10-20">10-20<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="20-30">20-30
+</td><td>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="30-50">30-50<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="50-75">50-75<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="75-100">75-100<br>
+<input type="radio" name="numEmployeesWithMobileNetAccess" value="100+">100+
+</td></tr>
+</table>
+
+<br>
+<li>If you answered Yes to Question 4, what features of mobile internet access are used most often by these employees?<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Accounting">Accounting<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Calendar/Scheduling">Calendar/Scheduling<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Phonebook/Contact Management">Phonebook/Contact Management<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Customer Relationship Management (CRM)">Customer Relationship Management (CRM)<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Email">Email<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Messaging">Messaging<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Project Management">Project Management<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Sales Management">Sales Management<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Task Management">Task Management<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Travel Information">Travel Information<br>
+<input type="checkbox" name="mobileNetAccessFeatures" value="Other">Other (please specify) <input type="text" name="mobileNetAccessFeaturesOther" size=20>
+
+<br><br>
+<li>If you answered No to Question 4, why not?<br>
+<input type="checkbox" name="whyNoMobileNetAccess" value="Expense">Expense<br>
+<input type="checkbox" name="whyNoMobileNetAccess" value="Wireless service not up-to-par">Wireless service not up-to-par<br>
+<input type="checkbox" name="whyNoMobileNetAccess" value="Not neccessary at this time">Not neccessary at this time<br>
+<input type="checkbox" name="whyNoMobileNetAccess" value="Other reason">Other reason (please specify) <input type="text" name="whyNoMobileNetAccessOther" size=20>
+
+<br><br>
+<li>What software does your company currently use?
+<table>
+<tr><td>
+<input type="checkbox" name="softwareUsing" value="ACT">ACT<br>
+<input type="checkbox" name="softwareUsing" value="Goldmine">Goldmine<br>
+<input type="checkbox" name="softwareUsing" value="Outlook">Outlook
+</td><td>
+<input type="checkbox" name="softwareUsing" value="Peachtree">Peachtree<br>
+<input type="checkbox" name="softwareUsing" value="Quickbooks">Quickbooks
+</td></tr>
+<tr><td colspan="2">
+<input type="checkbox" name="softwareUsing" value="Other">Other (please specify) <input type="text" name="softwareUsingOther" size=20>
+</td></tr>
+</table>
+
+<br>
+<li>What services do you look for in software?<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Accounting">Accounting<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Calendar/Scheduling">Calendar/Scheduling<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Phonebook/Contact Management">Phonebook/Contact Management<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Customer Relationship Management (CRM)">Customer Relationship Management (CRM)<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Email">Email<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Messaging">Messaging<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Project Management">Project Management<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Sales Management">Sales Management<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Task Management">Task Management<br>
+<input type="checkbox" name="servicesLookForInSoftware" value="Travel Information">Travel Information
+
+<br><br>
+<li>Which of these services do you use most frequently?<br>
+<input type="text" name="mostUsedServices" size="35">
+
+<br><br>
+<li>Which of these services do you use least often?<br>
+<input type="text" name="leastUsedServices" size="35">
+
+<br><br>
+<li>How do you currently schedule meetings with your team and/or other particpants?<br>
+<input type="checkbox" name="howScheduleMeetings" value="Email">Email<br>
+<input type="checkbox" name="howScheduleMeetings" value="Phone">Phone<br>
+<input type="checkbox" name="howScheduleMeetings" value="Invite Software/Groupware">Invite Software/Groupware<br>
+<input type="checkbox" name="howScheduleMeetings" value="Other">Other <input type="text" name="howScheduleMeetingsOther" size="20">
+
+<br><br>
+<li>How do you currently share information on relevant websites with your team?<br>
+<input type="checkbox" name="howShareInfoOnWebsites" value="Email">Email<br>
+<input type="checkbox" name="howShareInfoOnWebsites" value="Phone">Phone<br>
+<input type="checkbox" name="howShareInfoOnWebsites" value="Other">Other <input type="text" name="howShareInfoOnWebsitesOther" size="20">
+
+<br><br>
+<li>If you do not have scheduling software, how do you currently access information about upcoming meetings?<br>
+<input type="checkbox" name="howAccessInfoAboutMeetings" value="Search old emails for agendas, location and time details">Search old emails for agendas, location and time details<br>
+<input type="checkbox" name="howAccessInfoAboutMeetings" value="Search phone notes for agendas, location and time details">Search phone notes for agendas, location and time details<br>
+<input type="checkbox" name="howAccessInfoAboutMeetings" value="Search files for agendas, location and time details">Search files for agendas, location and time details<br>
+<input type="checkbox" name="howAccessInfoAboutMeetings" value="Ask colleague for information">Ask colleague for information<br>
+
+<br><br>
+<li>How do you currently access colleagues contact information when you are on the road?<br>
+<input type="checkbox" name="howAccessContactInfo" value="Speed dial from your mobile phone">Speed dial from your mobile phone<br>
+<input type="checkbox" name="howAccessContactInfo" value="Look up number on your PDA and then dial from your mobile phone">Look up number on your PDA and then dial from your mobile phone<br>
+<input type="checkbox" name="howAccessContactInfo" value="Phone lists">Phone lists<br>
+<input type="checkbox" name="howAccessContactInfo" value="Call assistant back at office to look up numbers">Call assistant back at office to look up numbers<br>
+<input type="checkbox" name="howAccessContactInfo" value="Other">Other (please specify) <input type="text" name="howAccessContactInfoOther" size="20">
+
+<br><br>
+<li>Would your company (or departments within your company) find it useful to have a service that can consolidate group scheduling, meeting agendas, meeting minutes with action items, task management, a shared database of website bookmarks, and an organization phonebook into a centralized location for web or wireless access to improve team collaboration and workflow?<br>
+<input type="radio" name="wouldFindUseful" value="Yes, very">Yes, very.<br>
+<input type="radio" name="wouldFindUseful" value="Yes, it would be somewhat useful">Yes, it would be somewhat useful.<br>
+<input type="radio" name="wouldFindUseful" value="Perhaps.  I am interested in learning more">Perhaps.  I am interested in learning more.<br>
+<input type="radio" name="wouldFindUseful" value="No">No.<br>
+</ol>
+
+<p>
+NotWired (<a href="http://www.notwired.com">www.notwired.com</a>) mobilizes small and emerging enterprises with services that allow groups and teams to communicate and coordinate more efficiently anytime, anywhere.  These services are fully-integrated and accessible via the web and wireless devices.  Key features of this service include an online group calendar, the ability to invite anyone through email, meeting minutes and action items for improved task management.  A shared organization phonebook and shared bookmarks improve overall management of organizations. 
+<p>
+Thank you for completing this survey.
+
+<!-- end survey -->
+<center>
+      <p><font face="Arial"><input type="button" value="Submit" onclick="validate()"
+      name="Submit">
+</font></center>
+    </form>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

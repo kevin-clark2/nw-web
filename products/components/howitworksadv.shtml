@@ -1,0 +1,145 @@
+<html>
+
+<head>
+<!--#include virtual="/ssi/menuNet2.html"-->
+<link rel="stylesheet" href="../../css/notwired.css">
+<title>NotWired Advanced Components</title>
+<base target="bottom">
+</head>
+<body bgcolor="#FFFFFF" alink="#6666cc" vlink="#6666cc" link="#6666cc">
+<table border="0" cellpadding="0" cellspacing="0" width="650">
+  <tr> 
+    <td width="228" valign="top"> 
+      <p align="left"><a href="../index.shtml" target="_top"><img
+    src="../../images/NotWired.gif" width="174" height="52" alt="NotWired" border="0"></a><br>
+        <small><small><font face="Arial">&nbsp;&nbsp;Empowering the mobile lifestyle!&#153;</font></small></small> 
+      </p>
+      <table width="100%" border="0" cellpadding="10">
+        <tr> 
+          <td> 
+            <p><strong>NotWired Components save time and money for your project.</strong></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b><a href="howitworks.shtml" target=_self>Basic</a></b><br>
+              Dynamic Validation Framework<br>
+              NameValue Tag <br>
+              Country Tag<br>
+              State Tag<br>
+              Zip Tag<br>
+              Address Tag<br>
+              Date Selector Tag<br>
+              Masked Entry Tag<br>
+              Map Tag<br>
+              Menu Invoke Tag<br>
+              Email Tag<br>
+              </font></p>
+            <p><font face="Arial, Helvetica, sans-serif" size="-1"><b>Advanced</b><br>
+              Breadcrumbs Tag<br>
+              </font><font face="Arial, Helvetica, sans-serif" size="-1">Wizard 
+              Tag</font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+              </font><font face="Arial, Helvetica, sans-serif" size="-1">Calendar 
+              Tag<br>
+              Activities Tag<br>
+              Announcement Tag</font></p>
+            <p>&nbsp;</p>
+            </td></tr>
+      </table>
+    </td>
+    <td width="422" valign="top" align="left"><font face="Arial"><strong><br>
+      </strong></font>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td width="278"><font face="Arial" color="#6666cc"><strong>NotWired 
+            Components&#153;</strong></font></td>
+          <td width="142">
+            <p align="right"><font face="Arial"><small><a
+        href="../../company/contactsmid.shtml" target="_self">Contact us</a></small></font> 
+          </td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr> 
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="index.shtml"
+        target="_self"><font face="Arial" color="#6666cc"><strong>Overview</strong></font></a></td>
+          <td><br>
+            <img src="../../images/closedsq.gif" width="13" height="7" alt="closedsq.gif (57 bytes)"><font
+        face="Arial" color="#6666cc"><strong>Features</strong></font></td>
+          <td><br>
+            <img src="../../images/opensquare.gif" width="13" height="7" alt><a href="gettingstarted.shtml"
+        target="_self"><strong><font face="Arial" color="#6666cc">Pricing</font></strong></a></td>
+        </tr>
+      </table>
+      <p>NotWired's Components come in two packages - Basic and Advanced. The 
+        basic package is a good fit for general applications. The advanced package 
+        enables your project to employ calendars, activities lists, task lists, 
+        wizards, and an advanced table component. </p>
+      <p><strong><a href="howitworks.shtml" target=_self>Basic Features</a> | 
+        Advanced Features</strong></p>
+      <table border="0" cellpadding="0" width="100%" valign="top">
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><strong>BreadcrumbsTag. </strong>Breadcrumb navigation 
+            utilizes a series of links to navigate through a process or web site. 
+            The component may be utilized via JSP or through a bean model defined 
+            on the server. Bean model definition allows developers to control 
+            the state and sequence of links dynamically.<br>
+            <br>
+            Sample -&gt; <a href="index.shtml" target=_self>Benefits</a> -&gt; 
+            <a href="howitworks.shtml" target=_self>Features</a> -&gt; Advanced 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><strong>WizardTag. </strong>Wizards navigate through 
+            a series of steps to reach a final submit. It is a means of gathering 
+            information over several screens. Wizards may optional use breadcrumb 
+            navigation or menu invoke actions to navigate through the steps in 
+            the wizard.<br>
+            <br>
+            Click <a href="wizardsample.shtml">here</a> for samples. 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><strong>CalendarTag. </strong>Calendars offer choice 
+            of day, week, month, or multi-month views. Selections on the calendar 
+            will invoke callbacks utilizing Javascript and are compatible with 
+            any major controller framework. Samples are provided for Struts. A 
+            complete Event and CalendarView model is provided.<br>
+            <br>
+            Click <a href="calsample.shtml">here</a> for samples. 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"> <strong>ActivitesTag. </strong>Activities provide 
+            a listing of events, tasks or reminders in list view. The date range 
+            of the list and filters control the view.<br>
+            <br>
+            Click <a href="activitiessample.shtml">here</a> for samples. 
+            <hr>
+          </td>
+        </tr>
+        <tr> 
+          <td width="10" valign="top"><font face="Arial"><img src="../../images/bullet.gif" width="6" height="10"
+        alt="../images/bullet.gif (93 bytes)"></font></td>
+          <td valign="top"><strong>AnnouncementTag. </strong>Get random or current 
+            announcements from an AnnouncementProvider class and place on the 
+            screen. Developers identify an announcement provider class and the 
+            strategy of announcements.</td>
+        </tr>
+      </table>
+      <blockquote>
+        <p>&nbsp;</p>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

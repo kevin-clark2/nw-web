@@ -1,0 +1,12 @@
+<html>
+<title>NotWired</title>
+<body>
+<script language="javascript">
+
+
+document.location = '/notwired/main';
+
+</script>
+</body>
+</html>
+

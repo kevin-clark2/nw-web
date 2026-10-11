@@ -1,0 +1,302 @@
+<!--NULL-->
+<html><head><title>Mobile office groupware and scheduling For business From NotWired</title>
+<!--HEADER-->
+<meta NAME="description" CONTENT="NotWired is a groupware and scheduling solution. It is a complete wireless and web solution for small business and other groups.">
+<meta NAME="keywords" CONTENT="scheduling, groupware, calendar, contact management, workflow, mobile office, wap site, intranets, small business, palm software, outlook express, wireless portal, exchange, notes, wireless">
+
+
+<script LANGUAGE="JavaScript">
+
+function setFocus(){
+    if(document.LOGIN.oid.value == "")
+        document.LOGIN.oid.focus();
+    else
+        document.LOGIN.pw.focus();
+}
+
+function openwindow(name, w, h, r, sb) {
+ var posX = (screen.width - w)/2;
+ var posY = (screen.height - h)/2;
+
+ if (!r) {
+    r = "no";
+ } else {
+    r = "yes";
+ }
+
+ if (!sb) {
+    sb = "no";
+ } else {
+    sb = "yes";
+ }
+
+ window.open(name,'','resizable='+r+',scrollbars='+sb+',status=0,left='+posX +',top='+posY +',width='+w +',height='+h);
+}
+
+</script>
+
+<style>
+.txtBoxSmall {
+    font-family: Arial, Helvetica, sans-serif;
+    FONT-SIZE: 11px;
+}
+
+.boxLinks A {
+    color: #ffffff;
+}
+
+.links {
+    color:#800000;
+    font-family: Arial;
+}
+
+A {
+    color:                  #6666cc;
+    text-decoration:        underline;
+}
+
+BODY
+{
+    margin-left:    0;
+    margin-top:     0;
+}
+
+</style>
+<!--NULL-->
+<!--#include virtual="ssi/homeMenuNet.html"-->
+<!--BODY-->
+<table border="0" cellpadding="0" cellspacing="0" width="700">
+  <tr>
+    <td width="100" valign="top" align="right"><table border="0" width="100%" cellpadding="0" cellspacing="0">
+      <tr bgcolor="#6666cc">
+
+          <td width="100%" bgcolor="#6666cc" height="563"> 
+            <center>
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td height="145" valign=top>
+                      <table width="100%" border="0" cellspacing="0" cellpadding="5">
+                        <tr>
+                          <td>
+                            <p><font face="Arial" color="#FFFFFF"><b>NotWired 
+                              empowers your group to access and share critical 
+                              information anywhere!</b></font></p>
+                            <p align="center"><span style="font-size:13px";><a href="javascript:openwindow('/products/tour/index.html',625, 525, 'yes', 'yes');"><strong><font color="ffffff" face="Arial, Helvetica, sans-serif">Take a Tour</font></strong></a></span> </p>
+                            <p align="left"><img src="images/new_blink2.gif" width="23" height="9"><font face="Arial, Helvetica, sans-serif" ><font face="Arial, Helvetica, sans-serif" ><font size="-2" color="#FFFFFF"> 
+                              NotWired 4.5 ships with more email and SFA features.<br>
+                              <img src="images/spacer.gif" width="105" height="7"> 
+                              <font face="Arial, Helvetica, sans-serif" ><font size="-2"><a href="company/press/2002/notwiredlaunch45.html" style="color: rgb(255,255,255)">more...</a></font></font> 
+                              </font></font></font></p>
+                            <p align="left">&nbsp;</p>
+                          </td>
+                        </tr>
+                <tr bgcolor=#6666cc>
+                    <td>
+                        <table border="0" cellpadding="20" cellspacing="0" width="200">
+                          <tr>
+                            <td><font face="Arial" color="#FFFFFF"><b>
+                            NotWired is temporarily down for maintenance.
+                            We are working on improving the quality of our software.
+                            Thank you for your patience and understanding. <br><br>
+                            The NotWired Team</b><br></font>
+                            </td>
+                          </tr>
+                        </table>
+                    </td>
+                </tr>
+                      </table>
+                      <font face="Arial, Helvetica, sans-serif" color="#FFFFFF"><b><font size="+1"> 
+                      </font></b></font></td>
+                  </tr>
+                </table>
+              </center></td>
+                </tr>
+        <tr valign="top"> 
+          <td> 
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor=6666cc>
+              <tr> 
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+              </tr>
+            </table>
+          </td>
+      </tr>
+    </table>
+    </td>
+    <td width="60%" valign="top"> 
+      <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+        <tr> 
+          <td width="26%" valign="middle" align="left"></td>
+          <td width="44%"> 
+            <div align="center"><img src="/images/NotWired.gif" width="174" height="52"
+        alt="groupware and scheduling for business"><br>
+              <small>&nbsp; <span style="font-size: 11px;"><font face="Arial, Helvetica, sans-serif">Empowering 
+              the mobile lifestyle!&#153;</font></span></small></div>
+          </td>
+          <td valign="top" width="30%"> </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="5" cellpadding="5">
+        <tr valign=top> 
+          <td width="25%"> 
+            <p><font face="Arial, Helvetica, sans-serif" color="#6666cc"><b>Companies</b></font><font face="Arial, Helvetica, sans-serif" ><br>
+              <font face="Arial, Helvetica, sans-serif" size="-1">Share 
+              information instantly while improving 
+              productivity and communications across your company.<br/><br/></font>
+              <img src="images/spacer.gif" width="105" height="7">
+            <font face="Arial, Helvetica, sans-serif" size="-2"><a href="products/services/companies.shtml">more...</a></font></p>
+          </td>
+          <td width="25%"> 
+            <p><font face="Arial, Helvetica, sans-serif" color="#6666cc"><b>Project 
+              Teams</b></font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+              Internal and external projects may be managed in 
+              a central location. Team members can participate from around the 
+              world.</font><br><img src="images/spacer.gif" width="105" height="7"> 
+            <font face="Arial, Helvetica, sans-serif" ><font size="-2"><a href="products/services/projectteams.shtml">more...</a></font></font></p>
+          </td>
+          <td width="25%"> 
+            <p><font face="Arial, Helvetica, sans-serif" color="#6666cc"><b>Organizations</b></font><font face="Arial, Helvetica, sans-serif" ><br>
+              <font size="-1">Centralize your organization information. A shared 
+              phonebook and calendar make it easy to track people and events.</font></font><br><img src="images/spacer.gif" width="105" height="7">
+            <font face="Arial, Helvetica, sans-serif" ><font size="-2"><a href="products/services/organizations.shtml">more...</a></font></font></p>
+          </td>
+        </tr>
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="10">
+        <tr> 
+          <td width="21">&nbsp;</td>
+          <td width="149"><strong><a href="products/services/costs.shtml"
+            target="_self"><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif">Pricing</font></span></a><font face="Arial, Helvetica, sans-serif"><br>
+            <a href="roi.shtml"
+            target="_self"><span style="font-size:13px";>Savings<br>
+            </span></a><a href="support/faq.shtml"
+            target="_self"><span style="font-size:13px";>Frequent questions</span></a></font><a href="roi.shtml"
+            target="_self"><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"> 
+            </font></span></a> </strong></td>
+          <td width="320"><font face="Arial, Helvetica, sans-serif"><b><font color="#6666cc">For 
+            Your 60-Day <font color="#FF0000">Free Trial</font>, Click <a href="/notwired/main?op=SignupModule.SignupPageOp">Here</a></font></b></font><font face="Arial, Helvetica, sans-serif" size="-1"> 
+            </font></td>
+        </tr>
+      </table>
+      <table border="0" cellpadding="5" cellspacing="0" width="550">
+        <tr> 
+          <td width="42" height="125"></td>
+          <td width="235" valign="top" height="125"> 
+            <p align="left"><br>
+              <span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"><strong>Manage 
+              effectively! </strong></font></span></p>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr> 
+                <td width="50%"><font face="Arial, Helvetica, sans-serif"> <span style="font-size:13px";> 
+                  <img src="images/closedsq.gif" width="13" height="8" alt="calendar"> 
+                  Group <a
+            href="/features.shtml#calendar" target="_top">calendars</a> 
+                  and <a href="/features.shtml#calendar" target="_top">scheduling</a><br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="meeting planning"> 
+                  <a href="/features.shtml#meetings" target="_top">Meeting 
+                  planning</a> and management<br>
+                  <img src="images/closedsq.gif" width="13" height="8"
+            alt="task tracking"> Assign and <a href="/features.shtml#tracktasks" target="_top">track 
+                  tasks</a><br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="Searching"> 
+                  <font face="Arial, Helvetica, sans-serif"><a href="/features.shtml#wireless" target="_top">Access 
+                  it anywhere</a></font></span></font></td>
+              </tr>
+            </table>
+          </td>
+          <td width="261" valign="top" height="125"> 
+            <p align="left"><strong><br>
+              <span style="font-size:13px";> <font face="Arial, Helvetica, sans-serif">Increase 
+              productivity!</font></span></strong></p>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr> 
+                <td width="50%"><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"><img src="images/closedsq.gif" width="13" height="8"
+            alt="Searching"> <span style="font-size:13px";>Powerful, shared <a href="/features.shtml#contacts" target="_top"> 
+                  contact management</a></span> <br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="Meetings"> 
+                  Take <a
+            href="/features.shtml#minutes" target="_top">Meeting 
+                  minutes</a> and assign tasks <br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="Scheduling"> 
+                  <a href="/features.shtml#calendar" target="_top">Schedule</a> 
+                  events without email tag<br>
+                  <img src="images/closedsq.gif" width="13" height="8" alt="Collaborate"> 
+                  <a
+            href="/features.shtml#collaborate" target="_top">Collaborate</a> 
+                  with groupware with anyone!<br>
+                  <img src="images/closedsq.gif" width="13" height="8" alt="Collaborate"> 
+                  Complete <a href="/features.shtml#search" target="_top">search</a> 
+                  and sorting </font></span></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr> 
+          <td width="42"></td>
+          <td width="235" valign="top"> 
+            <p align="left"><strong> <span style="font-size:13px";> <font face="Arial, Helvetica, sans-serif">Improve 
+              communication!</font></span></strong></p>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr> 
+                <td width="50%"> 
+                  <p><span style="font-size:13px";> <font face="Arial, Helvetica, sans-serif"><img src="images/closedsq.gif" width="13" height="7"
+            alt="workflow"> Business class <a href="/features.shtml#email"
+            target="_top">email</a><br>
+                    <img src="images/closedsq.gif" width="13" height="7" alt="status reports"> 
+                    Improve business <a href="/features.shtml#workflow"
+            target="_top">workflow</a><br>
+                    <img src="images/closedsq.gif" width="13" height="7" alt="alerts"> 
+                    <a
+            href="/features.shtml#status" target="_top">Status</a> 
+                    reporting<a href="/features.shtml#alerts" target="_top"> 
+                    </a><a
+            href="/features.shtml#messaging" target="_top"></a> 
+                    </font></span><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"><br>
+                    <img src="images/closedsq.gif" width="13" height="7" alt="wireless"> 
+                    <a href="/features.shtml#alerts" target="_top">Alerts</a> 
+                    and <a
+            href="/features.shtml#messaging" target="_top">instant 
+                    messaging</a> </font></span><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"></font></span><span style="font-size:13px";><font face="Arial, Helvetica, sans-serif"> 
+                    </font></span></p>
+                </td>
+              </tr>
+            </table>
+          </td>
+          <td width="261" valign="top"> 
+            <p align="left"> <span style="font-size:13px";> <strong><font face="Arial, Helvetica, sans-serif">Save 
+              time and money!</font></strong></span></p>
+            <table border="0" cellpadding="0" cellspacing="0" width="100%">
+              <tr> 
+                <td width="50%"> <span style="font-size:13px";> <font face="Arial, Helvetica, sans-serif"><img src="images/closedsq.gif" width="13" height="7"
+            alt="asp"> No software to install<br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="low cost"> 
+                  No IT staff<br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="secure"> 
+                  <a href="/features.shtml#security" target="_top">Secure</a> 
+                  with backups daily<br>
+                  <img src="images/closedsq.gif" width="13" height="7" alt="rental software"> 
+                  Renting software <a href="/roi.shtml"             target="_top">saves 
+                  money</a>!</font></span></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <p> 
+      <blockquote><font face="Arial, Helvetica, sans-serif" >
+          NotWired is a complete mobile office solution for small and mid sized 
+          businesses and groups. Share a calendar, tasks and contacts with others 
+          in your group. It has all the features of Exchange and Notes without 
+          all the expenses of a software purchase and installation. NotWired is 
+          wireless and available on all major devices supporting WAP, Palm and 
+          PocketPC.
+        </font></blockquote>
+      </font></td>
+  </tr>
+</table>
+
+<!--NULL-->
+
+</body>
+</html>
+
